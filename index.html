@@ -1,48 +1,241 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Wealthy Robots</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealthy Robots - AI Automation Empire</title>
+    <meta name="description" content="Join the AI automation revolution. Professional strategies that actually make money.">
     <style>
-      /*Your CSS goes here*/
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero h2 {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .email-form {
+            display: flex;
+            max-width: 500px;
+            margin: 2rem auto;
+            gap: 1rem;
+        }
+        
+        .email-form input {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            outline: none;
+        }
+        
+        .email-form button {
+            padding: 15px 30px;
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .email-form button:hover {
+            background: #ff5252;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255,107,107,0.4);
+        }
+        
+        .section {
+            background: white;
+            margin: 2rem 0;
+            padding: 3rem 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        .section p {
+            font-size: 1.2rem;
+            color: #666;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 2rem;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+        
+        .social-proof {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 3rem;
+            border-radius: 20px;
+        }
+        
+        .social-links {
+            margin-top: 2rem;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 0 10px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: #2980b9;
+            transform: translateY(-3px);
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .email-form { flex-direction: column; }
+            .container { padding: 0 15px; }
+        }
     </style>
 </head>
 <body>
-    <section id="hero">
-        <h1>Join the Wealthy Robots Empire</h1>
-        <h2>AI Automation Strategies That Actually Make Money</h2>
-        <form id="email-capture" action="#">
-            <input type="email" placeholder="Your email here" required>
-            <button type="submit">Join Now</button>
-        </form>
+    <header>
+        <nav class="container">
+            <div class="logo">Wealthy Robots</div>
+            <div>AI Automation Empire</div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Join the Wealthy Robots Empire</h1>
+            <h2>AI Automation Strategies That Actually Make Money</h2>
+            <form class="email-form">
+                <input type="email" placeholder="Your email here" required>
+                <button type="submit">Join Empire</button>
+            </form>
+        </div>
     </section>
 
-    <section id="value-proposition">
-        <h2>From Twitter @WealthyRobot to Your Business</h2>
-        <p>80% value, 20% monetization</p>
-        <p>Check out our Twitter success stories</p>
-    </section>
+    <div class="container">
+        <section class="section">
+            <h2>From Twitter @WealthyRobot to Your Business</h2>
+            <p>80% value, 20% monetization</p>
+            <p>Check out our Twitter success stories and join thousands of entrepreneurs building wealth with AI automation.</p>
+        </section>
 
-    <section id="content-preview">
-        <h2>Latest AI Automation Insights</h2>
-        <div id="twitter-thread-preview"></div>
-        <p>Get exclusive content not shared on Twitter</p>
-    </section>
+        <section class="section">
+            <h2>Latest AI Automation Insights</h2>
+            <p>Get exclusive content not shared on Twitter</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>Daily AI Strategies</h3>
+                    <p>Fresh automation tactics every day</p>
+                </div>
+                <div class="feature">
+                    <h3>Revenue Systems</h3>
+                    <p>Proven methods that generate income</p>
+                </div>
+                <div class="feature">
+                    <h3>Community Access</h3>
+                    <p>Join 1000+ successful entrepreneurs</p>
+                </div>
+            </div>
+        </section>
 
-    <section id="email-signup">
-        <h2>Join 1000+ entrepreneurs learning AI automation</h2>
-        <form id="signup-form" action="#">
-            <input type="email" placeholder="Your email here" required>
-            <button type="submit">Subscribe</button>
-        </form>
-    </section>
+        <section class="section">
+            <h2>Join 1000+ entrepreneurs learning AI automation</h2>
+            <form class="email-form">
+                <input type="email" placeholder="Your email here" required>
+                <button type="submit">Subscribe Now</button>
+            </form>
+        </section>
 
-    <section id="social-proof">
-        <h2>Follow the daily insights: @WealthyRobot</h2>
-        <a href="#">Twitter</a>
-        <a href="#">Affiliate Resources</a>
-    </section>
-    <script>
-      /*Your JavaScript goes here*/
-    </script>
+        <section class="social-proof">
+            <h2>Follow the daily insights: @WealthyRobot</h2>
+            <div class="social-links">
+                <a href="https://twitter.com/WealthyRobot">Twitter</a>
+                <a href="#resources">Affiliate Resources</a>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
