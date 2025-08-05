@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wealthy Robots - AI Automation Empire</title>
-    <meta name="description" content="Join the AI automation revolution. Professional strategies that actually make money.">
+    <title>Wealthy Robots - AI Automation Strategies That Actually Make Money</title>
+    <meta name="description" content="Join 1000+ entrepreneurs learning proven AI automation strategies for passive income. From Twitter @WealthyRobot to your business success.">
+    <meta name="keywords" content="AI automation, revenue generation, affiliate marketing, business automation, passive income, AI tools">
+    
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             line-height: 1.6;
             color: #333;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
         }
         
         .container {
@@ -22,13 +27,15 @@
             padding: 0 20px;
         }
         
+        /* Header */
         header {
-            background: rgba(255,255,255,0.95);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
-            padding: 1rem 0;
-            position: sticky;
+            position: fixed;
+            width: 100%;
             top: 0;
-            z-index: 100;
+            z-index: 1000;
+            padding: 1rem 0;
             box-shadow: 0 2px 20px rgba(0,0,0,0.1);
         }
         
@@ -39,203 +46,572 @@
         }
         
         .logo {
-            font-size: 1.8rem;
-            font-weight: bold;
-            background: linear-gradient(45deg, #667eea, #764ba2);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #4f46e5;
         }
         
-        .hero {
-            padding: 100px 0;
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #4f46e5;
+        }
+        
+        /* Hero Section */
+        #hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
             text-align: center;
             color: white;
+            position: relative;
+            overflow: hidden;
+            padding-top: 80px;
         }
         
-        .hero h1 {
+        #hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="rgba(255,255,255,0.05)" points="0,1000 1000,0 1000,1000"/></svg>');
+            animation: float 20s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(1deg); }
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero-content h1 {
             font-size: 3.5rem;
+            font-weight: 700;
             margin-bottom: 1rem;
+            background: linear-gradient(45deg, #fff, #e0e7ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
         
-        .hero h2 {
+        .hero-content h2 {
             font-size: 1.5rem;
             margin-bottom: 2rem;
             opacity: 0.9;
+            font-weight: 400;
         }
         
         .email-form {
-            display: flex;
-            max-width: 500px;
-            margin: 2rem auto;
-            gap: 1rem;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            display: inline-block;
+            margin-top: 2rem;
         }
         
         .email-form input {
-            flex: 1;
-            padding: 15px 20px;
-            border: none;
-            border-radius: 50px;
+            padding: 1rem 1.5rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
             font-size: 1rem;
+            margin-right: 1rem;
+            width: 300px;
+            transition: border-color 0.3s;
+        }
+        
+        .email-form input:focus {
             outline: none;
+            border-color: #4f46e5;
         }
         
-        .email-form button {
-            padding: 15px 30px;
-            background: #ff6b6b;
+        .btn-primary {
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
             color: white;
+            padding: 1rem 2rem;
             border: none;
-            border-radius: 50px;
+            border-radius: 10px;
             font-size: 1rem;
+            font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
         
-        .email-form button:hover {
-            background: #ff5252;
+        .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(255,107,107,0.4);
+            box-shadow: 0 10px 25px rgba(79, 70, 229, 0.4);
         }
         
+        /* Content Sections */
         .section {
+            padding: 5rem 0;
             background: white;
-            margin: 2rem 0;
-            padding: 3rem 2rem;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .section:nth-child(even) {
+            background: #f8fafc;
         }
         
         .section h2 {
             font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #2c3e50;
             text-align: center;
+            margin-bottom: 3rem;
+            color: #1e293b;
         }
         
-        .section p {
-            font-size: 1.2rem;
-            color: #666;
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto 2rem;
-        }
-        
-        .features {
+        .value-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
         
-        .feature {
-            text-align: center;
+        .value-card {
+            background: white;
             padding: 2rem;
             border-radius: 15px;
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            color: white;
-            transition: transform 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
         }
         
-        .feature:hover {
-            transform: translateY(-10px);
+        .value-card:hover {
+            transform: translateY(-5px);
         }
         
-        .social-proof {
-            background: #2c3e50;
-            color: white;
+        .value-card h3 {
+            color: #4f46e5;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
             text-align: center;
-            padding: 3rem;
-            border-radius: 20px;
+            margin: 3rem 0;
         }
         
-        .social-links {
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: #4f46e5;
+            font-weight: 700;
+        }
+        
+        .stat-item p {
+            color: #64748b;
+            font-weight: 500;
+        }
+        
+        /* Article Preview */
+        .article-preview {
+            background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            border-left: 4px solid #4f46e5;
+        }
+        
+        .article-preview h3 {
+            color: #4f46e5;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+        
+        .article-preview p {
+            color: #475569;
+            margin-bottom: 1rem;
+        }
+        
+        .article-preview a {
+            color: #4f46e5;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .article-preview a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Tools Section */
+        .tools-grid {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
             margin-top: 2rem;
         }
         
-        .social-links a {
-            display: inline-block;
-            padding: 12px 25px;
-            margin: 0 10px;
-            background: #3498db;
+        .tool-link {
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
             color: white;
+            padding: 1rem 2rem;
+            border-radius: 10px;
             text-decoration: none;
-            border-radius: 25px;
-            transition: all 0.3s ease;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-weight: 600;
         }
         
-        .social-links a:hover {
-            background: #2980b9;
-            transform: translateY(-3px);
+        .tool-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(79, 70, 229, 0.4);
         }
         
+        .tool-link.secondary {
+            background: linear-gradient(45deg, #7c3aed, #a855f7);
+        }
+        
+        .tool-link.tertiary {
+            background: linear-gradient(45deg, #1e293b, #334155);
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            text-align: center;
+            padding: 5rem 0;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        /* Footer */
+        footer {
+            background: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        /* Responsive */
         @media (max-width: 768px) {
-            .hero h1 { font-size: 2.5rem; }
-            .email-form { flex-direction: column; }
-            .container { padding: 0 15px; }
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+            
+            .email-form {
+                padding: 1.5rem;
+            }
+            
+            .email-form input {
+                width: 250px;
+                margin-bottom: 1rem;
+                margin-right: 0;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 2rem;
+            }
+            
+            .tools-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .tool-link {
+                width: 80%;
+                text-align: center;
+            }
+        }
+        
+        /* Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s, transform 0.6s;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Success Message */
+        .success-message {
+            display: none;
+            background: #10b981;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-top: 1rem;
         }
     </style>
 </head>
 <body>
     <header>
         <nav class="container">
-            <div class="logo">Wealthy Robots</div>
-            <div>AI Automation Empire</div>
+            <div class="logo">🤖 WealthyRobots</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#value">Strategy</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="https://twitter.com/WealthyRobot" target="_blank">Twitter</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="hero">
+    <section id="hero">
         <div class="container">
-            <h1>Join the Wealthy Robots Empire</h1>
-            <h2>AI Automation Strategies That Actually Make Money</h2>
-            <form class="email-form">
-                <input type="email" placeholder="Your email here" required>
-                <button type="submit">Join Empire</button>
-            </form>
+            <div class="hero-content fade-in">
+                <h1>Join the Wealthy Robots Empire</h1>
+                <h2>AI Automation Strategies That Actually Make Money</h2>
+                <p style="font-size: 1.1rem; margin-bottom: 2rem;">From Twitter @WealthyRobot to Your Business Success</p>
+                
+                <div class="email-form">
+                    <form id="email-capture">
+                        <input type="email" name="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn-primary">Join Empire Now</button>
+                    </form>
+                    <div class="success-message" id="success-message">
+                        🎉 Welcome to the Wealthy Robots Empire! Check your email for exclusive content.
+                    </div>
+                    <p style="color: #64748b; font-size: 0.9rem; margin-top: 1rem;">Join 1000+ entrepreneurs learning AI automation</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <div class="container">
-        <section class="section">
-            <h2>From Twitter @WealthyRobot to Your Business</h2>
-            <p>80% value, 20% monetization</p>
-            <p>Check out our Twitter success stories and join thousands of entrepreneurs building wealth with AI automation.</p>
-        </section>
-
-        <section class="section">
-            <h2>Latest AI Automation Insights</h2>
-            <p>Get exclusive content not shared on Twitter</p>
+    <section id="value" class="section">
+        <div class="container">
+            <h2 class="fade-in">The 80/20 Revenue Strategy</h2>
+            <p style="text-align: center; font-size: 1.2rem; color: #64748b; margin-bottom: 3rem;">80% Educational Value + 20% Smart Monetization = Sustainable Income</p>
             
-            <div class="features">
-                <div class="feature">
-                    <h3>Daily AI Strategies</h3>
-                    <p>Fresh automation tactics every day</p>
+            <div class="stats fade-in">
+                <div class="stat-item">
+                    <h3>$50K+</h3>
+                    <p>Monthly Revenue Target</p>
                 </div>
-                <div class="feature">
-                    <h3>Revenue Systems</h3>
-                    <p>Proven methods that generate income</p>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Automated Systems</p>
                 </div>
-                <div class="feature">
-                    <h3>Community Access</h3>
-                    <p>Join 1000+ successful entrepreneurs</p>
+                <div class="stat-item">
+                    <h3>1000+</h3>
+                    <p>Active Subscribers</p>
                 </div>
             </div>
-        </section>
-
-        <section class="section">
-            <h2>Join 1000+ entrepreneurs learning AI automation</h2>
-            <form class="email-form">
-                <input type="email" placeholder="Your email here" required>
-                <button type="submit">Subscribe Now</button>
-            </form>
-        </section>
-
-        <section class="social-proof">
-            <h2>Follow the daily insights: @WealthyRobot</h2>
-            <div class="social-links">
-                <a href="https://twitter.com/WealthyRobot">Twitter</a>
-                <a href="#resources">Affiliate Resources</a>
+            
+            <div class="value-grid">
+                <div class="value-card fade-in">
+                    <h3>🎯 AI-Powered Lead Generation</h3>
+                    <p>Automated systems that work 24/7, capturing qualified prospects while you sleep. The best systems combine intelligent chatbots with personalized email sequences, converting visitors at rates 3x higher than traditional methods.</p>
+                </div>
+                <div class="value-card fade-in">
+                    <h3>💰 Smart Content Monetization</h3>
+                    <p>Every piece of content includes strategic affiliate placements, email captures, and conversion pathways. Learn how to turn readers into customers without being pushy - the 80/20 approach that actually works.</p>
+                </div>
+                <div class="value-card fade-in">
+                    <h3>📈 Revenue Optimization</h3>
+                    <p>Data-driven strategies to maximize every touchpoint. AI tracks and optimizes every conversion point for maximum ROI. Real entrepreneurs are using these exact systems to generate $50K+ monthly.</p>
+                </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+
+    <section id="content" class="section">
+        <div class="container">
+            <h2 class="fade-in">Latest AI Automation Insights</h2>
+            
+            <div class="article-preview fade-in">
+                <h3>🔥 Featured: 10 AI Tools That Will 10X Your Business Revenue in 2025</h3>
+                <p>The biggest mistake entrepreneurs make is implementing AI for efficiency alone. The real opportunity lies in revenue multiplication. Sarah, one of our community members, transformed her consulting business using these exact AI automation strategies. Within 6 months, she built a system that generates $50K+ monthly.</p>
+                <p><strong>What you'll discover:</strong></p>
+                <ul style="margin: 1rem 0; padding-left: 2rem;">
+                    <li>AI-powered customer acquisition systems that work while you sleep</li>
+                    <li>Intelligent content monetization strategies</li>
+                    <li>Revenue multiplication through automation</li>
+                    <li>The exact tools successful entrepreneurs use</li>
+                </ul>
+                <a href="ai_revenue_article_20250804_225654.html">Read the full case study →</a>
+            </div>
+            
+            <div style="background: #f1f5f9; padding: 2rem; border-radius: 15px; margin: 2rem 0;">
+                <h3 style="color: #4f46e5; margin-bottom: 1rem;">🧵 Latest Twitter Thread</h3>
+                <p style="font-style: italic; margin-bottom: 1rem; color: #475569;">"The Revenue-First Approach to AI Automation: How top performers are turning AI into profit machines. Thread 🧵"</p>
+                <p style="color: #64748b;">Get exclusive strategies not shared on Twitter. Join our email list for insider case studies, automation blueprints, and revenue optimization tactics.</p>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <h3 style="margin-bottom: 2rem;">🎯 Recommended AI Revenue Tools</h3>
+                <div class="tools-grid">
+                    <a href="https://www.amazon.com/dp/B0CQC7ZZ9X?tag=wealthyrobot-20" target="_blank" class="tool-link">📚 The AI Advantage ($9.99)</a>
+                    <a href="https://jasper.ai" target="_blank" class="tool-link secondary">🤖 Jasper AI - Content Creation</a>
+                    <a href="https://notion.so" target="_blank" class="tool-link tertiary">📝 Notion AI - Organization</a>
+                </div>
+                <p style="color: #64748b; margin-top: 1rem; font-size: 0.9rem;">These are the exact tools our $50K+/month entrepreneurs use daily</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Build Your AI Revenue Empire?</h2>
+            <p>Join entrepreneurs who've automated their way to $50K+ monthly revenue</p>
+            <div class="email-form">
+                <form id="signup-form">
+                    <input type="email" name="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn-primary">Start Your Empire</button>
+                </form>
+                <div class="success-message" id="signup-success">
+                    🚀 Welcome to the Empire! Your AI automation journey starts now.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://twitter.com/WealthyRobot" target="_blank">🐦 Twitter</a>
+                <a href="mailto:contact@wealthyrobots.com">📧 Email</a>
+                <a href="ai_revenue_article_20250804_225654.html">🔗 AI Tools Guide</a>
+                <a href="#content">📊 Case Studies</a>
+            </div>
+            <p>&copy; 2025 Wealthy Robots Empire. Turning AI into Revenue.</p>
+            <p style="font-size: 0.9rem; color: #64748b; margin-top: 1rem;">Follow the daily insights: @WealthyRobot | Amazon Associate</p>
+        </div>
+    </footer>
+
+    <script>
+        // Email form handling with success messages
+        function handleFormSubmit(formId, successId) {
+            document.getElementById(formId).addEventListener('submit', function(e) {
+                e.preventDefault();
+                const email = this.querySelector('input[name="email"]').value;
+                
+                // Hide form and show success message
+                this.style.display = 'none';
+                document.getElementById(successId).style.display = 'block';
+                
+                // Track the conversion
+                console.log('Email captured:', email);
+                
+                // Here you would integrate with your email service
+                // Example: sendToMailchimp(email) or sendToConvertKit(email)
+                
+                // Reset after 3 seconds and show form again
+                setTimeout(() => {
+                    this.style.display = 'block';
+                    document.getElementById(successId).style.display = 'none';
+                    this.reset();
+                }, 3000);
+            });
+        }
+
+        // Initialize both forms
+        handleFormSubmit('email-capture', 'success-message');
+        handleFormSubmit('signup-form', 'signup-success');
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add visible class to hero content immediately
+        document.querySelector('#hero .fade-in').classList.add('visible');
+
+        // Analytics tracking function
+        function trackEvent(eventName, properties) {
+            console.log('Event tracked:', eventName, properties);
+            // Replace with your analytics service
+            // gtag('event', eventName, properties);
+        }
+
+        // Track email signups
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', function() {
+                trackEvent('email_signup', {
+                    form_location: this.id || 'unknown',
+                    timestamp: new Date().toISOString()
+                });
+            });
+        });
+
+        // Track affiliate link clicks
+        document.querySelectorAll('a[href*="amazon.com"], a[href*="jasper.ai"], a[href*="notion.so"]').forEach(link => {
+            link.addEventListener('click', function() {
+                trackEvent('affiliate_click', {
+                    url: this.href,
+                    text: this.textContent
+                });
+            });
+        });
+    </script>
 </body>
 </html>
