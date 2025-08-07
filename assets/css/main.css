@@ -1,0 +1,376 @@
+/* WealthyRobot Empire - Professional Styles */
+
+:root {{
+    --primary-color: #4f46e5;
+    --secondary-color: #7c3aed;
+    --accent-color: #06b6d4;
+    --text-color: #1f2937;
+    --light-text: #6b7280;
+    --background: #ffffff;
+    --light-background: #f9fafb;
+    --border-color: #e5e7eb;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --error-color: #ef4444;
+}}
+
+* {{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}}
+
+body {{
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background: var(--background);
+}}
+
+.container {{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}}
+
+/* Header & Navigation */
+.main-header {{
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+}}
+
+.main-nav {{
+    padding: 1rem 0;
+}}
+
+.nav-container {{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}}
+
+.logo a {{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+}}
+
+.nav-menu {{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}}
+
+.nav-menu a {{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.3s;
+}}
+
+.nav-menu a:hover {{
+    color: var(--primary-color);
+}}
+
+/* Hero Section */
+.hero {{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}}
+
+.hero-container {{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}}
+
+.hero h1 {{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}}
+
+.hero-subtitle {{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}}
+
+.hero-cta {{
+    margin-top: 2rem;
+}}
+
+.email-signup {{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+}}
+
+.email-signup input {{
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}}
+
+.email-signup button {{
+    padding: 1rem 2rem;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}}
+
+.email-signup button:hover {{
+    background: #0891b2;
+}}
+
+/* Value Proposition */
+.value-proposition {{
+    padding: 5rem 0;
+    background: var(--light-background);
+}}
+
+.value-proposition h2 {{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}}
+
+.value-proposition > .container > p {{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    color: var(--light-text);
+}}
+
+.value-grid {{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}}
+
+.value-item {{
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    text-align: center;
+}}
+
+.value-item h3 {{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}}
+
+/* Articles Grid */
+.latest-articles {{
+    padding: 5rem 0;
+}}
+
+.latest-articles h2 {{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--text-color);
+}}
+
+.articles-grid {{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}}
+
+.article-card {{
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}}
+
+.article-card:hover {{
+    transform: translateY(-4px);
+}}
+
+.article-card img {{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}}
+
+.article-content {{
+    padding: 1.5rem;
+}}
+
+.article-content h3 {{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}}
+
+.article-content p {{
+    color: var(--light-text);
+    margin-bottom: 1rem;
+}}
+
+.article-meta {{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+    color: var(--light-text);
+}}
+
+/* Newsletter Signup */
+.newsletter-signup {{
+    background: var(--primary-color);
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}}
+
+.newsletter-signup h2 {{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}}
+
+.newsletter-signup p {{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}}
+
+.newsletter-form {{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+}}
+
+.newsletter-form input {{
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}}
+
+.newsletter-form button {{
+    padding: 1rem 2rem;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}}
+
+.newsletter-form button:hover {{
+    background: #0891b2;
+}}
+
+/* Footer */
+.main-footer {{
+    background: var(--text-color);
+    color: white;
+    padding: 3rem 0 1rem;
+}}
+
+.footer-content {{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}}
+
+.footer-section h3,
+.footer-section h4 {{
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}}
+
+.footer-section ul {{
+    list-style: none;
+}}
+
+.footer-section ul li {{
+    margin-bottom: 0.5rem;
+}}
+
+.footer-section ul li a {{
+    color: #9ca3af;
+    text-decoration: none;
+    transition: color 0.3s;
+}}
+
+.footer-section ul li a:hover {{
+    color: white;
+}}
+
+.footer-bottom {{
+    border-top: 1px solid #374151;
+    padding-top: 1rem;
+    text-align: center;
+    color: #9ca3af;
+}}
+
+/* Responsive Design */
+@media (max-width: 768px) {{
+    .hero h1 {{
+        font-size: 2.5rem;
+    }}
+    
+    .nav-menu {{
+        display: none;
+    }}
+    
+    .email-signup,
+    .newsletter-form {{
+        flex-direction: column;
+    }}
+    
+    .value-grid {{
+        grid-template-columns: 1fr;
+    }}
+    
+    .articles-grid {{
+        grid-template-columns: 1fr;
+    }}
+}}
+
+/* Animations */
+@keyframes fadeIn {{
+    from {{ opacity: 0; transform: translateY(20px); }}
+    to {{ opacity: 1; transform: translateY(0); }}
+}}
+
+.fade-in {{
+    animation: fadeIn 0.6s ease-out;
+}}
