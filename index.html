@@ -20,57 +20,114 @@
     
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="https://wealthyrobots.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header class="main-header">
         <nav class="main-nav">
             <div class="nav-container">
                 <div class="logo">
-                    <a href="/">🤖 WealthyRobot Empire</a>
+                    <a href="/">
+                        <i class="fas fa-robot"></i>
+                        <span>WealthyRobot Empire</span>
+                    </a>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/articles/">Articles</a></li>
-                    <li><a href="/strategies/">Strategies</a></li>
-                    <li><a href="/tools/">AI Tools</a></li>
-                    <li><a href="/resources/">Resources</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/contact/">Contact</a></li>
+                    <li><a href="/" class="nav-link">Home</a></li>
+                    <li><a href="/articles/" class="nav-link">Articles</a></li>
+                    <li><a href="/strategies/" class="nav-link">Strategies</a></li>
+                    <li><a href="/tools/" class="nav-link">AI Tools</a></li>
+                    <li><a href="/resources/" class="nav-link">Resources</a></li>
+                    <li><a href="/about/" class="nav-link">About</a></li>
+                    <li><a href="/contact/" class="nav-link">Contact</a></li>
                 </ul>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="hero">
+            <div class="hero-background">
+                <div class="hero-gradient"></div>
+                <div class="hero-particles"></div>
+            </div>
             <div class="hero-container">
-                <h1>AI Automation Strategies That Actually Make Money</h1>
-                <p class="hero-subtitle">Join 1000+ entrepreneurs building AI-powered revenue empires</p>
-                <div class="hero-cta">
-                    <form class="email-signup" action="/subscribe" method="POST">
-                        <input type="email" placeholder="Enter your email" required>
-                        <button type="submit">Join Empire Now</button>
-                    </form>
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">AI Automation Strategies</span>
+                        <span class="hero-subtitle">That Actually Make Money</span>
+                    </h1>
+                    <p class="hero-description">Join 1000+ entrepreneurs building AI-powered revenue empires with proven strategies that generate real income.</p>
+                    <div class="hero-cta">
+                        <form class="email-signup" action="/subscribe" method="POST">
+                            <div class="input-group">
+                                <input type="email" placeholder="Enter your email" required>
+                                <button type="submit" class="cta-button">
+                                    <span>Join Empire Now</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <p class="cta-note">Get exclusive AI automation strategies delivered to your inbox</p>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Revenue Growth</h3>
+                        <p>Proven strategies that scale</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="value-proposition">
             <div class="container">
-                <h2>From Twitter @WealthyRobot to Your Business Success</h2>
-                <p>80% educational value, 20% smart monetization</p>
+                <div class="section-header">
+                    <h2>From Twitter @WealthyRobot to Your Business Success</h2>
+                    <p class="section-subtitle">80% educational value, 20% smart monetization</p>
+                </div>
                 <div class="value-grid">
                     <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
                         <h3>🎯 Proven Strategies</h3>
                         <p>Real AI automation strategies that generate revenue</p>
+                        <div class="value-stats">
+                            <span class="stat">$50K+</span>
+                            <span class="stat-label">Monthly Revenue</span>
+                        </div>
                     </div>
                     <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
                         <h3>🚀 Passive Income</h3>
                         <p>Build automated income streams with AI</p>
+                        <div class="value-stats">
+                            <span class="stat">24/7</span>
+                            <span class="stat-label">Automation</span>
+                        </div>
                     </div>
                     <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
                         <h3>📈 Business Growth</h3>
                         <p>Scale your business with AI automation</p>
+                        <div class="value-stats">
+                            <span class="stat">10x</span>
+                            <span class="stat-label">Growth Rate</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,21 +135,67 @@
 
         <section class="latest-articles">
             <div class="container">
-                <h2>Latest AI Automation Insights</h2>
+                <div class="section-header">
+                    <h2>Latest AI Automation Insights</h2>
+                    <p>Comprehensive guides and strategies for building AI-powered revenue</p>
+                </div>
                 <div class="articles-grid" id="latest-articles">
-                    <!-- Articles will be loaded dynamically -->
+                    <div class="article-card">
+                        <div class="article-image">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="article-content">
+                            <h3>AI Automation Revenue Generation Strategies</h3>
+                            <p>Learn proven strategies to generate real revenue with AI automation tools and techniques.</p>
+                            <a href="/articles/ai-automation-revenue-generation-strategies" class="read-more">
+                                Read More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article-card">
+                        <div class="article-image">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="article-content">
+                            <h3>Passive Income with Artificial Intelligence</h3>
+                            <p>Discover how to build automated income streams using AI tools and automation.</p>
+                            <a href="/articles/passive-income-artificial-intelligence" class="read-more">
+                                Read More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article-card">
+                        <div class="article-image">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="article-content">
+                            <h3>AI Tools for Entrepreneurs</h3>
+                            <p>Essential AI tools and software that every entrepreneur needs for business growth.</p>
+                            <a href="/articles/ai-tools-entrepreneurs" class="read-more">
+                                Read More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="newsletter-signup">
             <div class="container">
-                <h2>Get Exclusive AI Automation Content</h2>
-                <p>Join 1000+ entrepreneurs learning AI automation strategies</p>
-                <form class="newsletter-form" action="/subscribe" method="POST">
-                    <input type="email" placeholder="Your email address" required>
-                    <button type="submit">Subscribe Now</button>
-                </form>
+                <div class="newsletter-content">
+                    <h2>Get Exclusive AI Automation Content</h2>
+                    <p>Join 1000+ entrepreneurs learning AI automation strategies that actually work</p>
+                    <form class="newsletter-form" action="/subscribe" method="POST">
+                        <div class="input-group">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" class="newsletter-button">
+                                <span>Subscribe Now</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                    <p class="newsletter-note">Free access to exclusive strategies and case studies</p>
+                </div>
             </div>
         </section>
     </main>
@@ -101,12 +204,26 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>WealthyRobot Empire</h3>
+                    <div class="footer-logo">
+                        <i class="fas fa-robot"></i>
+                        <span>WealthyRobot Empire</span>
+                    </div>
                     <p>AI automation strategies that actually make money</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com/WealthyRobot" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
                 </div>
                 <div class="footer-section">
                     <h3>Quick Links</h3>
-                    <ul>
+                    <ul class="footer-links">
                         <li><a href="/articles/">Articles</a></li>
                         <li><a href="/strategies/">Strategies</a></li>
                         <li><a href="/tools/">AI Tools</a></li>
@@ -114,11 +231,21 @@
                     </ul>
                 </div>
                 <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                        <li><a href="/privacy/">Privacy Policy</a></li>
+                        <li><a href="/terms/">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
                     <h3>Connect</h3>
-                    <ul>
+                    <ul class="footer-links">
                         <li><a href="https://twitter.com/WealthyRobot">Twitter</a></li>
                         <li><a href="/contact/">Contact</a></li>
                         <li><a href="/about/">About</a></li>
+                        <li><a href="/newsletter/">Newsletter</a></li>
                     </ul>
                 </div>
             </div>
