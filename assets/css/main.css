@@ -873,6 +873,14 @@ a:focus {
     outline-offset: 2px;
 }
 
+/* Affiliate cards (ClickBank) */
+.affiliate-recommendations { margin: 2rem 0; padding: 1rem; background:#0b1220; border:1px solid #1e2a44; border-radius:12px; }
+.affiliate-recommendations .affiliate-cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+.affiliate-recommendations .affiliate-card { background:#0d172a; border:1px solid #26324f; padding:1rem; border-radius:10px; }
+.affiliate-recommendations .affiliate-card h3 { margin:0 0 .5rem; font-size:1.1rem; color:#e5e7eb; }
+.affiliate-recommendations .btn { display:inline-block; padding:.6rem 1rem; background:#3b82f6; color:#fff; border-radius:8px; text-decoration:none; }
+.affiliate-recommendations .affiliate-disclosure { opacity:.8; font-size:.9rem; margin-top: .75rem; color:#cbd5e1; }
+
 /* About Page Styles */
 .about-hero {
     padding: 8rem 0 4rem;
