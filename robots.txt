@@ -2,7 +2,6 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://wealthyrobots.com/sitemap.xml
 
 # Disallow admin areas
 Disallow: /admin/
@@ -13,3 +12,12 @@ Allow: /articles/
 Allow: /strategies/
 Allow: /tools/
 Allow: /resources/
+Sitemap: https://wealthyrobots.com/sitemap.xml
+Sitemap: https://wealthyrobots.com/sitemap_articles.xml
+Sitemap: https://wealthyrobots.com/sitemap_strategies.xml
+Sitemap: https://wealthyrobots.com/sitemap_tools.xml
+Sitemap: https://wealthyrobots.com/sitemap_resources.xml
+Sitemap: https://wealthyrobots.com/sitemap_about.xml
+Sitemap: https://wealthyrobots.com/sitemap_contact.xml
+Sitemap: https://wealthyrobots.com/sitemap_privacy.xml
+Sitemap: https://wealthyrobots.com/sitemap_terms.xml
