@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-08-19T20:24:32.153571",
+  "system": "wallet_financial",
+  "access_level": "full",
+  "capabilities": [
+    "View balances",
+    "Transfer funds",
+    "Pay for services",
+    "Allocate budgets",
+    "Track expenses"
+  ],
+  "daily_spending_limit": 10000,
+  "emergency_access": true,
+  "automatic_payments": true
+}

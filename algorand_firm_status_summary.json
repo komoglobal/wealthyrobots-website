@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-08-09T20:40:22.237906",
+  "overall_status": "fair",
+  "system_health": {
+    "total_agents": 7,
+    "active_agents": 4,
+    "critical_agents_active": 3,
+    "total_critical_agents": 3
+  },
+  "performance_metrics": {
+    "overall_health_percentage": 57.14285714285714,
+    "critical_health_percentage": 100.0,
+    "agent_uptime": 57.14285714285714,
+    "critical_agent_uptime": 100.0
+  },
+  "critical_issues": []
+}

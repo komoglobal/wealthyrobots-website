@@ -1,0 +1,62 @@
+{
+  "file_hashes": {
+    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": {
+      "primary_file": "/home/ubuntu/wealthyrobot/visual_affiliate_agent.log",
+      "duplicates": [
+        "/home/ubuntu/wealthyrobot/social_media.log",
+        "/home/ubuntu/wealthyrobot/weekly_maintenance.log",
+        "/home/ubuntu/wealthyrobot/social_media_agent.log"
+      ],
+      "group_id": "logs_e3b0c442",
+      "last_updated": "2025-08-30T09:17:05.931664"
+    }
+  },
+  "duplicate_groups": {},
+  "compression_info": {
+    "coordination_logs_e3b0c442": {
+      "group_id": "coordination_logs_e3b0c442",
+      "original_files": [
+        "/home/ubuntu/wealthyrobot/agent_coordination_log_20250825_155429.json",
+        "/home/ubuntu/wealthyrobot/agent_coordination_log_20250825_154417.json",
+        "/home/ubuntu/wealthyrobot/agent_coordination_log_20250825_154924.json"
+      ],
+      "compression_method": "zlib",
+      "compressed_size": 478,
+      "space_saved": -478,
+      "timestamp": "2025-08-30T09:17:05.924619",
+      "compression_ratio": 0.0
+    },
+    "reports_e3b0c442": {
+      "group_id": "reports_e3b0c442",
+      "original_files": [
+        "/home/ubuntu/wealthyrobot/enhanced_visual_test_report_20250825_154924.json",
+        "/home/ubuntu/wealthyrobot/enhanced_visual_test_report_20250825_154417.json"
+      ],
+      "compression_method": "zlib",
+      "compressed_size": 355,
+      "space_saved": -355,
+      "timestamp": "2025-08-30T09:17:05.926395",
+      "compression_ratio": 0.0
+    },
+    "logs_e3b0c442": {
+      "group_id": "logs_e3b0c442",
+      "original_files": [
+        "/home/ubuntu/wealthyrobot/visual_affiliate_agent.log",
+        "/home/ubuntu/wealthyrobot/social_media.log",
+        "/home/ubuntu/wealthyrobot/weekly_maintenance.log",
+        "/home/ubuntu/wealthyrobot/social_media_agent.log"
+      ],
+      "compression_method": "zlib",
+      "compressed_size": 449,
+      "space_saved": -449,
+      "timestamp": "2025-08-30T09:17:05.927626",
+      "compression_ratio": 0.0
+    }
+  },
+  "metadata": {
+    "created": "2025-08-30T09:17:05.574130",
+    "total_files_processed": 9,
+    "space_saved": -1282,
+    "last_update": "2025-08-30T09:17:05.931677"
+  }
+}

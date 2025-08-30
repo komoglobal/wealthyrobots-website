@@ -1,0 +1,21 @@
+{
+  "current_status": {
+    "opted_in": false,
+    "app_id": 465814065,
+    "note": "Account not opted into Folks Finance"
+  },
+  "optin_result": {
+    "success": true,
+    "transaction_id": "XFMZFDIRENEVUMMAUOVZ2M6QKWFHSZSGXCSUIRZTFMYY2VVG2JXA",
+    "confirmed_round": 52900261,
+    "optin_status": {
+      "opted_in": true,
+      "app_id": 465814065,
+      "local_state": [],
+      "note": "Account already opted into Folks Finance"
+    },
+    "note": "Successfully opted into Folks Finance"
+  },
+  "action_needed": "none",
+  "ready_for_update": true
+}

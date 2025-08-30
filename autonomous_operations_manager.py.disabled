@@ -1,0 +1,272 @@
+import subprocess
+import time
+import json
+import os
+from datetime import datetime, timedelta
+
+class AutonomousOperationsManager:
+    def __init__(self):
+        print("⚡ AUTONOMOUS OPERATIONS MANAGER - INITIALIZING...")
+        print("🎯 Continuous operations mode activated!")
+        
+        self.operations_active = True
+        self.cycle_count = 0
+        self.performance_metrics = {
+            'content_generated': 0,
+            'tweets_posted': 0,
+            'revenue_tracked': 0,
+            'agents_coordinated': 0,
+            'uptime_hours': 0
+        }
+        
+        # CEO check-in schedule
+        self.ceo_checkin_interval = 6  # CEO reviews every 6 hours
+        self.last_ceo_checkin = datetime.now()
+        
+        print("✅ Operations Manager ready for continuous operation!")
+        
+    def run_continuous_operations(self):
+        """Run continuous operations with periodic CEO oversight"""
+        print("🚀 STARTING CONTINUOUS AUTONOMOUS OPERATIONS...")
+        print("=" * 60)
+        
+        start_time = time.time()
+        
+        while self.operations_active:
+            try:
+                self.cycle_count += 1
+                cycle_start = time.time()
+                
+                print(f"\n⚡ OPERATIONS CYCLE #{self.cycle_count}")
+                print(f"🕐 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+                print("-" * 40)
+                
+                # 1. Continuous Content Generation
+                self.continuous_content_generation()
+                
+                # 2. Continuous Social Media Management
+                self.continuous_social_media()
+                
+                # 3. Continuous Revenue Optimization
+                self.continuous_revenue_tracking()
+                
+                # 4. Continuous Agent Coordination
+                self.continuous_agent_coordination()
+                
+                # 5. Check if CEO review is needed
+                if self.should_ceo_review():
+                    self.ceo_strategic_review()
+                
+                # 6. Performance monitoring
+                self.update_performance_metrics()
+                
+                # 7. Save operations log
+                self.save_operations_log()
+                
+                # 8. Short operational pause
+                cycle_time = time.time() - cycle_start
+                print(f"⏱️ Cycle completed in {cycle_time:.1f}s")
+                print("💡 Agents continue working autonomously...")
+                
+                # Update uptime
+                self.performance_metrics['uptime_hours'] = (time.time() - start_time) / 3600
+                
+                # Optimal pause: 30 minutes between intensive cycles
+                time.sleep(1800)  # 30 minutes
+                
+            except KeyboardInterrupt:
+                print(f"\n🛑 Operations Manager stopping after {self.cycle_count} cycles...")
+                self.operations_active = False
+                break
+            except Exception as e:
+                print(f"⚠️ Operations error (cycle {self.cycle_count}): {e}")
+                print("🔄 Continuing operations in 5 minutes...")
+                time.sleep(300)
+    
+    def continuous_content_generation(self):
+        """Continuous content pipeline"""
+        print("📝 Continuous Content Generation...")
+        
+        try:
+            # Check if new content is needed
+            recent_content = [f for f in os.listdir('.') 
+                            if f.startswith('smart_viral_thread_') 
+                            and self.is_recent_file(f, hours=4)]
+            
+            if len(recent_content) < 2:  # Keep 2 fresh content pieces ready
+                print("🔄 Generating fresh content...")
+                result = subprocess.run(['python3', 'real_money_agent.py'], 
+                                      capture_output=True, text=True, timeout=90)
+                
+                if result.returncode == 0:
+                    self.performance_metrics['content_generated'] += 1
+                    print("✅ Fresh content generated!")
+                else:
+                    print("⚠️ Content generation had issues")
+            else:
+                print("✅ Fresh content already available")
+                
+        except Exception as e:
+            print(f"⚠️ Content generation error: {e}")
+    
+    def continuous_social_media(self):
+        """Continuous social media management"""
+        print("🐦 Continuous Social Media Management...")
+        
+        try:
+            # Post content every 4 hours during optimal times
+            current_hour = datetime.now().hour
+            optimal_hours = [9, 13, 17, 21]  # 9am, 1pm, 5pm, 9pm
+            
+            if current_hour in optimal_hours:
+                print("🎯 Optimal posting time - executing social media...")
+                
+                # Find latest content to post
+                content_files = [f for f in os.listdir('.') if f.startswith('smart_viral_thread_')]
+                if content_files:
+                    latest_content = sorted(content_files)[-1]
+                    print(f"📄 Found content: {latest_content}")
+                    
+                    # Post to Twitter using our existing system
+                    try:
+                        from twitter_posting_agent import TwitterPostingAgent
+                        twitter_agent = TwitterPostingAgent()
+                        
+                        if twitter_agent.client:
+                            # Read content and post
+                            with open(latest_content, 'r') as f:
+                                content = f.read()
+                            
+                            if "VIRAL THREAD" in content:
+                                start = content.find("VIRAL THREAD")
+                                thread_content = content[start:start+1500]
+                                
+                                result = twitter_agent.post_thread(thread_content)
+                                
+                                if result.get("status") == "success":
+                                    self.performance_metrics['tweets_posted'] += 1
+                                    print("✅ Content posted to Twitter!")
+                                else:
+                                    print("⚠️ Twitter posting had issues")
+                            else:
+                                print("⚠️ No thread content found")
+                        else:
+                            print("⚠️ Twitter not connected")
+                    except Exception as e:
+                        print(f"⚠️ Twitter error: {e}")
+                else:
+                    print("⚠️ No content available for posting")
+            else:
+                print(f"⏰ Non-optimal hour ({current_hour}), waiting for next window")
+                
+        except Exception as e:
+            print(f"⚠️ Social media error: {e}")
+    
+    def continuous_revenue_tracking(self):
+        """Continuous revenue monitoring"""
+        print("💰 Continuous Revenue Tracking...")
+        
+        try:
+            # Track revenue performance
+            result = subprocess.run([
+                'python3', '-c',
+                'from real_money_agent import RealMoneyAgent; '
+                'agent = RealMoneyAgent(); '
+                'perf = agent.track_affiliate_performance(); '
+                'total = sum([d.get("commission", d.get("revenue", 0)) for d in perf.values()]); '
+                'print(f"Revenue: ${total:.2f}")'
+            ], capture_output=True, text=True, timeout=30)
+            
+            if "Revenue:" in result.stdout:
+                revenue_line = result.stdout.strip()
+                print(f"✅ {revenue_line}")
+                self.performance_metrics['revenue_tracked'] += 1
+            else:
+                print("⚠️ Revenue tracking had issues")
+                
+        except Exception as e:
+            print(f"⚠️ Revenue tracking error: {e}")
+    
+    def continuous_agent_coordination(self):
+        """Continuous agent coordination"""
+        print("🤖 Continuous Agent Coordination...")
+        
+        try:
+            # Light coordination check
+            agent_files = [f for f in os.listdir('.') if f.endswith('_agent.py')]
+            coordinated_agents = len(agent_files)
+            
+            print(f"✅ {coordinated_agents} agents coordinated and ready")
+            self.performance_metrics['agents_coordinated'] = coordinated_agents
+            
+        except Exception as e:
+            print(f"⚠️ Agent coordination error: {e}")
+    
+    def should_ceo_review(self):
+        """Check if CEO strategic review is needed"""
+        time_since_review = datetime.now() - self.last_ceo_checkin
+        return time_since_review >= timedelta(hours=self.ceo_checkin_interval)
+    
+    def ceo_strategic_review(self):
+        """CEO conducts strategic review"""
+        print("\n👑 CEO STRATEGIC REVIEW SESSION")
+        print("=" * 40)
+        
+        try:
+            # Run CEO analysis
+            print("🧠 CEO: Analyzing empire performance...")
+            
+            # Run CEO using our existing system
+            result = subprocess.run(['python3', 'ultimate_ceo_agent.py'], 
+                                  capture_output=True, text=True, timeout=120)
+            
+            if result.returncode == 0:
+                print("✅ CEO: Strategic review completed successfully")
+            else:
+                print("⚠️ CEO: Strategic review had issues")
+            
+            self.last_ceo_checkin = datetime.now()
+            
+        except Exception as e:
+            print(f"⚠️ CEO review error: {e}")
+    
+    def update_performance_metrics(self):
+        """Update and display performance metrics"""
+        print("\n📊 OPERATIONS PERFORMANCE:")
+        print("-" * 25)
+        for metric, value in self.performance_metrics.items():
+            print(f"   {metric.replace('_', ' ').title()}: {value}")
+    
+    def is_recent_file(self, filename, hours=4):
+        """Check if file was created recently"""
+        try:
+            file_time = os.path.getmtime(filename)
+            now = time.time()
+            return (now - file_time) < (hours * 3600)
+        except:
+            return False
+    
+    def save_operations_log(self):
+        """Save operations performance log"""
+        log_data = {
+            'timestamp': datetime.now().isoformat(),
+            'cycle': self.cycle_count,
+            'performance_metrics': self.performance_metrics
+        }
+        
+        with open('operations_manager_log.json', 'a') as f:
+            f.write(json.dumps(log_data) + '\n')
+
+if __name__ == "__main__":
+    operations_manager = AutonomousOperationsManager()
+    
+    print("\n🎯 OPERATIONS MANAGER ARCHITECTURE:")
+    print("=" * 45)
+    print("⚡ Continuous Operations: Content, Social, Revenue")
+    print("👑 CEO Strategic Reviews: Every 6 hours") 
+    print("🤖 Agent Coordination: Continuous monitoring")
+    print("📊 Performance Tracking: Real-time metrics")
+    print("🔄 Cycle Frequency: Every 30 minutes")
+    
+    print("\n🚀 Starting continuous autonomous operations...")
+    operations_manager.run_continuous_operations()

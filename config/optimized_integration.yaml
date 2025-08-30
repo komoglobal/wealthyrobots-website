@@ -1,0 +1,63 @@
+# WealthyRobot Optimized Integration Configuration
+# Designed to work seamlessly with existing optimization systems
+
+fund_name: "WealthyRobot Optimized Trading Fund"
+version: "2.1.0"
+autonomous_mode: true
+auto_upgrade: true
+strategy_discovery: true
+
+# Integration Settings
+integration:
+  existing_agents: true
+  log_optimization: true
+  performance_mode: true
+  quiet_mode: true
+
+# Logging Configuration (Optimized for existing systems)
+logging:
+  level: "INFO"
+  file_logging: false  # Use systemd journal instead
+  console_logging: false  # Reduce terminal spam
+  max_log_size: "10MB"
+  log_rotation: "daily"
+  quiet_mode: true
+  
+# Performance Optimization
+performance:
+  scan_interval: 300  # 5 minutes between scans
+  health_check_interval: 600  # 10 minutes between health checks
+  upgrade_check_interval: 3600  # 1 hour between upgrade checks
+  strategy_scan_interval: 1800  # 30 minutes between strategy scans
+  
+# Risk Management (Conservative for integration)
+risk_management:
+  max_position_size: 0.1  # 10% of portfolio
+  daily_loss_limit: 0.02  # 2% daily loss limit
+  max_portfolio_risk: 0.15  # 15% max portfolio risk
+  emergency_stop_enabled: true
+  
+# Agent Integration
+agents:
+  ceo_agent: true
+  claude_agent: true
+  trading_agent: true
+  risk_agent: true
+  strategy_agent: true
+  
+# Upgrade Schedule (Non-intrusive)
+upgrade_schedule:
+  auto_upgrade: true
+  upgrade_window: "02:00-04:00"  # Low activity hours
+  backup_before_upgrade: true
+  rollback_on_failure: true
+  
+# System Integration
+system:
+  use_existing_optimization: true
+  respect_system_resources: true
+  adaptive_performance: true
+  background_priority: "low"
+
+
+

@@ -1,0 +1,146 @@
+[
+  {
+    "success": true,
+    "tweet_id": "Success - Tweet ID: 1958283654364332116",
+    "content_type": "viral",
+    "has_affiliate": false,
+    "viral_score": 2.5,
+    "has_visual": true,
+    "posts_today": 3,
+    "posts_this_month": 49,
+    "timestamp": "2025-08-20T17:43:01.202554",
+    "strategy": {
+      "type": "viral",
+      "affiliate_chance": 0.25,
+      "viral_boost": 1.5,
+      "period": "afternoon",
+      "timestamp": "2025-08-20T17:43:00.605674"
+    }
+  },
+  {
+    "success": false,
+    "reason": "Minimum interval not met. Next: 18:28",
+    "timestamp": "2025-08-20T17:44:01.614256",
+    "action": "rate_limited"
+  },
+  {
+    "success": true,
+    "tweet_id": "Success - Tweet ID: 1958325184395411587",
+    "content_type": "promotional",
+    "has_affiliate": "https://amzn.to/wealthyrobot-ai-advantage",
+    "viral_score": 1.0,
+    "has_visual": false,
+    "posts_today": 4,
+    "posts_this_month": 50,
+    "timestamp": "2025-08-20T20:28:02.664611",
+    "strategy": {
+      "type": "promotional",
+      "affiliate_chance": 0.75,
+      "viral_boost": 0.8,
+      "period": "evening",
+      "timestamp": "2025-08-20T20:28:02.162611"
+    }
+  },
+  {
+    "success": true,
+    "tweet_id": "Success - Tweet ID: 1958506576207044855",
+    "content_type": "educational",
+    "has_affiliate": false,
+    "viral_score": 2.0,
+    "has_visual": true,
+    "posts_today": 1,
+    "posts_this_month": 51,
+    "timestamp": "2025-08-21T08:28:49.874351",
+    "strategy": {
+      "type": "educational",
+      "affiliate_chance": 0.15,
+      "viral_boost": 1.2,
+      "period": "morning",
+      "timestamp": "2025-08-21T08:28:33.712830"
+    }
+  },
+  {
+    "success": true,
+    "tweet_id": "Success - Tweet ID: 1958563051445096947",
+    "content_type": "viral",
+    "has_affiliate": false,
+    "viral_score": 2.5,
+    "has_visual": false,
+    "posts_today": 2,
+    "posts_this_month": 52,
+    "timestamp": "2025-08-21T12:13:14.596800",
+    "strategy": {
+      "type": "viral",
+      "affiliate_chance": 0.25,
+      "viral_boost": 1.5,
+      "period": "afternoon",
+      "timestamp": "2025-08-21T12:13:13.003423"
+    }
+  },
+  {
+    "success": false,
+    "reason": "Minimum interval not met. Next: 12:58",
+    "timestamp": "2025-08-21T12:14:16.272335",
+    "action": "rate_limited"
+  },
+  {
+    "success": true,
+    "tweet_id": "Success - Tweet ID: 1958646190175633675",
+    "content_type": "viral",
+    "has_affiliate": false,
+    "viral_score": 3.5,
+    "has_visual": false,
+    "posts_today": 3,
+    "posts_this_month": 53,
+    "timestamp": "2025-08-21T17:43:36.433667",
+    "strategy": {
+      "type": "viral",
+      "affiliate_chance": 0.25,
+      "viral_boost": 1.5,
+      "period": "afternoon",
+      "timestamp": "2025-08-21T17:43:33.491364"
+    }
+  },
+  {
+    "success": false,
+    "reason": "Minimum interval not met. Next: 18:28",
+    "timestamp": "2025-08-21T17:44:57.003929",
+    "action": "rate_limited"
+  },
+  {
+    "success": true,
+    "tweet_id": "Success - Tweet ID: 1958687682248273943",
+    "content_type": "promotional",
+    "has_affiliate": "https://amzn.to/wealthyrobot-ai-advantage",
+    "viral_score": 1.0,
+    "has_visual": false,
+    "posts_today": 4,
+    "posts_this_month": 54,
+    "timestamp": "2025-08-21T20:28:28.915278",
+    "strategy": {
+      "type": "promotional",
+      "affiliate_chance": 0.75,
+      "viral_boost": 0.8,
+      "period": "evening",
+      "timestamp": "2025-08-21T20:28:26.678720"
+    }
+  },
+  {
+    "success": false,
+    "reason": "Minimum interval not met. Next: 21:13",
+    "timestamp": "2025-08-21T20:29:31.404470",
+    "action": "rate_limited"
+  },
+  {
+    "success": false,
+    "reason": "Consumer key must be string or bytes, not NoneType",
+    "timestamp": "2025-08-25T12:13:32.924572",
+    "action": "post_failed"
+  },
+  {
+    "success": false,
+    "reason": "Consumer key must be string or bytes, not NoneType",
+    "timestamp": "2025-08-25T12:14:35.402274",
+    "action": "post_failed"
+  }
+]

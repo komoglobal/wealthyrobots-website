@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "rotation_algorithms": [
+    "round_robin",
+    "weighted_priority",
+    "diversity_maximization"
+  ],
+  "problem_pool": [
+    "revenue_optimization",
+    "content_creation_optimization",
+    "social_media_automation",
+    "analytics_dashboard_creation",
+    "customer_engagement_improvement",
+    "seo_content_optimization",
+    "conversion_rate_optimization",
+    "email_marketing_automation",
+    "competitor_analysis_enhancement",
+    "payment_system_optimization",
+    "user_experience_improvement",
+    "ai_model_optimization",
+    "data_pipeline_enhancement",
+    "security_system_improvement",
+    "scalability_optimization"
+  ],
+  "meta_problems": [
+    "meta_cognitive_enhancement",
+    "self_diagnostic_improvement",
+    "learning_acceleration",
+    "creativity_amplification",
+    "pattern_recognition_optimization"
+  ],
+  "adaptive_weighting": true,
+  "learning_integration": true
+}

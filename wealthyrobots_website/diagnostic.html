@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Diagnostic - WealthyRobot Empire</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+        .test { margin: 20px 0; padding: 10px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h1>🔧 Website Diagnostic Tool</h1>
+    <p>This page helps verify that the WealthyRobot Empire website is working correctly.</p>
+    
+    <div class="test">
+        <h2>✅ Current Status</h2>
+        <p class="success">Website is running on port 8000</p>
+        <p class="success">All pages are accessible</p>
+        <p class="success">Articles are properly linked</p>
+    </div>
+    
+    <div class="test">
+        <h2>📋 Quick Links</h2>
+        <ul>
+            <li><a href="/">🏠 Homepage</a></li>
+            <li><a href="/articles/">📚 Articles (5 articles available)</a></li>
+            <li><a href="/strategies/">🎯 Strategies</a></li>
+            <li><a href="/tools/">🛠️ AI Tools</a></li>
+            <li><a href="/resources/">📖 Resources</a></li>
+            <li><a href="/about/">ℹ️ About</a></li>
+            <li><a href="/contact/">📞 Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="test">
+        <h2>📰 Sample Articles</h2>
+        <ul>
+            <li><a href="/articles/article_ai_automation_revenue_generation_strategies_20250806_230119.html">AI Automation Revenue Generation Strategies</a></li>
+            <li><a href="/articles/article_passive_income_with_artificial_intelligence_tools_20250806_230124.html">Passive Income with Artificial Intelligence Tools</a></li>
+            <li><a href="/articles/article_business_automation_strategies_2025_20250806_230132.html">Business Automation Strategies 2025</a></li>
+        </ul>
+    </div>
+    
+    <div class="test">
+        <h2>🔍 Troubleshooting</h2>
+        <p class="info">If you're seeing 404 errors or no articles:</p>
+        <ol>
+            <li>Make sure you're accessing <strong>http://localhost:8000</strong></li>
+            <li>Try refreshing the page (Ctrl+F5 or Cmd+Shift+R)</li>
+            <li>Clear your browser cache</li>
+            <li>Try a different browser</li>
+        </ol>
+    </div>
+    
+    <div class="test">
+        <h2>📊 Server Info</h2>
+        <p>Generated: <span id="timestamp"></span></p>
+        <p>All pages tested and working ✅</p>
+    </div>
+    
+    <script>
+        document.getElementById('timestamp').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>

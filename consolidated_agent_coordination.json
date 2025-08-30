@@ -1,0 +1,1382 @@
+{
+  "consolidation_timestamp": "2025-08-30T11:00:04.946157",
+  "total_original_files": 229,
+  "consolidated_entries": [
+    {
+      "timestamp": "2025-08-25T15:59:33.896305",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T16:29:38.586914",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T16:59:43.563819",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T17:29:48.246761",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T17:59:52.949477",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T18:29:56.894580",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T19:00:02.071675",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T19:30:29.884776",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T20:00:35.893342",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T20:30:41.101376",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T21:01:06.236461",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T21:31:29.380316",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T22:01:34.987634",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T22:31:39.656213",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T23:02:11.649334",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-25T23:32:41.346720",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T00:03:16.457588",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T00:33:43.660283",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T01:04:09.681832",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T01:34:38.257534",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T02:05:03.925299",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T02:35:29.663592",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T03:05:57.096116",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T03:36:26.101851",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T04:06:52.643900",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T04:37:24.477936",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T05:07:50.633333",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T05:38:16.238484",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T06:08:40.461780",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T06:39:03.418947",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T07:09:26.312308",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T07:39:46.166604",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T08:10:15.518266",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T08:41:16.878381",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T09:12:08.545895",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T09:42:44.858979",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T10:13:13.348864",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T10:43:44.962523",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T11:14:20.225949",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T11:44:45.117838",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T12:15:11.971461",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T12:45:41.848866",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T13:16:04.485841",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T13:46:29.704997",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T14:16:58.643341",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T14:47:23.296809",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T15:17:29.042700",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T15:47:42.023792",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T16:18:28.625497",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T16:49:12.168292",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T17:19:39.349898",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T17:50:02.152611",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T18:20:27.192387",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T18:50:51.043901",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T19:21:09.112639",
+      "agent_count": 10,
+      "has_errors": false,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T19:51:09.265238",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T20:21:09.285313",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T20:51:09.594393",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T21:21:09.757637",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T21:51:10.011219",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T22:21:10.329262",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T22:51:10.485236",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T23:21:10.714696",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-26T23:51:10.947237",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T00:21:11.105467",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T00:51:11.178240",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T01:21:11.243054",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T01:51:11.332424",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T02:21:11.433234",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T02:51:11.596226",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T03:21:11.658001",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T03:51:11.818228",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T04:21:12.055689",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T04:51:12.322209",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T05:21:12.384215",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T05:51:12.541763",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T06:21:12.698213",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T06:51:12.941213",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T07:21:13.037217",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T07:51:13.187754",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T08:21:13.267206",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T08:51:13.657695",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T09:21:13.736212",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T09:51:13.981206",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T10:21:14.137205",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T10:51:14.322208",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T11:21:14.621785",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T11:51:14.878268",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T12:21:14.937207",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T12:51:15.110345",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T13:21:15.258175",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T13:51:15.442206",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T14:21:15.603206",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T14:51:15.907213",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T15:21:16.060212",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T15:51:16.390200",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T16:21:16.888200",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T16:51:17.032207",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T17:21:17.424590",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T17:51:17.517207",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T18:21:17.839205",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T18:51:18.164211",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T19:21:18.405206",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T19:51:18.550255",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T20:21:18.564209",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T20:51:18.810197",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T21:21:18.876211",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T21:51:19.034475",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T22:21:19.034959",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T22:51:19.035455",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T23:21:19.035949",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-27T23:51:19.036415",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T00:21:19.036794",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T00:51:19.037258",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T01:21:19.037668",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T01:51:19.038098",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T02:21:19.038550",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T02:51:19.039008",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T03:21:19.039797",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T03:51:19.041226",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T04:21:19.041694",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T04:51:19.049403",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T05:21:19.131114",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T05:51:19.193237",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T06:21:19.366253",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T06:51:19.436244",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T07:21:19.447223",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T07:51:19.495644",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T08:21:19.518224",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T08:51:19.598232",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T09:21:19.603215",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T09:51:19.669669",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T10:21:19.753938",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T10:51:19.763298",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T11:21:19.816281",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T11:51:19.818798",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T12:21:19.819172",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T12:51:19.819560",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T13:21:19.819972",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T13:51:19.820466",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T14:21:19.820939",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T14:51:19.821997",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T15:21:19.824221",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T15:51:19.824714",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T16:21:19.833878",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T16:51:19.841809",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T17:21:19.993235",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T17:51:19.994223",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T18:21:19.995270",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T18:51:19.995868",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T19:21:19.996784",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T19:51:19.998215",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T20:21:20.002484",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T20:51:20.002852",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T21:21:20.003574",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T21:51:20.004204",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T22:21:20.004551",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T22:51:20.004904",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T23:21:20.005303",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-28T23:51:20.005691",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T00:21:20.006096",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T00:51:20.006551",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T01:21:20.007340",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T01:51:20.007793",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T02:21:20.008133",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T02:51:20.008538",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T03:21:20.008927",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T03:51:20.009336",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T04:21:20.009759",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T04:51:20.010227",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T05:21:20.010718",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T05:51:20.011231",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T06:21:20.012227",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T06:51:20.013376",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T07:21:20.014233",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T07:51:20.079731",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T08:21:20.166261",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T08:51:20.243225",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T09:21:20.310629",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T09:51:20.311096",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T10:21:20.314222",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T10:51:20.314668",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T11:21:20.328234",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T11:51:20.331218",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T12:21:20.406628",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T12:51:20.455430",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T13:21:20.458210",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T13:51:20.479215",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T14:21:20.550311",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T14:51:20.645206",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T15:21:20.711464",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T15:51:20.731235",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T16:21:20.754250",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T16:51:20.757241",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T17:21:20.825704",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T17:51:20.958237",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T18:21:21.039358",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T18:51:21.275228",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T19:21:21.351679",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T19:51:21.444708",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T20:21:21.495444",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T20:51:21.508289",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T21:21:21.519206",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T21:51:21.519655",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T22:21:21.520126",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T22:51:21.520597",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T23:21:21.520954",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-29T23:51:21.521711",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T00:21:21.522170",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T00:51:21.522819",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T01:21:21.523207",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T01:51:21.523617",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T02:21:21.524032",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T02:51:21.524745",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T03:21:21.525138",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T03:51:21.525526",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T04:21:21.525882",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T04:51:21.526689",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T05:21:21.527208",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T05:51:21.527628",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T06:21:21.528196",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T06:51:21.528891",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T07:21:21.529332",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T07:51:21.529887",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T08:21:21.531205",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    },
+    {
+      "timestamp": "2025-08-30T08:51:21.531651",
+      "agent_count": 10,
+      "has_errors": true,
+      "fixes_applied": 0
+    }
+  ],
+  "agent_status_summary": {
+    "enhanced_visual_testing:success": 226,
+    "website_builder:error": 54,
+    "content_generator:loaded": 226,
+    "seo_optimizer:loaded": 226,
+    "affiliate_manager:loaded": 226,
+    "social_media:loaded": 226,
+    "orchestrator:loaded": 226,
+    "pagespeed:loaded": 226,
+    "competitor_watcher:loaded": 226,
+    "optimizer:loaded": 226,
+    "website_builder:loaded": 172
+  },
+  "error_summary": {
+    "Agent enhanced_visual_testing not properly loaded": 171
+  },
+  "time_range": {
+    "earliest": "2025-08-25T15:59:33.896305",
+    "latest": "2025-08-30T08:51:21.531651"
+  }
+}

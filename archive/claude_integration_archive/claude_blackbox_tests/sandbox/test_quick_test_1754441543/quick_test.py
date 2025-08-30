@@ -1,0 +1,1 @@
+print("Blackbox test!")

@@ -1,0 +1,10 @@
+{
+  "test_name": "speed_test",
+  "language": "python",
+  "success": true,
+  "stdout": "Result: 4\n",
+  "stderr": "",
+  "returncode": 0,
+  "execution_time": 0.025661706924438477,
+  "test_directory": "claude_blackbox_tests/sandbox/test_speed_test_1754442443"
+}

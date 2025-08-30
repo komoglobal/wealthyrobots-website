@@ -1,0 +1,26 @@
+{
+  "content_promotion": {
+    "percentage": 40,
+    "amount": 0.0,
+    "purpose": "Boost high-performing posts",
+    "roi_target": "3:1"
+  },
+  "lead_generation": {
+    "percentage": 30,
+    "amount": 0.0,
+    "purpose": "Paid traffic for email capture",
+    "roi_target": "2:1"
+  },
+  "tool_subscriptions": {
+    "percentage": 20,
+    "amount": 0.0,
+    "purpose": "Premium APIs and services",
+    "roi_target": "Efficiency gains"
+  },
+  "emergency_fund": {
+    "percentage": 10,
+    "amount": 0.0,
+    "purpose": "Unexpected opportunities",
+    "roi_target": "Variable"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "backup_id": "performance_data_20250826_192248",
+  "backup_type": "performance_data",
+  "timestamp": "2025-08-26T19:22:48.474816",
+  "description": "Test performance data backup",
+  "archive_path": "backups/performance_data/performance_data_20250826_192248.tar.gz",
+  "archive_size": 1663,
+  "items_backed_up": 1,
+  "checksum": "e685c4825e64002abe29d50b4826529000626476b78dffa339d169e73b4d4ece"
+}

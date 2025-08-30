@@ -1,0 +1,17 @@
+markets:
+  - name: ALGO
+    app_id: 971368268
+    asset_id: 0
+  - name: USDC
+    app_id: 971372237
+    asset_id: 31566704
+  - name: USDt
+    app_id: 971372700
+    asset_id: 312769
+  - name: goBTC
+    app_id: 971373361
+    asset_id: 386192725
+  - name: goETH
+    app_id: 971373611
+    asset_id: 386195940
+

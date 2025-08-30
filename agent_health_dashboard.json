@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-08-30T11:38:33.388262",
+  "system_health": {
+    "overall_health": "critical",
+    "total_agents": 11,
+    "running_agents": 9,
+    "error_agents": 2,
+    "warning_agents": 6,
+    "system_uptime": 4110.160165,
+    "critical_issues": [
+      "2 agents in error state",
+      "6 agents with warnings"
+    ],
+    "recommendations": [
+      "Investigate and restart failed agents",
+      "Start remaining agents to improve system performance",
+      "Monitor agents with warnings for potential issues"
+    ]
+  },
+  "agent_details": {
+    "Agent Coordination System": {
+      "status": "running",
+      "health_level": "warning",
+      "last_heartbeat": "2025-08-30T11:32:33.375716",
+      "uptime_seconds": 300.0,
+      "error_count": 7,
+      "last_error": "Simulated error in Agent Coordination System",
+      "performance_score": 0.0
+    },
+    "Optimized Content Agent": {
+      "status": "running",
+      "health_level": "good",
+      "last_heartbeat": "2025-08-30T11:36:03.382860",
+      "uptime_seconds": 300.0,
+      "error_count": 3,
+      "last_error": "Simulated error in Optimized Content Agent",
+      "performance_score": 0.0
+    },
+    "Optimized Orchestrator": {
+      "status": "running",
+      "health_level": "warning",
+      "last_heartbeat": "2025-08-30T11:26:03.359350",
+      "uptime_seconds": 300.0,
+      "error_count": 11,
+      "last_error": "Simulated error in Optimized Orchestrator",
+      "performance_score": 0.0
+    },
+    "Authority Website Manager": {
+      "status": "running",
+      "health_level": "warning",
+      "last_heartbeat": "2025-08-30T11:25:03.356696",
+      "uptime_seconds": 300.0,
+      "error_count": 10,
+      "last_error": "Simulated error in Authority Website Manager",
+      "performance_score": 0.0
+    },
+    "Comprehensive Website Builder Agent": {
+      "status": "error",
+      "health_level": "critical",
+      "last_heartbeat": "2025-08-30T11:38:33.387786",
+      "uptime_seconds": 0,
+      "error_count": 13,
+      "last_error": "Simulated error in Comprehensive Website Builder Agent",
+      "performance_score": 0.0
+    },
+    "Smart Affiliate Agent": {
+      "status": "running",
+      "health_level": "warning",
+      "last_heartbeat": "2025-08-30T11:32:03.374421",
+      "uptime_seconds": 300.0,
+      "error_count": 17,
+      "last_error": "Simulated error in Smart Affiliate Agent",
+      "performance_score": 0.0
+    },
+    "Social Media Agent": {
+      "status": "running",
+      "health_level": "warning",
+      "last_heartbeat": "2025-08-30T11:32:33.376048",
+      "uptime_seconds": 300.0,
+      "error_count": 8,
+      "last_error": "Simulated error in Social Media Agent",
+      "performance_score": 0.0
+    },
+    "Data Analytics Agent": {
+      "status": "error",
+      "health_level": "critical",
+      "last_heartbeat": "2025-08-30T11:37:03.384965",
+      "uptime_seconds": 0,
+      "error_count": 6,
+      "last_error": "Simulated error in Data Analytics Agent",
+      "performance_score": 0.0
+    },
+    "Performance Tracker": {
+      "status": "running",
+      "health_level": "good",
+      "last_heartbeat": "2025-08-30T11:35:33.381814",
+      "uptime_seconds": 300.0,
+      "error_count": 5,
+      "last_error": "Simulated error in Performance Tracker",
+      "performance_score": 0.0
+    },
+    "Centralized Logger": {
+      "status": "running",
+      "health_level": "good",
+      "last_heartbeat": "2025-08-30T11:11:03.327942",
+      "uptime_seconds": 300.0,
+      "error_count": 3,
+      "last_error": "Simulated error in Centralized Logger",
+      "performance_score": 0.0
+    },
+    "Automated Backup": {
+      "status": "running",
+      "health_level": "warning",
+      "last_heartbeat": "2025-08-30T11:30:33.369933",
+      "uptime_seconds": 300.0,
+      "error_count": 6,
+      "last_error": "Simulated error in Automated Backup",
+      "performance_score": 0.0
+    }
+  },
+  "system_metrics": {
+    "agent_status_distribution": {
+      "running": 9,
+      "error": 2
+    },
+    "health_level_distribution": {
+      "warning": 6,
+      "good": 3,
+      "critical": 2
+    },
+    "error_rate": 8.090909090909092,
+    "average_uptime": 300.0
+  },
+  "performance_summary": {
+    "total_agents": 3,
+    "performance_distribution": {
+      "average": 3
+    },
+    "top_performers": [
+      {
+        "agent_name": "content_agent",
+        "performance_level": "average",
+        "last_updated": "2025-08-26T19:21:52.243674"
+      },
+      {
+        "agent_name": "trading_agent",
+        "performance_level": "average",
+        "last_updated": "2025-08-26T19:21:52.298425"
+      },
+      {
+        "agent_name": "website_agent",
+        "performance_level": "average",
+        "last_updated": "2025-08-26T19:21:52.305257"
+      }
+    ],
+    "needs_attention": [],
+    "timestamp": "2025-08-30T11:38:33.388172"
+  }
+}

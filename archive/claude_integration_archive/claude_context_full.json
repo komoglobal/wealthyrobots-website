@@ -1,0 +1,312 @@
+{
+  "project_name": "WealthyRobot Autonomous Business Empire",
+  "scan_date": "2025-08-01 01:00:37",
+  "status": "FULLY OPERATIONAL",
+  "files_analyzed": {
+    "smart_affiliate_agent.py": {
+      "size_kb": 11.12,
+      "lines": 286,
+      "classes": 1,
+      "functions": 8,
+      "imports": 4,
+      "has_main": true,
+      "key_features": [
+        "AI Agent"
+      ]
+    },
+    "test_twitter.py": {
+      "size_kb": 0.8,
+      "lines": 25,
+      "classes": 0,
+      "functions": 0,
+      "imports": 3,
+      "has_main": false,
+      "key_features": []
+    },
+    "simple_money_agent.py": {
+      "size_kb": 0.0,
+      "lines": 3,
+      "classes": 0,
+      "functions": 0,
+      "imports": 0,
+      "has_main": false,
+      "key_features": [
+        "AI Agent"
+      ]
+    },
+    "live_config_manager.py": {
+      "size_kb": 9.47,
+      "lines": 259,
+      "classes": 3,
+      "functions": 17,
+      "imports": 7,
+      "has_main": true,
+      "key_features": [
+        "Live Control System",
+        "Configuration Management"
+      ]
+    },
+    "generate_claude_context.py": {
+      "size_kb": 5.62,
+      "lines": 171,
+      "classes": 1,
+      "functions": 5,
+      "imports": 4,
+      "has_main": true,
+      "key_features": []
+    },
+    "live_orchestrator.py": {
+      "size_kb": 12.12,
+      "lines": 311,
+      "classes": 1,
+      "functions": 12,
+      "imports": 14,
+      "has_main": true,
+      "key_features": [
+        "Live Control System",
+        "Main Orchestrator"
+      ]
+    },
+    "ultimate_ceo_agent.py": {
+      "size_kb": 18.78,
+      "lines": 473,
+      "classes": 3,
+      "functions": 14,
+      "imports": 16,
+      "has_main": true,
+      "key_features": [
+        "AI CEO Agent",
+        "AI Agent"
+      ]
+    },
+    "test_auto_post.py": {
+      "size_kb": 0.74,
+      "lines": 24,
+      "classes": 0,
+      "functions": 0,
+      "imports": 3,
+      "has_main": false,
+      "key_features": []
+    },
+    "live_control.py": {
+      "size_kb": 0.24,
+      "lines": 8,
+      "classes": 0,
+      "functions": 0,
+      "imports": 1,
+      "has_main": true,
+      "key_features": [
+        "Live Control System"
+      ]
+    },
+    "advanced_ceo_agent.py": {
+      "size_kb": 5.23,
+      "lines": 139,
+      "classes": 1,
+      "functions": 4,
+      "imports": 7,
+      "has_main": true,
+      "key_features": [
+        "AI CEO Agent",
+        "AI Agent"
+      ]
+    },
+    "orchestrator_backup.py": {
+      "size_kb": 14.45,
+      "lines": 408,
+      "classes": 1,
+      "functions": 13,
+      "imports": 13,
+      "has_main": true,
+      "key_features": [
+        "Main Orchestrator"
+      ]
+    },
+    "content_agent.py": {
+      "size_kb": 8.35,
+      "lines": 249,
+      "classes": 1,
+      "functions": 6,
+      "imports": 7,
+      "has_main": true,
+      "key_features": [
+        "AI Agent"
+      ]
+    },
+    "orchestrator.py": {
+      "size_kb": 15.17,
+      "lines": 430,
+      "classes": 1,
+      "functions": 14,
+      "imports": 14,
+      "has_main": true,
+      "key_features": [
+        "Main Orchestrator"
+      ]
+    },
+    "ceo_scheduler.py": {
+      "size_kb": 0.06,
+      "lines": 2,
+      "classes": 0,
+      "functions": 0,
+      "imports": 0,
+      "has_main": false,
+      "key_features": [
+        "AI CEO Agent"
+      ]
+    },
+    "ad_placement_agent.py": {
+      "size_kb": 9.77,
+      "lines": 265,
+      "classes": 1,
+      "functions": 7,
+      "imports": 6,
+      "has_main": true,
+      "key_features": [
+        "AI Agent"
+      ]
+    },
+    "ceo_agent.py": {
+      "size_kb": 5.94,
+      "lines": 182,
+      "classes": 1,
+      "functions": 5,
+      "imports": 6,
+      "has_main": true,
+      "key_features": [
+        "AI CEO Agent",
+        "AI Agent"
+      ]
+    },
+    "orchestrator_original.py": {
+      "size_kb": 14.45,
+      "lines": 408,
+      "classes": 1,
+      "functions": 13,
+      "imports": 13,
+      "has_main": true,
+      "key_features": [
+        "Main Orchestrator"
+      ]
+    },
+    "real_money_agent.py": {
+      "size_kb": 12.95,
+      "lines": 320,
+      "classes": 1,
+      "functions": 7,
+      "imports": 8,
+      "has_main": true,
+      "key_features": [
+        "AI Agent"
+      ]
+    }
+  },
+  "system_summary": {
+    "total_python_files": 18,
+    "total_lines_of_code": 3963,
+    "total_classes": 17,
+    "key_components": [
+      {
+        "file": "ultimate_ceo_agent.py",
+        "component": "AI CEO Agent",
+        "size": 18.78
+      },
+      {
+        "file": "ultimate_ceo_agent.py",
+        "component": "AI Agent",
+        "size": 18.78
+      },
+      {
+        "file": "orchestrator.py",
+        "component": "Main Orchestrator",
+        "size": 15.17
+      },
+      {
+        "file": "orchestrator_backup.py",
+        "component": "Main Orchestrator",
+        "size": 14.45
+      },
+      {
+        "file": "orchestrator_original.py",
+        "component": "Main Orchestrator",
+        "size": 14.45
+      },
+      {
+        "file": "real_money_agent.py",
+        "component": "AI Agent",
+        "size": 12.95
+      },
+      {
+        "file": "live_orchestrator.py",
+        "component": "Live Control System",
+        "size": 12.12
+      },
+      {
+        "file": "live_orchestrator.py",
+        "component": "Main Orchestrator",
+        "size": 12.12
+      },
+      {
+        "file": "smart_affiliate_agent.py",
+        "component": "AI Agent",
+        "size": 11.12
+      },
+      {
+        "file": "ad_placement_agent.py",
+        "component": "AI Agent",
+        "size": 9.77
+      },
+      {
+        "file": "live_config_manager.py",
+        "component": "Live Control System",
+        "size": 9.47
+      },
+      {
+        "file": "live_config_manager.py",
+        "component": "Configuration Management",
+        "size": 9.47
+      },
+      {
+        "file": "content_agent.py",
+        "component": "AI Agent",
+        "size": 8.35
+      },
+      {
+        "file": "ceo_agent.py",
+        "component": "AI CEO Agent",
+        "size": 5.94
+      },
+      {
+        "file": "ceo_agent.py",
+        "component": "AI Agent",
+        "size": 5.94
+      },
+      {
+        "file": "advanced_ceo_agent.py",
+        "component": "AI CEO Agent",
+        "size": 5.23
+      },
+      {
+        "file": "advanced_ceo_agent.py",
+        "component": "AI Agent",
+        "size": 5.23
+      },
+      {
+        "file": "live_control.py",
+        "component": "Live Control System",
+        "size": 0.24
+      },
+      {
+        "file": "ceo_scheduler.py",
+        "component": "AI CEO Agent",
+        "size": 0.06
+      },
+      {
+        "file": "simple_money_agent.py",
+        "component": "AI Agent",
+        "size": 0.0
+      }
+    ],
+    "architecture_type": "Agent-Based with Live Controls"
+  }
+}

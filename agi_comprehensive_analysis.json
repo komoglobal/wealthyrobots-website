@@ -1,0 +1,32 @@
+{
+  "timestamp": "20250826_181005",
+  "urgent_analysis_request": "CRITICAL: System was working 19 hours ago but now completely broken",
+  "problem_statement": {
+    "historical_success": "System successfully generated real DeFi trades 19 hours ago (ALGO->GARD, OPUL, goETH, goBTC via Tinyman)",
+    "current_failure": "All transactions now fail with opt-in errors for app 1002541853",
+    "timeline": "Working \u2192 Wallet-to-wallet payments \u2192 Complete failure",
+    "error_patterns": [
+      "logic eval error: invalid ApplicationArgs index 0",
+      "logic eval error: invalid Accounts index 1",
+      "logic eval error: cannot fetch key... has not opted in"
+    ]
+  },
+  "blockchain_analysis_needed": {
+    "app_bytecode_analysis": "Analyze app 1002541853 bytecode to understand exact opt-in requirements",
+    "transaction_comparison": "Compare working transactions from 19 hours ago vs current failures",
+    "wallet_state_analysis": "Check if wallet was opted out or app state changed",
+    "alternative_apps": "Analyze app 552635992 as potential simpler alternative"
+  },
+  "system_requirements": {
+    "opt_in_solution": "Exact transaction format for successful opt-in",
+    "working_configuration": "Restore the exact setup that worked 19 hours ago",
+    "monitoring": "Detect when system stops working and auto-recover",
+    "alternative_paths": "Multiple app support if primary fails"
+  },
+  "deliverables_needed": [
+    "Working opt-in transaction code",
+    "App state monitoring and recovery",
+    "Alternative app configurations",
+    "Prevention of future failures"
+  ]
+}

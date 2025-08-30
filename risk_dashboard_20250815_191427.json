@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-08-15T19:14:27.023363",
+  "portfolio_risk_score": 84.0,
+  "position_alerts": 4,
+  "market_alerts": 0,
+  "risk_limits_status": {
+    "portfolio_exposure": false,
+    "sector_concentration": false,
+    "leverage": true,
+    "cash_reserve": false
+  },
+  "recommendations": [
+    "Reduce overall portfolio exposure",
+    "Review high-risk positions"
+  ]
+}

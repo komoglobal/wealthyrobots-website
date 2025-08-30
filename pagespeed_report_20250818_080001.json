@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-08-18T08:00:01.437891",
+  "url": "https://wealthyrobots.com",
+  "strategy": "mobile",
+  "results": [
+    {
+      "path": "/",
+      "skipped": true,
+      "reason": "PAGESPEED_API_KEY not set"
+    },
+    {
+      "path": "/articles/",
+      "skipped": true,
+      "reason": "PAGESPEED_API_KEY not set"
+    },
+    {
+      "path": "/strategies/",
+      "skipped": true,
+      "reason": "PAGESPEED_API_KEY not set"
+    },
+    {
+      "path": "/tools/",
+      "skipped": true,
+      "reason": "PAGESPEED_API_KEY not set"
+    },
+    {
+      "path": "/resources/",
+      "skipped": true,
+      "reason": "PAGESPEED_API_KEY not set"
+    },
+    {
+      "path": "/about/",
+      "skipped": true,
+      "reason": "PAGESPEED_API_KEY not set"
+    },
+    {
+      "path": "/contact/",
+      "skipped": true,
+      "reason": "PAGESPEED_API_KEY not set"
+    }
+  ]
+}

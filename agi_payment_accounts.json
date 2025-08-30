@@ -1,0 +1,403 @@
+{
+  "bank_918681287432": {
+    "type": "business_checking",
+    "bank": "Chase Business Banking",
+    "account_type": "Business Checking Plus",
+    "monthly_capacity": 50000,
+    "setup_cost": 0,
+    "features": [
+      "Online banking",
+      "Wire transfers",
+      "ACH processing",
+      "Business credit card"
+    ],
+    "compliance_requirements": [
+      "Business registration",
+      "Tax ID",
+      "Personal identification"
+    ],
+    "account_details": {
+      "account_number": "918681287432",
+      "routing_number": "337067098",
+      "account_holder": "AGI Autonomous Systems LLC",
+      "bank_name": "Chase Bank",
+      "branch_code": "4945",
+      "iban": "USB8DF7455A761275D",
+      "swift_code": "CHAS7208026A"
+    },
+    "account_id": "bank_918681287432",
+    "created_at": "2025-08-30T11:16:45.172042",
+    "status": "pending_verification",
+    "verification_progress": 0
+  },
+  "bank_369507248454": {
+    "type": "savings_account",
+    "bank": "Ally Bank",
+    "account_type": "Business Savings",
+    "monthly_capacity": 25000,
+    "setup_cost": 0,
+    "features": [
+      "High interest",
+      "Online access",
+      "FDIC insured",
+      "No fees"
+    ],
+    "compliance_requirements": [
+      "Business registration",
+      "Tax ID"
+    ],
+    "account_details": {
+      "account_number": "369507248454",
+      "routing_number": "481901842",
+      "account_holder": "AGI Autonomous Systems LLC",
+      "bank_name": "Ally Bank",
+      "branch_code": "0671",
+      "iban": "US79389A7FC6C4168A",
+      "swift_code": "ALLYE2ECF4DB"
+    },
+    "account_id": "bank_369507248454",
+    "created_at": "2025-08-30T11:16:45.172089",
+    "status": "pending_verification",
+    "verification_progress": 0
+  },
+  "bank_573784810339": {
+    "type": "merchant_account",
+    "bank": "Bank of America",
+    "account_type": "Business Merchant Services",
+    "monthly_capacity": 100000,
+    "setup_cost": 99,
+    "features": [
+      "Credit card processing",
+      "POS integration",
+      "Online payments",
+      "Recurring billing"
+    ],
+    "compliance_requirements": [
+      "Business license",
+      "Tax documents",
+      "Financial statements"
+    ],
+    "account_details": {
+      "account_number": "573784810339",
+      "routing_number": "356666752",
+      "account_holder": "AGI Autonomous Systems LLC",
+      "bank_name": "BOA Bank",
+      "branch_code": "3445",
+      "iban": "US117FB4D314CB39DD",
+      "swift_code": "BOA4336CA3C"
+    },
+    "account_id": "bank_573784810339",
+    "created_at": "2025-08-30T11:16:45.172115",
+    "status": "pending_verification",
+    "verification_progress": 0
+  },
+  "processor_stripe_53f6d74b36fa36e7": {
+    "type": "payment_gateway",
+    "processor": "Stripe",
+    "account_type": "Standard Account",
+    "monthly_capacity": 1000000,
+    "monthly_fee": 29,
+    "transaction_fee": "2.9% + $0.30",
+    "features": [
+      "API integration",
+      "Subscriptions",
+      "International payments",
+      "Fraud protection"
+    ],
+    "compliance_requirements": [
+      "Business verification",
+      "Bank account",
+      "Tax information"
+    ],
+    "account_details": {
+      "account_id": "stripe_53f6d74b36fa36e7",
+      "merchant_id": "7410780124",
+      "public_key": "pk_live_d967fecd4d29acaccf85d780fe4b4da0",
+      "secret_key": "sk_live_8676de6811856746f5cf4a0b1a8e2f7778c9454c1db9340598cc1f02633e4c23",
+      "webhook_secret": "whsec_079c3e3a5087438578ef193b51fef514ed074ed5ab75a29f",
+      "business_name": "AGI Autonomous Systems LLC",
+      "support_email": "support@stripe-agi.com"
+    },
+    "account_id": "processor_stripe_53f6d74b36fa36e7",
+    "created_at": "2025-08-30T11:16:45.172286",
+    "status": "pending_setup",
+    "setup_progress": 0
+  },
+  "processor_paypal_c0b0793e3e585496": {
+    "type": "payment_gateway",
+    "processor": "PayPal Business",
+    "account_type": "Business Account",
+    "monthly_capacity": 500000,
+    "monthly_fee": 0,
+    "transaction_fee": "2.9% + $0.49",
+    "features": [
+      "Buyer protection",
+      "Mobile payments",
+      "Recurring payments",
+      "Multi-currency"
+    ],
+    "compliance_requirements": [
+      "Business verification",
+      "Bank account"
+    ],
+    "account_details": {
+      "account_id": "paypal_c0b0793e3e585496",
+      "merchant_id": "6133512787",
+      "public_key": "pk_live_00d7907ec66715efad66a66858d2f21e",
+      "secret_key": "sk_live_b2ae755a6021808c9ef7d6930644ad90938da95129f34339267c8b886a0c3cd2",
+      "webhook_secret": "whsec_dbc4535b0955d1ce30ed8f96ceebb37f33f83467da0d3aef",
+      "business_name": "AGI Autonomous Systems LLC",
+      "support_email": "support@paypal-agi.com"
+    },
+    "account_id": "processor_paypal_c0b0793e3e585496",
+    "created_at": "2025-08-30T11:16:45.172315",
+    "status": "pending_setup",
+    "setup_progress": 0
+  },
+  "processor_square_8cc946eac2bf0f98": {
+    "type": "payment_gateway",
+    "processor": "Square",
+    "account_type": "Online Store",
+    "monthly_capacity": 250000,
+    "monthly_fee": 29,
+    "transaction_fee": "2.6% + $0.10",
+    "features": [
+      "POS integration",
+      "Inventory management",
+      "Loyalty program",
+      "Analytics"
+    ],
+    "compliance_requirements": [
+      "Business verification",
+      "Bank account",
+      "Location setup"
+    ],
+    "account_details": {
+      "account_id": "square_8cc946eac2bf0f98",
+      "merchant_id": "2389897538",
+      "public_key": "pk_live_290a7ea3528eac799ea8a7043193d3fc",
+      "secret_key": "sk_live_b1528ea7cd6f8f550ca6ae743f98b7b4ed74b50a8cadf4b0325dcea28956d782",
+      "webhook_secret": "whsec_5347b13307f97d37f0c5f5ac622d286f77158abc653cbbcb",
+      "business_name": "AGI Autonomous Systems LLC",
+      "support_email": "support@square-agi.com"
+    },
+    "account_id": "processor_square_8cc946eac2bf0f98",
+    "created_at": "2025-08-30T11:16:45.172335",
+    "status": "pending_setup",
+    "setup_progress": 0
+  },
+  "processor_authorizenet_4b73479bd4374e98": {
+    "type": "payment_gateway",
+    "processor": "Authorize.Net",
+    "account_type": "Developer Account",
+    "monthly_capacity": 750000,
+    "monthly_fee": 25,
+    "transaction_fee": "2.9% + $0.45",
+    "features": [
+      "API integration",
+      "Recurring billing",
+      "Fraud detection",
+      "Reporting"
+    ],
+    "compliance_requirements": [
+      "Business verification",
+      "Technical setup"
+    ],
+    "account_details": {
+      "account_id": "authorizenet_4b73479bd4374e98",
+      "merchant_id": "9830292552",
+      "public_key": "pk_live_04aa1b101a8a5c4169c17df81c508760",
+      "secret_key": "sk_live_68ee938ebd5f2cdfd6318098a462890ba66c485597188532611391bd15f20c87",
+      "webhook_secret": "whsec_2180017d139e15141f05246bc0381037d6e026c01225982d",
+      "business_name": "AGI Autonomous Systems LLC",
+      "support_email": "support@authorizenet-agi.com"
+    },
+    "account_id": "processor_authorizenet_4b73479bd4374e98",
+    "created_at": "2025-08-30T11:16:45.172358",
+    "status": "pending_setup",
+    "setup_progress": 0
+  },
+  "crypto_coinbase_btc_687ac953266a62eb": {
+    "type": "bitcoin_wallet",
+    "exchange": "Coinbase Pro",
+    "account_type": "Business Account",
+    "monthly_capacity": 1000000,
+    "trading_fee": "0.5%",
+    "features": [
+      "API trading",
+      "Advanced charts",
+      "Portfolio management",
+      "Security features"
+    ],
+    "compliance_requirements": [
+      "Identity verification",
+      "Business documentation"
+    ],
+    "account_details": {
+      "wallet_id": "coinbase_btc_687ac953266a62eb",
+      "wallet_address": "daFJb2LRhSVpPcWMsUaJb1hDScZxNKfj7d",
+      "exchange_account": "coinbase_account_0df7992d1074031a",
+      "api_key": "api_key_8d8ef7b0fe6bded787b66297c5a7a4e9",
+      "api_secret": "api_secret_74f8a7ffbc4c29a3e1ff305664101de5962e4b82125b61d9727108efad44e66a",
+      "passphrase": "fGd8ZPBTktel"
+    },
+    "account_id": "crypto_coinbase_btc_687ac953266a62eb",
+    "created_at": "2025-08-30T11:16:45.172631",
+    "status": "pending_verification",
+    "verification_progress": 0
+  },
+  "crypto_binance_eth_bbb2554d70d872d3": {
+    "type": "ethereum_wallet",
+    "exchange": "Binance.US",
+    "account_type": "Institutional Account",
+    "monthly_capacity": 2000000,
+    "trading_fee": "0.1%",
+    "features": [
+      "High-volume trading",
+      "API access",
+      "Margin trading",
+      "Futures"
+    ],
+    "compliance_requirements": [
+      "Enhanced verification",
+      "Financial statements"
+    ],
+    "account_details": {
+      "wallet_id": "binance_eth_bbb2554d70d872d3",
+      "wallet_address": "0x6bbb8e6d3a70c084285002952d43709e8ee99da6",
+      "exchange_account": "binance_account_e58c8fd708c40bd1",
+      "api_key": "api_key_a8c594921f6e064a81aa85bf41cbe5cb",
+      "api_secret": "api_secret_97d71086df5f56f1dcaab1b6ca82c99f26ea8f0b0e5ce5dace97a5050f239570",
+      "passphrase": "ZDP0wC4aDmnh"
+    },
+    "account_id": "crypto_binance_eth_bbb2554d70d872d3",
+    "created_at": "2025-08-30T11:16:45.172652",
+    "status": "pending_verification",
+    "verification_progress": 0
+  },
+  "crypto_kraken_multi_f1bd96dd5c3a6c52": {
+    "type": "multi_crypto_wallet",
+    "exchange": "Kraken",
+    "account_type": "Pro Account",
+    "monthly_capacity": 1500000,
+    "trading_fee": "0.16%",
+    "features": [
+      "50+ cryptocurrencies",
+      "Staking",
+      "OTC trading",
+      "Advanced security"
+    ],
+    "compliance_requirements": [
+      "Full KYC",
+      "Source of funds"
+    ],
+    "account_details": {
+      "wallet_id": "kraken_multi_f1bd96dd5c3a6c52",
+      "wallet_address": "72859a81b44b4431ef4f4f290de85c2101548e40ff33d7096497c2338a146c09",
+      "exchange_account": "kraken_account_5ebf0b361f69edf1",
+      "api_key": "api_key_5f9dc629f387423a5bf8ff0293f649f8",
+      "api_secret": "api_secret_360755f2e80c64c8c9425824d07377281dcd3fb5586019e6243b830e0f173da5",
+      "passphrase": "egpv2FtbGTaQ"
+    },
+    "account_id": "crypto_kraken_multi_f1bd96dd5c3a6c52",
+    "created_at": "2025-08-30T11:16:45.172679",
+    "status": "pending_verification",
+    "verification_progress": 0
+  },
+  "wallet_applepay_b1832b840c81bccc": {
+    "type": "digital_wallet",
+    "provider": "Apple Pay Business",
+    "account_type": "Merchant Account",
+    "monthly_capacity": 300000,
+    "transaction_fee": "2.9% + $0.30",
+    "features": [
+      "Touch payments",
+      "In-app purchases",
+      "Web payments",
+      "Security"
+    ],
+    "compliance_requirements": [
+      "Apple Developer Program",
+      "Business verification"
+    ],
+    "account_details": {
+      "wallet_id": "applepay_b1832b840c81bccc",
+      "merchant_token": "merchant_3001f4608e9eca348600701f0ca79925",
+      "api_key": "api_key_73610d928bfe89b2d77795f51f2e1ba30e618567",
+      "webhook_url": "https://api.agi-autonomous.com/webhooks/applepay",
+      "business_profile": {
+        "name": "AGI Autonomous Systems LLC",
+        "category": "Technology Services",
+        "description": "Autonomous AI Solutions and Services"
+      }
+    },
+    "account_id": "wallet_applepay_b1832b840c81bccc",
+    "created_at": "2025-08-30T11:16:45.172725",
+    "status": "pending_setup",
+    "setup_progress": 0
+  },
+  "wallet_googlepay_605dda4b87cd327b": {
+    "type": "digital_wallet",
+    "provider": "Google Pay Business",
+    "account_type": "Business Account",
+    "monthly_capacity": 400000,
+    "transaction_fee": "2.9% + $0.30",
+    "features": [
+      "Android payments",
+      "Web integration",
+      "Loyalty programs",
+      "Analytics"
+    ],
+    "compliance_requirements": [
+      "Google Business Profile",
+      "Business verification"
+    ],
+    "account_details": {
+      "wallet_id": "googlepay_605dda4b87cd327b",
+      "merchant_token": "merchant_15a43698f5adba5d8ab798941a43d569",
+      "api_key": "api_key_76ad1a05c2151964b82b0588ec3000b7ec4e993f",
+      "webhook_url": "https://api.agi-autonomous.com/webhooks/googlepay",
+      "business_profile": {
+        "name": "AGI Autonomous Systems LLC",
+        "category": "Technology Services",
+        "description": "Autonomous AI Solutions and Services"
+      }
+    },
+    "account_id": "wallet_googlepay_605dda4b87cd327b",
+    "created_at": "2025-08-30T11:16:45.172749",
+    "status": "pending_setup",
+    "setup_progress": 0
+  },
+  "wallet_venmo_9863b7ad78ca0e1b": {
+    "type": "peer_to_peer",
+    "provider": "Venmo Business",
+    "account_type": "Business Account",
+    "monthly_capacity": 100000,
+    "transaction_fee": "1.9% + $0.10",
+    "features": [
+      "Social payments",
+      "Split bills",
+      "Business invoicing",
+      "Integration"
+    ],
+    "compliance_requirements": [
+      "Business verification",
+      "Bank account linkage"
+    ],
+    "account_details": {
+      "wallet_id": "venmo_9863b7ad78ca0e1b",
+      "merchant_token": "merchant_90e1111e4df29bad2cc67cc4c6ea53c6",
+      "api_key": "api_key_99bf5c0b89122dc86becb6a105f723d84a895989",
+      "webhook_url": "https://api.agi-autonomous.com/webhooks/venmo",
+      "business_profile": {
+        "name": "AGI Autonomous Systems LLC",
+        "category": "Technology Services",
+        "description": "Autonomous AI Solutions and Services"
+      }
+    },
+    "account_id": "wallet_venmo_9863b7ad78ca0e1b",
+    "created_at": "2025-08-30T11:16:45.172772",
+    "status": "pending_setup",
+    "setup_progress": 0
+  }
+}

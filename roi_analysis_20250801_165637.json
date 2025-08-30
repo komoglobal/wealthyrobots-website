@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-08-01T16:56:37.896371",
+  "roi_metrics": {
+    "content_promotion_roi": 280,
+    "lead_generation_roi": 190,
+    "tool_subscription_roi": 320,
+    "overall_empire_roi": 240
+  },
+  "spending_adjustments": {
+    "content_promotion_roi": "increase_by_20%",
+    "lead_generation_roi": "maintain_current",
+    "tool_subscription_roi": "increase_by_20%",
+    "overall_empire_roi": "maintain_current"
+  },
+  "overall_performance": "profitable"
+}

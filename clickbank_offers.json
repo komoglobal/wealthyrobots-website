@@ -1,0 +1,41 @@
+{
+  "offers": [
+    {
+      "slug": "ai-marketing-suite",
+      "title": "AI Marketing Suite",
+      "vendor_id": "aimarket",
+      "cbpage": "default",
+      "topics": [
+        "ai",
+        "marketing",
+        "automation",
+        "content"
+      ],
+      "button_text": "Try AI Marketing Suite"
+    },
+    {
+      "slug": "productivity-blueprint",
+      "title": "Productivity Blueprint",
+      "vendor_id": "prodblue",
+      "cbpage": "default",
+      "topics": [
+        "productivity",
+        "business",
+        "time management"
+      ],
+      "button_text": "Boost Productivity"
+    },
+    {
+      "slug": "online-biz-starter",
+      "title": "Online Biz Starter",
+      "vendor_id": "bizstart",
+      "cbpage": "default",
+      "topics": [
+        "business",
+        "finance",
+        "automation"
+      ],
+      "button_text": "Launch Now"
+    }
+  ]
+}

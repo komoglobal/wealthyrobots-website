@@ -1,0 +1,192 @@
+[
+  {
+    "timestamp": "2025-08-02T07:36:21.241364",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: False",
+    "hour": 7,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-02T08:21:09.393986",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: False",
+    "hour": 8,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-02T08:22:03.759382",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: False",
+    "hour": 8,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-02T08:46:00.321260",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: False",
+    "hour": 8,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-03T09:36:14.374502",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: False",
+    "hour": 9,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-03T09:37:40.128001",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: False",
+    "hour": 9,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-03T10:37:41.526938",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: False",
+    "hour": 10,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-03T10:47:51.013963",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: True",
+    "hour": 10,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-03T10:48:35.989285",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: False",
+    "hour": 10,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-03T11:48:37.280234",
+    "content_file": "content_templates/entertaining_template.txt",
+    "content_type": "entertaining",
+    "was_affiliate": false,
+    "reasoning": "Time-based: entertaining, Affiliate probability: False",
+    "hour": 11,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-03T12:48:38.922457",
+    "content_file": "content_templates/entertaining_template.txt",
+    "content_type": "entertaining",
+    "was_affiliate": false,
+    "reasoning": "Time-based: entertaining, Affiliate probability: False",
+    "hour": 12,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-04T10:50:13.415957",
+    "content_file": "content_templates/educational_template.txt",
+    "content_type": "educational",
+    "was_affiliate": false,
+    "reasoning": "Time-based: educational, Affiliate probability: False",
+    "hour": 10,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-04T11:50:13.820102",
+    "content_file": "content_templates/entertaining_template.txt",
+    "content_type": "entertaining",
+    "was_affiliate": false,
+    "reasoning": "Time-based: entertaining, Affiliate probability: False",
+    "hour": 11,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-04T12:50:14.228173",
+    "content_file": "content_templates/entertaining_template.txt",
+    "content_type": "entertaining",
+    "was_affiliate": false,
+    "reasoning": "Time-based: entertaining, Affiliate probability: False",
+    "hour": 12,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-04T13:50:14.703546",
+    "content_file": "content_templates/entertaining_template.txt",
+    "content_type": "entertaining",
+    "was_affiliate": false,
+    "reasoning": "Time-based: entertaining, Affiliate probability: False",
+    "hour": 13,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-04T14:50:15.117598",
+    "content_file": "content_templates/community_template.txt",
+    "content_type": "community",
+    "was_affiliate": false,
+    "reasoning": "Time-based: community, Affiliate probability: False",
+    "hour": 14,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-04T15:50:15.515577",
+    "content_file": "content_templates/community_template.txt",
+    "content_type": "community",
+    "was_affiliate": false,
+    "reasoning": "Time-based: community, Affiliate probability: False",
+    "hour": 15,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-04T16:50:15.960841",
+    "content_file": "content_templates/community_template.txt",
+    "content_type": "community",
+    "was_affiliate": false,
+    "reasoning": "Time-based: community, Affiliate probability: False",
+    "hour": 16,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  },
+  {
+    "timestamp": "2025-08-04T17:50:16.371132",
+    "content_file": "content_templates/community_template.txt",
+    "content_type": "community",
+    "was_affiliate": false,
+    "reasoning": "Time-based: community, Affiliate probability: False",
+    "hour": 17,
+    "engagement_rate": 1.5,
+    "conversion_rate": 0.0
+  }
+]

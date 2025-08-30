@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-08-16T11:47:06.049857",
+  "trending_content_found": 4,
+  "streamer_clips_found": 9,
+  "total_opportunities": 13,
+  "content_processed": 13,
+  "discovery_success": true,
+  "processed_content": [
+    {
+      "type": "trending",
+      "source": "twitch.tv/trending",
+      "title": "Trending content from twitch.tv/trending",
+      "engagement_score": 86,
+      "monetization_potential": "high",
+      "processing_status": "ready_for_editing",
+      "discovered_at": "2025-08-16T11:47:06.049810"
+    },
+    {
+      "type": "trending",
+      "source": "youtube.com/trending",
+      "title": "Trending content from youtube.com/trending",
+      "engagement_score": 85,
+      "monetization_potential": "high",
+      "processing_status": "ready_for_editing",
+      "discovered_at": "2025-08-16T11:47:06.049825"
+    },
+    {
+      "type": "trending",
+      "source": "tiktok.com/trending",
+      "title": "Trending content from tiktok.com/trending",
+      "engagement_score": 92,
+      "monetization_potential": "high",
+      "processing_status": "ready_for_editing",
+      "discovered_at": "2025-08-16T11:47:06.049828"
+    },
+    {
+      "type": "trending",
+      "source": "instagram.com/explore",
+      "title": "Trending content from instagram.com/explore",
+      "engagement_score": 89,
+      "monetization_potential": "high",
+      "processing_status": "ready_for_editing",
+      "discovered_at": "2025-08-16T11:47:06.049832"
+    },
+    {
+      "type": "streamer_clip",
+      "streamer": "xQc",
+      "clip_url": "https://clips.twitch.tv/xqc",
+      "engagement_potential": 90,
+      "monetization_ready": true,
+      "copyright_status": "fair_use",
+      "processing_status": "ready_for_editing"
+    },
+    {
+      "type": "streamer_clip",
+      "streamer": "Pokimane",
+      "clip_url": "https://clips.twitch.tv/pokimane",
+      "engagement_potential": 90,
+      "monetization_ready": true,
+      "copyright_status": "fair_use",
+      "processing_status": "ready_for_editing"
+    },
+    {
+      "type": "streamer_clip",
+      "streamer": "Ninja",
+      "clip_url": "https://clips.twitch.tv/ninja",
+      "engagement_potential": 90,
+      "monetization_ready": true,
+      "copyright_status": "fair_use",
+      "processing_status": "ready_for_editing"
+    },
+    {
+      "type": "streamer_clip",
+      "streamer": "Shroud",
+      "clip_url": "https://clips.twitch.tv/shroud",
+      "engagement_potential": 90,
+      "monetization_ready": true,
+      "copyright_status": "fair_use",
+      "processing_status": "ready_for_editing"
+    },
+    {
+      "type": "streamer_clip",
+      "streamer": "Tfue",
+      "clip_url": "https://clips.twitch.tv/tfue",
+      "engagement_potential": 90,
+      "monetization_ready": true,
+      "copyright_status": "fair_use",
+      "processing_status": "ready_for_editing"
+    },
+    {
+      "type": "streamer_clip",
+      "streamer": "DrLupo",
+      "clip_url": "https://clips.twitch.tv/drlupo",
+      "engagement_potential": 90,
+      "monetization_ready": true,
+      "copyright_status": "fair_use",
+      "processing_status": "ready_for_editing"
+    },
+    {
+      "type": "streamer_clip",
+      "streamer": "TimTheTatman",
+      "clip_url": "https://clips.twitch.tv/timthetatman",
+      "engagement_potential": 90,
+      "monetization_ready": true,
+      "copyright_status": "fair_use",
+      "processing_status": "ready_for_editing"
+    },
+    {
+      "type": "streamer_clip",
+      "streamer": "NickMercs",
+      "clip_url": "https://clips.twitch.tv/nickmercs",
+      "engagement_potential": 90,
+      "monetization_ready": true,
+      "copyright_status": "fair_use",
+      "processing_status": "ready_for_editing"
+    },
+    {
+      "type": "streamer_clip",
+      "streamer": "Bugha",
+      "clip_url": "https://clips.twitch.tv/bugha",
+      "engagement_potential": 90,
+      "monetization_ready": true,
+      "copyright_status": "fair_use",
+      "processing_status": "ready_for_editing"
+    }
+  ]
+}

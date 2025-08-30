@@ -1,0 +1,21 @@
+{
+  "twitter": {
+    "weekdays": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "weekends": [
+      "10:00",
+      "14:00",
+      "19:00"
+    ],
+    "timezone": "EST"
+  },
+  "content_types": {
+    "educational": "Morning (9-11 AM) - people learning",
+    "promotional": "Evening (6-8 PM) - people have buying intent",
+    "viral": "Afternoon (3-5 PM) - social media peak"
+  }
+}

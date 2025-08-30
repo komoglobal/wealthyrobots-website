@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-08-05T20:02:15.538887",
+  "type": "agent_interview",
+  "questions": [
+    "What is blocking your revenue optimization?",
+    "What tools or APIs do you need access to?",
+    "What manual data would help you optimize better?",
+    "What new agents should be created next?",
+    "What external services should be integrated?",
+    "What is your current biggest limitation?",
+    "What would 10x your effectiveness?"
+  ],
+  "priority": "immediate",
+  "response_format": "json",
+  "interviewer": "human_operator"
+}

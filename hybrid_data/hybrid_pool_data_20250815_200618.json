@@ -1,0 +1,170 @@
+{
+  "timestamp": "2025-08-15T20:06:18.366911",
+  "data_sources": [
+    "algofund",
+    "real_trading_empire",
+    "multi_protocol"
+  ],
+  "pools": {
+    "ALGO_USDC_tinyman_v2": {
+      "source": "algofund",
+      "protocol": "tinyman_v2",
+      "status": "warning",
+      "response_time": 0.13724708557128906,
+      "last_check": "2025-08-15 12:41:13.834074",
+      "error_message": "Low liquidity: 0.943493 ALGO",
+      "data_quality": "high",
+      "reliability_score": 95
+    },
+    "ALGO_USDC_pact_finance": {
+      "source": "algofund",
+      "protocol": "pact_finance",
+      "status": "active",
+      "response_time": 0.16632866859436035,
+      "last_check": "2025-08-15 12:41:14.501241",
+      "error_message": null,
+      "data_quality": "high",
+      "reliability_score": 95
+    },
+    "ALGO_USDT_pact_finance": {
+      "source": "algofund",
+      "protocol": "pact_finance",
+      "status": "active",
+      "response_time": 0.13936352729797363,
+      "last_check": "2025-08-15 12:41:15.141770",
+      "error_message": null,
+      "data_quality": "high",
+      "reliability_score": 95
+    },
+    "USDC_USDT_pact_finance": {
+      "source": "algofund",
+      "protocol": "pact_finance",
+      "status": "active",
+      "response_time": 0.15299010276794434,
+      "last_check": "2025-08-15 12:41:15.795978",
+      "error_message": null,
+      "data_quality": "high",
+      "reliability_score": 95
+    },
+    "ALGO_YLDY_pact_finance": {
+      "source": "algofund",
+      "protocol": "pact_finance",
+      "status": "active",
+      "response_time": 0.15989208221435547,
+      "last_check": "2025-08-15 12:41:16.480751",
+      "error_message": null,
+      "data_quality": "high",
+      "reliability_score": 95
+    },
+    "ALGO_OPUL_pact_finance": {
+      "source": "algofund",
+      "protocol": "pact_finance",
+      "status": "active",
+      "response_time": 0.13424897193908691,
+      "last_check": "2025-08-15 12:41:17.116003",
+      "error_message": null,
+      "data_quality": "high",
+      "reliability_score": 95
+    },
+    "pact_finance_ALGO-USDC Yield Farm": {
+      "source": "pact_finance",
+      "protocol": "Pact Finance",
+      "opportunity_type": "yield_farming",
+      "opportunity_score": 81.16666666666667,
+      "risk_level": "medium",
+      "estimated_apy": 18.5,
+      "tvl": 8000000,
+      "volume_24h": 1200000,
+      "data_quality": "high",
+      "reliability_score": 90
+    },
+    "pact_finance_ALGO-USDT Yield Farm": {
+      "source": "pact_finance",
+      "protocol": "Pact Finance",
+      "opportunity_type": "yield_farming",
+      "opportunity_score": 80.4,
+      "risk_level": "medium",
+      "estimated_apy": 16.2,
+      "tvl": 5000000,
+      "volume_24h": 800000,
+      "data_quality": "high",
+      "reliability_score": 90
+    },
+    "pact_finance_USDC-USDT Yield Farm": {
+      "source": "pact_finance",
+      "protocol": "Pact Finance",
+      "opportunity_type": "yield_farming",
+      "opportunity_score": 79.93333333333334,
+      "risk_level": "medium",
+      "estimated_apy": 14.8,
+      "tvl": 3000000,
+      "volume_24h": 600000,
+      "data_quality": "high",
+      "reliability_score": 90
+    },
+    "folks_finance_ALGO Lending Pool": {
+      "source": "folks_finance",
+      "protocol": "Folks Finance",
+      "opportunity_type": "lending",
+      "opportunity_score": 74.62134599452826,
+      "risk_level": "low",
+      "estimated_apy": 7.86403798358476,
+      "tvl": 15248211.424174018,
+      "volume_24h": 0,
+      "data_quality": "high",
+      "reliability_score": 90
+    },
+    "folks_finance_USDC Lending Pool": {
+      "source": "folks_finance",
+      "protocol": "Folks Finance",
+      "opportunity_type": "lending",
+      "opportunity_score": 73.91204060777355,
+      "risk_level": "low",
+      "estimated_apy": 5.736121823320649,
+      "tvl": 8132379.426226143,
+      "volume_24h": 0,
+      "data_quality": "high",
+      "reliability_score": 90
+    },
+    "folks_finance_USDT Lending Pool": {
+      "source": "folks_finance",
+      "protocol": "Folks Finance",
+      "opportunity_type": "lending",
+      "opportunity_score": 73.78868314920751,
+      "risk_level": "low",
+      "estimated_apy": 5.366049447622542,
+      "tvl": 6099284.569669607,
+      "volume_24h": 0,
+      "data_quality": "high",
+      "reliability_score": 90
+    },
+    "tinyman_unknown": {
+      "source": "tinyman",
+      "protocol": "Tinyman V2",
+      "opportunity_type": "dex_trading",
+      "opportunity_score": 70.01145745476323,
+      "risk_level": "low",
+      "estimated_apy": 2.9185,
+      "tvl": 0,
+      "volume_24h": 463.951808139581,
+      "data_quality": "high",
+      "reliability_score": 90
+    },
+    "multi_protocol_sample": {
+      "source": "multi_protocol",
+      "protocol": "multi",
+      "status": "ready",
+      "capabilities": [
+        "Smart API ranking",
+        "Fallback API systems",
+        "Advanced pool scanning",
+        "Real DeFi integration",
+        "Risk-based filtering"
+      ],
+      "data_quality": "medium",
+      "reliability_score": 80
+    }
+  },
+  "total_pools": 14,
+  "data_quality": "hybrid"
+}

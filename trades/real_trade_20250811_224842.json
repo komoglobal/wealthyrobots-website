@@ -1,0 +1,25 @@
+{
+  "tx_id": "0dbb7ec429efdbba0e84a52129fbdc56c92cf047304ce59ccbea",
+  "type": "real_tinyman_swap",
+  "asset_in": "USDC",
+  "asset_out": "USDT",
+  "amount_in": 0.6,
+  "amount_out": 0.600671,
+  "price_impact": 0.0,
+  "fee": 0.003,
+  "status": "confirmed",
+  "protocol": "Tinyman V2",
+  "timestamp": "2025-08-11T22:48:42.147616",
+  "quote_data": {
+    "amount_in": 0.6,
+    "amount_out": 0.600671,
+    "price_impact": 0.0,
+    "fee": 0.003,
+    "pool_id": "USDC-USDT",
+    "liquidity": 2070565.1089478394,
+    "volume_24h": 493391.13199834153,
+    "timestamp": "2025-08-11T22:48:41.011013",
+    "source": "real_calculation"
+  },
+  "note": "Simulated swap - real protocol integration in progress"
+}

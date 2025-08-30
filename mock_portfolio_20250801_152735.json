@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-08-01T15:27:35.936047",
+  "portfolio_value": 10000,
+  "available_funds": 9650.0,
+  "positions": {
+    "BTC": 0.0052056607842699805
+  },
+  "trade_history": [
+    {
+      "ticker": "BTC",
+      "shares": 0.0052056607842699805,
+      "price": 67234.5,
+      "value": 350.0,
+      "timestamp": "2025-08-01T15:27:34.934352",
+      "thesis": "ETF approvals driving institutional inflows"
+    }
+  ],
+  "total_trades": 1
+}

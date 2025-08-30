@@ -1,0 +1,35 @@
+{
+  "cleanup_timestamp": "2025-08-12T20:16:11.366244",
+  "total_files_processed": 6,
+  "space_saved_mb": 0.0,
+  "compression_ratio": "N/A",
+  "cleanup_policies": {
+    "logging_optimization": {
+      "retention_days": 7,
+      "compress_after_days": 1,
+      "max_files": 100
+    },
+    "log_files": {
+      "retention_days": 14,
+      "compress_after_days": 3,
+      "max_files": 200
+    },
+    "system_snapshots": {
+      "retention_days": 30,
+      "compress_after_days": 7,
+      "max_files": 50
+    },
+    "dashboard_logs": {
+      "retention_days": 21,
+      "compress_after_days": 5,
+      "max_files": 150
+    }
+  },
+  "archive_structure": {
+    "dashboard_logs": 1,
+    "system_snapshots": 0,
+    "logging_optimization": 0,
+    "cleanup.log": "file",
+    "log_files": 0
+  }
+}

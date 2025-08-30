@@ -1,0 +1,18 @@
+{
+  "app_status": {
+    "is_creator": false,
+    "is_opted_in": true,
+    "app_id": 465814065,
+    "current_state": "opted_in"
+  },
+  "app_opt_in": {
+    "status": "already_opted_in",
+    "note": "User already opted in"
+  },
+  "account_init": {
+    "error": "TransactionPool.Remember: transaction EGK6P6WAGSO24GCC2TPJV7TS7WMXHSASFUWD2H7XQSO2TIRECJWQ: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:"
+  },
+  "basic_test": {
+    "error": "TransactionPool.Remember: transaction 4ICWW5T4USGD3MTQAITSE2ACVPQMUTMMQFDI6L3H6HCBVXROJOTA: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:"
+  }
+}

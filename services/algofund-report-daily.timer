@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Algofund daily performance report
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
+
+

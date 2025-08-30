@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-08-30T09:20:46.937558",
+  "optimization_summary": {
+    "processes_killed": 111,
+    "memory_freed_mb": 0,
+    "cpu_optimized": 0,
+    "processes_pooled": 0
+  },
+  "current_state": {
+    "total_processes": 143,
+    "python_processes": 3,
+    "high_memory_processes": 0,
+    "high_cpu_processes": 0,
+    "idle_processes": 66
+  },
+  "system_resources": {
+    "memory": {
+      "total_gb": 15.418231964111328,
+      "used_gb": 1.1299247741699219,
+      "available_gb": 13.561851501464844,
+      "percent_used": 12.0
+    },
+    "cpu": {
+      "percent_used": 6.5,
+      "cpu_count": 4
+    }
+  },
+  "recommendations": [
+    "Clean up 66 idle processes"
+  ]
+}

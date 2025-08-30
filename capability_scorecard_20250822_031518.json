@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-08-22T03:15:18.523450",
+  "overall_score": 48.7,
+  "agents": {
+    "smart_scheduler.py": {
+      "exists": true,
+      "score": 74,
+      "checks": {
+        "has_logging": true,
+        "print_count": 1,
+        "try_except_blocks": 7,
+        "timeouts_present": true,
+        "retries_backoff": false
+      },
+      "recommendations": [
+        "Implement retries with exponential backoff for flaky operations"
+      ]
+    },
+    "integrated_deployment_system.py": {
+      "exists": true,
+      "score": 35,
+      "checks": {
+        "has_logging": true,
+        "print_count": 37,
+        "try_except_blocks": 3,
+        "timeouts_present": false,
+        "retries_backoff": false
+      },
+      "recommendations": [
+        "Reduce excessive print statements; prefer logging with levels",
+        "Set timeouts for network/subprocess calls",
+        "Implement retries with exponential backoff for flaky operations"
+      ]
+    },
+    "enhanced_visual_testing_agent.py": {
+      "exists": true,
+      "score": 55,
+      "checks": {
+        "has_logging": true,
+        "print_count": 29,
+        "try_except_blocks": 6,
+        "timeouts_present": true,
+        "retries_backoff": false
+      },
+      "recommendations": [
+        "Reduce excessive print statements; prefer logging with levels",
+        "Implement retries with exponential backoff for flaky operations"
+      ]
+    },
+    "social_media_agent.py": {
+      "exists": true,
+      "score": 45,
+      "checks": {
+        "has_logging": true,
+        "print_count": 22,
+        "try_except_blocks": 7,
+        "timeouts_present": false,
+        "retries_backoff": false
+      },
+      "recommendations": [
+        "Reduce excessive print statements; prefer logging with levels",
+        "Set timeouts for network/subprocess calls",
+        "Implement retries with exponential backoff for flaky operations"
+      ]
+    },
+    "optimized_content_agent.py": {
+      "exists": true,
+      "score": 47,
+      "checks": {
+        "has_logging": true,
+        "print_count": 13,
+        "try_except_blocks": 4,
+        "timeouts_present": false,
+        "retries_backoff": false
+      },
+      "recommendations": [
+        "Reduce excessive print statements; prefer logging with levels",
+        "Set timeouts for network/subprocess calls",
+        "Implement retries with exponential backoff for flaky operations"
+      ]
+    },
+    "live_orchestrator.py": {
+      "exists": true,
+      "score": 45,
+      "checks": {
+        "has_logging": true,
+        "print_count": 34,
+        "try_except_blocks": 6,
+        "timeouts_present": false,
+        "retries_backoff": false
+      },
+      "recommendations": [
+        "Reduce excessive print statements; prefer logging with levels",
+        "Set timeouts for network/subprocess calls",
+        "Implement retries with exponential backoff for flaky operations"
+      ]
+    },
+    "ultimate_ceo_agent.py": {
+      "exists": true,
+      "score": 40,
+      "checks": {
+        "has_logging": true,
+        "print_count": 27,
+        "try_except_blocks": 4,
+        "timeouts_present": false,
+        "retries_backoff": false
+      },
+      "recommendations": [
+        "Reduce excessive print statements; prefer logging with levels",
+        "Set timeouts for network/subprocess calls",
+        "Implement retries with exponential backoff for flaky operations"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "test_name": "algorithm_test",
+  "language": "python",
+  "success": true,
+  "stdout": "Engagement score: 23/100\n",
+  "stderr": "",
+  "returncode": 0,
+  "execution_time": 1754442389.2085721,
+  "test_directory": "claude_blackbox_tests/sandbox/test_algorithm_test_1754442389"
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=Weekly Empire Board Report
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ubuntu/wealthyrobot
+ExecStart=/usr/bin/python3 -m algofund.report_weekly_empire
+Environment=PYTHONUNBUFFERED=1
+StandardOutput=append:/home/ubuntu/wealthyrobot/logs/empire-board.out
+StandardError=append:/home/ubuntu/wealthyrobot/logs/empire-board.err
+
+[Install]
+WantedBy=multi-user.target
+
+
+

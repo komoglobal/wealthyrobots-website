@@ -1,0 +1,193 @@
+{
+  "app_info": {
+    "app_id": 465814065,
+    "creator": "3EPGHSNBBN5M2LD6V7A63EHZQQLATVQHDBYJQIZ6BLCBTIXA5XR7ZOZEB4",
+    "approval_program": "BSANAQCAlOvcAwQNwIQ9D+gHDgIQgKCUpY0dkBwmPgJhaQJ1YwJ1YgJtaQJvYgN1YWMDYWNjA3VicwJ1cgJiYwNpZmMDb3BzAmJ0...",
+    "clear_state_program": "BYEBQw==...",
+    "global_state_schema": {
+      "num-byte-slice": 12,
+      "num-uint": 52
+    },
+    "local_state_schema": {
+      "num-byte-slice": 0,
+      "num-uint": 3
+    }
+  },
+  "account_state": {
+    "opted_in": true,
+    "local_state": {
+      "id": 465814065,
+      "schema": {
+        "num-byte-slice": 0,
+        "num-uint": 3
+      }
+    },
+    "total_apps": 1,
+    "total_assets": 20
+  },
+  "known_operations": {
+    "create_market": {
+      "description": "Create a new lending market",
+      "app_args": [
+        "b'create_market'"
+      ],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": []
+    },
+    "create_escrow": {
+      "description": "Create escrow account",
+      "app_args": [
+        "b'create_escrow'"
+      ],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": []
+    },
+    "setup_user": {
+      "description": "Setup user account",
+      "app_args": [
+        "b'setup_user'"
+      ],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": []
+    },
+    "register_user": {
+      "description": "Register user with protocol",
+      "app_args": [
+        "b'register_user'"
+      ],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": []
+    },
+    "initialize_user": {
+      "description": "Initialize user state",
+      "app_args": [
+        "b'initialize_user'"
+      ],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": []
+    },
+    "optin_user": {
+      "description": "Opt-in user to protocol",
+      "app_args": [
+        "b'optin_user'"
+      ],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": []
+    },
+    "bootstrap_user": {
+      "description": "Bootstrap user account",
+      "app_args": [
+        "b'bootstrap_user'"
+      ],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": []
+    },
+    "empty_args": {
+      "description": "Call with no arguments",
+      "app_args": [],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": []
+    },
+    "with_creator": {
+      "description": "Include creator account",
+      "app_args": [
+        "b'init'"
+      ],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM",
+        "3EPGHSNBBN5M2LD6V7A63EHZQQLATVQHDBYJQIZ6BLCBTIXA5XR7ZOZEB4"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": []
+    },
+    "with_current_app": {
+      "description": "Include current app",
+      "app_args": [
+        "b'init'"
+      ],
+      "accounts": [
+        "OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM"
+      ],
+      "foreign_assets": [],
+      "foreign_apps": [
+        465814065
+      ]
+    }
+  },
+  "advanced_tests": {
+    "create_market": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction TCJZTGHNNGHOM3QF2SHF62KYTAV5UQEAWNXEXGYCAG2X4RKYZEBA: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    },
+    "create_escrow": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction STNIU6JUK7IIAPPF4FDL6K6VIXNEED4EPHYVGAHB3K6UA2EP7OYA: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    },
+    "setup_user": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction UVE7KLIKG6DNFNUOQ4XJNB4EDUJZOD7R2A3CJMWBKZ7GK3A34CJQ: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    },
+    "register_user": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction K3HNLCRAKN7SIVWI2NYYPSMHV4Y5HQN74G45QZ6IFUBSK6WJMTSA: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    },
+    "initialize_user": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction WF2JWXBTLMMSMJUPMGEZEV2FWU7LBTW7ULR46XQS4PIG33VK6U6A: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    },
+    "optin_user": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction T6AFECL3FZFK5K3WWSTRCMJY2R5CKWG544VCJC7IFTP66SDVJUYA: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    },
+    "bootstrap_user": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction ZH7WG7J7TYTP6YNFTDXAGRS2ERT2DSGK5OX7AKXIPG2V6DWEU5SQ: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    },
+    "empty_args": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction ZQITBB5NLAW7XJOQ4KKLKKIEM5E7RIT54EQ5DC2XPUCABQIU6FHQ: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    },
+    "with_creator": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction BGW5J63VGEWDZ2YSLFYLJPIDFFFOUGVZDF2R2G3SOZTFZ4EEMTLQ: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    },
+    "with_current_app": {
+      "success": false,
+      "error": "TransactionPool.Remember: transaction MBN4XOLW2UYNLDGFRZS4KQJQUYU4KDREQZL3ERRBNLRCTEZCODJA: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+      "note": "Transaction creation failed"
+    }
+  }
+}

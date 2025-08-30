@@ -1,0 +1,50 @@
+{
+  "session": {
+    "session_id": "chat_20250828_151836",
+    "start_time": "2025-08-28T15:18:36.634544",
+    "messages": [
+      {
+        "timestamp": "2025-08-28T15:18:36.634695",
+        "sender": "user",
+        "message": "what else do you need to perform the best on tests and benchmarks",
+        "type": "text"
+      },
+      {
+        "timestamp": "2025-08-28T15:18:36.634990",
+        "sender": "agi",
+        "message": "I understand you're asking about: 'what else do you need to perform the best on tests and benchmarks'. For a deeper analysis, you can ask me to activate 'full AGI mode'. For implementation help, try 'implementation mode'. What would you like to explore?",
+        "type": "response",
+        "choices": [],
+        "processing_time": 0.00028634071350097656
+      }
+    ],
+    "decisions_made": [],
+    "insights_gained": [
+      "I understand you're asking about: 'what else do you need to perform the best on tests and benchmarks'. For a deeper analysis, you can ask me to activate 'full AGI mode'. For implementation help, try 'implementation mode'. What would you like to explore?"
+    ]
+  },
+  "conversation_history": [
+    {
+      "timestamp": "2025-08-28T15:18:36.634695",
+      "sender": "user",
+      "message": "what else do you need to perform the best on tests and benchmarks",
+      "type": "text"
+    },
+    {
+      "timestamp": "2025-08-28T15:18:36.634990",
+      "sender": "agi",
+      "message": "I understand you're asking about: 'what else do you need to perform the best on tests and benchmarks'. For a deeper analysis, you can ask me to activate 'full AGI mode'. For implementation help, try 'implementation mode'. What would you like to explore?",
+      "type": "response",
+      "choices": [],
+      "processing_time": 0.00028634071350097656
+    }
+  ],
+  "final_stats": {
+    "total_messages": 2,
+    "user_messages": 1,
+    "agi_messages": 1,
+    "decisions_made": 0,
+    "insights_gained": 1,
+    "session_duration_seconds": 0
+  }
+}

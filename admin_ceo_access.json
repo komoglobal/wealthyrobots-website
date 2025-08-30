@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-08-19T20:24:32.153968",
+  "system": "system_administration",
+  "access_level": "full",
+  "capabilities": [
+    "Fix system issues",
+    "Optimize performance",
+    "Scale infrastructure",
+    "Manage deployments",
+    "Monitor health"
+  ],
+  "system_fixes": true,
+  "performance_optimization": true,
+  "infrastructure_management": true
+}

@@ -1,0 +1,183 @@
+# Hybrid Algorand Trading Empire Configuration
+# Combines AlgoFund reliability with advanced trading capabilities
+
+empire_config:
+  name: "Hybrid Algorand Trading Empire"
+  version: "1.0.0"
+  description: "Best of both worlds: AlgoFund reliability + Advanced trading systems"
+  
+# Core System Configuration
+core_systems:
+  algofund_integration:
+    enabled: true
+    priority: 1  # Highest priority - most reliable
+    pool_data_source: "algofund"
+    update_interval_seconds: 300  # 5 minutes
+    reliability_score: 95
+    
+  real_trading_empire:
+    enabled: true
+    priority: 2  # Second priority - most advanced
+    opportunity_scanning: true
+    real_transaction_execution: true  # ENABLED - Real DeFi trading active
+    reliability_score: 90
+    
+  autonomous_trading_fund:
+    enabled: true
+    priority: 3  # Third priority - multi-agent coordination
+    multi_agent_architecture: true
+    autonomous_upgrades: true
+    strategy_discovery: true
+    reliability_score: 85
+    
+  multi_protocol_system:
+    enabled: true
+    priority: 4  # Fourth priority - protocol integration
+    smart_api_ranking: true
+    fallback_api_systems: true
+    protocol_support: ["pact", "tinyman", "folks"]
+    reliability_score: 80
+    
+  firm_coordination:
+    enabled: true
+    priority: 5  # Fifth priority - agent coordination
+    multi_agent_coordination: true
+    real_time_communication: true
+    upgrade_phase_management: true
+    reliability_score: 75
+
+# Data Integration Strategy
+data_integration:
+  strategy: "hybrid_redundancy"
+  primary_source: "algofund"  # Most reliable
+  secondary_sources: ["real_trading_empire", "multi_protocol"]
+  fallback_sources: ["cached_data", "estimated_data"]
+  
+  data_quality_thresholds:
+    high_quality: 90
+    medium_quality: 70
+    low_quality: 50
+    
+  data_freshness:
+    max_age_seconds: 600  # 10 minutes
+    preferred_age_seconds: 300  # 5 minutes
+
+# Opportunity Processing
+opportunity_processing:
+  enabled: true
+  processing_interval_seconds: 300  # 5 minutes
+  
+  quality_filters:
+    min_reliability_score: 70
+    min_opportunity_score: 50
+    max_risk_level: "medium"
+    
+  priority_processing:
+    high_quality_first: true
+    source_priority_weighting: true
+    risk_adjusted_scoring: true
+
+# Agent Coordination
+agent_coordination:
+  enabled: true
+  coordination_interval_seconds: 60  # 1 minute
+  
+  coordination_strategies:
+    ceo_trading_coordination: true
+    risk_management_coordination: true
+    strategy_discovery_coordination: true
+    portfolio_optimization_coordination: true
+    
+  agent_health_monitoring:
+    health_check_interval_seconds: 300  # 5 minutes
+    agent_timeout_seconds: 600  # 10 minutes
+    auto_restart_failed_agents: true
+
+# Risk Management
+risk_management:
+  enabled: true
+  
+  risk_limits:
+    max_portfolio_risk: 0.3  # 30%
+    max_daily_loss: 0.1  # 10%
+    max_position_size: 0.1  # 10% per position
+    
+  risk_monitoring:
+    real_time_monitoring: true
+    risk_alert_threshold: 0.8  # Alert at 80% of limit
+    automatic_risk_adjustment: true
+
+# Performance Tracking
+performance_tracking:
+  enabled: true
+  
+  metrics:
+    pool_data_quality: true
+    opportunity_discovery_rate: true
+    agent_coordination_efficiency: true
+    system_reliability_score: true
+    hybrid_system_performance: true
+    
+  reporting:
+    report_interval_hours: 6
+    detailed_logging: true
+    performance_dashboard: true
+
+# System Monitoring
+system_monitoring:
+  enabled: true
+  
+  monitoring_metrics:
+    system_uptime: true
+    component_health: true
+    data_source_reliability: true
+    agent_performance: true
+    opportunity_processing_efficiency: true
+    
+  alerts:
+    system_failure_alerts: true
+    data_quality_alerts: true
+    performance_degradation_alerts: true
+    agent_failure_alerts: true
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  log_file: "logs/hybrid_empire.log"
+  max_log_size_mb: 50
+  backup_count: 10
+  
+  log_categories:
+    system_initialization: true
+    data_integration: true
+    opportunity_processing: true
+    agent_coordination: true
+    risk_management: true
+    performance_tracking: true
+
+# Security Configuration
+security:
+  enabled: true
+  
+  security_features:
+    data_validation: true
+    source_authentication: true
+    access_control: true
+    audit_logging: true
+    
+  data_protection:
+    sensitive_data_encryption: false  # For development
+    data_access_logging: true
+    data_integrity_checks: true
+
+# Development and Testing
+development:
+  testing_mode: true
+  debug_logging: true
+  performance_profiling: false
+  
+  testing_features:
+    mock_data_sources: false
+    simulated_trading: true
+    agent_testing: true
+    integration_testing: true

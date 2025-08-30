@@ -1,0 +1,16 @@
+
+DEPLOYMENT INSTRUCTIONS FOR sitemap_about.xml
+=====================================
+Generated: 2025-08-25 18:29:10.822904
+
+1. GitHub Repository: https://github.com/komoglobal/wealthyrobots-website
+2. Create new file: sitemap_about.xml
+3. Copy content from: sitemap_about.xml
+4. Commit message: Auto-deploy: sitemap_about.xml
+5. Live URL: https://wealthyrobots.com/sitemap_about.xml
+
+CONTENT READY FOR DEPLOYMENT:
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://wealthyrobots.com/about/</loc><lastmod>2025-08-08</lastmod></url>
+</urlset>...

@@ -1,0 +1,10 @@
+{
+  "test_name": "simple_content_test",
+  "language": "python",
+  "success": true,
+  "stdout": "WealthyRobot Content Agent v2.0\n\ud83e\uddf5 THREAD: AI will change everything in 2025\n\n1/3 Use AI for automation\n\n2/3 AI helps with content creation\n\n3/3 Let AI optimize your workflow\n\n\ud83d\udd25 Ready to master AI?\n\n\ud83d\udcda The AI Advantage \u2192 amzn.to/ai-advantage\n",
+  "stderr": "",
+  "returncode": 0,
+  "execution_time": 0.02584099769592285,
+  "test_directory": "claude_blackbox_tests/sandbox/test_simple_content_test_1754442539"
+}

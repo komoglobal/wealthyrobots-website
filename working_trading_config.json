@@ -1,0 +1,53 @@
+{
+  "algorand": {
+    "network": "mainnet",
+    "algod_address": "https://mainnet-api.algonode.cloud",
+    "indexer_address": "https://mainnet-idx.algonode.cloud",
+    "use_public_endpoints": true
+  },
+  "trading_strategies": {
+    "enabled": [
+      "momentum",
+      "arbitrage",
+      "mean_reversion"
+    ],
+    "weights": {
+      "momentum": 0.4,
+      "arbitrage": 0.35,
+      "mean_reversion": 0.25
+    },
+    "parameters": {
+      "momentum": {
+        "lookback_period": 24,
+        "threshold": 0.05,
+        "max_position_size": 50
+      },
+      "arbitrage": {
+        "min_spread": 0.02,
+        "max_slippage": 0.01,
+        "protocols": [
+          "tinyman",
+          "pact"
+        ]
+      },
+      "mean_reversion": {
+        "bollinger_period": 20,
+        "std_dev": 2.0,
+        "entry_threshold": 0.1
+      }
+    }
+  },
+  "risk_management": {
+    "max_position_size_algo": 50,
+    "max_daily_trades": 20,
+    "risk_per_trade": 0.03,
+    "daily_loss_limit": 0.03,
+    "max_portfolio_risk": 0.15
+  },
+  "market_data": {
+    "scan_interval": 60,
+    "price_update_frequency": 30,
+    "min_liquidity": 5000,
+    "min_volume_24h": 2000
+  }
+}

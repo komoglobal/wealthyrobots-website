@@ -1,0 +1,35 @@
+[Unit]
+Description=WealthyRobot Real Autonomous Trading Empire
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/wealthyrobot
+Environment=TRADING_ENV=production
+Environment=PYTHONPATH=/home/ubuntu/wealthyrobot
+ExecStart=/home/ubuntu/wealthyrobot/venv/bin/python3 real_autonomous_trading_empire.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=4096
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/home/ubuntu/wealthyrobot
+
+# Logging
+SyslogIdentifier=wealthyrobot-empire
+SyslogFacility=local0
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,18 @@
+{
+  "value_content_types": [
+    "educational_threads",
+    "industry_insights",
+    "community_engagement",
+    "helpful_tutorials"
+  ],
+  "affiliate_integration": {
+    "soft_mentions": "Include product mentions in educational context",
+    "direct_promotion": "Clear value proposition with honest reviews",
+    "timing": "After establishing value and trust"
+  },
+  "optimization_rules": {
+    "max_affiliate_per_day": 1,
+    "min_value_between_affiliate": 3,
+    "engagement_threshold": "Only promote if previous post > 10 engagements"
+  }
+}

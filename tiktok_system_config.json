@@ -1,0 +1,57 @@
+{
+  "system_name": "Automated TikTok Profit System",
+  "version": "1.0.0",
+  "automation_enabled": true,
+  "cycle_interval_hours": 4,
+  "daily_posting_limit": 20,
+  "content_processing_enabled": true,
+  "content_sources": {
+    "twitch": {
+      "enabled": true,
+      "streamers": ["xQc", "Pokimane", "Ninja", "Shroud"],
+      "clip_duration": "15-60",
+      "auto_download": true
+    },
+    "youtube": {
+      "enabled": true,
+      "channels": ["MrBeast", "PewDiePie", "Markiplier"],
+      "video_duration": "15-60",
+      "auto_download": true
+    },
+    "tiktok": {
+      "enabled": true,
+      "trending_hashtags": ["#viral", "#fyp", "#trending"],
+      "auto_download": true
+    }
+  },
+  "revenue_targets": {
+    "daily": 1000.0,
+    "weekly": 7000.0,
+    "monthly": 30000.0
+  },
+  "content_strategy": {
+    "viral_hook_ratio": 0.4,
+    "product_showcase_ratio": 0.3,
+    "trending_content_ratio": 0.3,
+    "auto_process_discovered": true,
+    "min_engagement_score": 80
+  },
+  "brand_config": {
+    "brand_name": "WealthyRobot",
+    "brand_message": "Build wealth through AI and automation",
+    "target_audience": "entrepreneurs, tech enthusiasts, passive income seekers",
+    "call_to_action": "Learn more at wealthyrobot.com",
+    "brand_colors": ["#1a1a1a", "#00ff88", "#ffffff"]
+  },
+  "platforms": {
+    "tiktok": true,
+    "youtube_shorts": false,
+    "instagram_reels": false
+  },
+  "tiktok_config": {
+    "api_key": "SIMULATION_MODE",
+    "shop_id": "SIMULATION_MODE",
+    "access_token": "SIMULATION_MODE",
+    "business_account": "SIMULATION_MODE"
+  }
+}

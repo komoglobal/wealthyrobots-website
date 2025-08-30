@@ -1,0 +1,30 @@
+{
+  "emoji_usage": {
+    "thread_starters": "\ud83e\uddf5\ud83d\udd25\ud83d\udca1\u26a1",
+    "money_related": "\ud83d\udcb0\ud83d\udcb5\ud83d\udcc8\ud83d\udc8e",
+    "automation": "\ud83e\udd16\u2699\ufe0f\ud83d\udd04\ud83c\udfaf",
+    "results": "\ud83d\udcca\u2705\ud83d\ude80\ud83d\udcc8",
+    "engagement": "\ud83d\udc47\ud83d\udcac\ud83d\udd04\ud83d\udccc",
+    "transparency": "\ud83d\udd0d\u2705\ud83e\udd1d\ud83d\udcaf"
+  },
+  "content_formatting": {
+    "headers": "ALL CAPS with emojis",
+    "lists": "Use \u2705 or numbered format",
+    "emphasis": "**bold** for key points",
+    "links": "Always contextualize affiliate links",
+    "spacing": "Line breaks for readability"
+  },
+  "brand_consistency": {
+    "always_include": [
+      "Transparency about affiliates",
+      "Real metrics",
+      "Helpful value"
+    ],
+    "never_do": [
+      "Overly salesy",
+      "Hide affiliate nature",
+      "Make false claims"
+    ],
+    "signature_style": "Educational + results + transparency"
+  }
+}

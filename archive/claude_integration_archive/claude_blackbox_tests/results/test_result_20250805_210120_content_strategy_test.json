@@ -1,0 +1,10 @@
+{
+  "test_name": "content_strategy_test",
+  "language": "python",
+  "success": false,
+  "stdout": "",
+  "stderr": "  File \"/home/ubuntu/wealthyrobot/claude_blackbox_tests/sandbox/test_content_strategy_test_1754442080/content_strategy_test.py\", line 4\n    for i, topic in enumerate(topics, 1):\nIndentationError: expected an indented block after 'for' statement on line 4\n",
+  "returncode": 1,
+  "execution_time": 1754442080.4615622,
+  "test_directory": "claude_blackbox_tests/sandbox/test_content_strategy_test_1754442080"
+}

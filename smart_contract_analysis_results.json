@@ -1,0 +1,86 @@
+{
+  "approval_program": {
+    "program_type": "approval",
+    "total_size": 4378,
+    "byte_patterns": {
+      "00": 117,
+      "ff": 56,
+      "01": 96,
+      "02": 67,
+      "03": 42
+    },
+    "opcode_frequency": {
+      "0x27": 141,
+      "0x64": 108,
+      "0x12": 108,
+      "0x44": 79,
+      "0x22": 78,
+      "0x10": 75,
+      "0x23": 71,
+      "0x0e": 67,
+      "0x00": 59,
+      "0x01": 53
+    },
+    "structure_analysis": {
+      "start_bytes": "05200d01008094ebdc03040dc0843d0fe8070e02",
+      "end_bytes": "272523672726800067271f3209672242f0e22243",
+      "middle_bytes": "0d44330e12270c641d23241f48484c1444350534"
+    }
+  },
+  "clear_state_program": {
+    "program_type": "clear_state",
+    "total_size": 4,
+    "byte_patterns": {
+      "01": 1
+    },
+    "opcode_frequency": {
+      "0x05": 1,
+      "0x01": 1
+    },
+    "structure_analysis": {
+      "start_bytes": "05810143",
+      "end_bytes": "05810143",
+      "middle_bytes": "05810143"
+    }
+  },
+  "pc_297_analysis": {
+    "target_pc": 297,
+    "area_analysis": {},
+    "context_bytes": {
+      "start_position": 574,
+      "end_position": 614,
+      "target_byte_position": 594,
+      "context_hex": "6972340867272c27206434080867420ec93409270e64092721641d2324270e64091f48484c144442",
+      "context_size": 40
+    },
+    "validation_patterns": {}
+  },
+  "creator_analysis": {
+    "creator": "3EPGHSNBBN5M2LD6V7A63EHZQQLATVQHDBYJQIZ6BLCBTIXA5XR7ZOZEB4",
+    "app_id": 465814065,
+    "global_state_schema": {
+      "num-byte-slice": 12,
+      "num-uint": 52
+    },
+    "local_state_schema": {
+      "num-byte-slice": 0,
+      "num-uint": 3
+    },
+    "creator_account": {
+      "balance": 93710293,
+      "total_apps": 1,
+      "total_assets": 11,
+      "created_apps": 9
+    }
+  },
+  "schema_analysis": {
+    "global_state": {
+      "num_uints": 52,
+      "num_byte_slices": 12
+    },
+    "local_state": {
+      "num_uints": 3,
+      "num_byte_slices": 0
+    }
+  }
+}

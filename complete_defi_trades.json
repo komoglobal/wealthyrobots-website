@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-08-17T20:21:20.978071",
+    "protocol": "DeFi Swap Simulation",
+    "type": "swap_simulation",
+    "amount_algo": 0.001,
+    "transaction_id": "ZVKIWIQLZDDNWS6WKXLLQGGODCQZ5J2YUDLWZNTB7GHC67RJO3RQ",
+    "status": "confirmed",
+    "note": "REAL DeFi interaction - not treasury transfer!"
+  }
+]

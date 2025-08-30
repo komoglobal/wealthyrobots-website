@@ -1,0 +1,48 @@
+{
+  "session": {
+    "session_id": "chat_20250828_145909",
+    "start_time": "2025-08-28T14:59:09.745813",
+    "messages": [
+      {
+        "timestamp": "2025-08-28T14:59:09.745980",
+        "sender": "user",
+        "message": "Hi there",
+        "type": "text"
+      },
+      {
+        "timestamp": "2025-08-28T14:59:09.746238",
+        "sender": "agi",
+        "message": "Hello! I'm your AGI assistant. I can help you with questions, analysis, or implementation of ideas. What would you like to talk about?",
+        "type": "response",
+        "choices": [],
+        "processing_time": 0.00025177001953125
+      }
+    ],
+    "decisions_made": [],
+    "insights_gained": []
+  },
+  "conversation_history": [
+    {
+      "timestamp": "2025-08-28T14:59:09.745980",
+      "sender": "user",
+      "message": "Hi there",
+      "type": "text"
+    },
+    {
+      "timestamp": "2025-08-28T14:59:09.746238",
+      "sender": "agi",
+      "message": "Hello! I'm your AGI assistant. I can help you with questions, analysis, or implementation of ideas. What would you like to talk about?",
+      "type": "response",
+      "choices": [],
+      "processing_time": 0.00025177001953125
+    }
+  ],
+  "final_stats": {
+    "total_messages": 2,
+    "user_messages": 1,
+    "agi_messages": 1,
+    "decisions_made": 0,
+    "insights_gained": 0,
+    "session_duration_seconds": 0
+  }
+}

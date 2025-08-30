@@ -1,0 +1,72 @@
+{
+  "improved_coder_agent.py": {
+    "file": "improved_coder_agent.py",
+    "lines": 97,
+    "classes": 1,
+    "methods": 3,
+    "imports": 6,
+    "issues": [
+      "Using print() instead of logging"
+    ],
+    "recommendations": [
+      "Implement proper logging system"
+    ]
+  },
+  "payment_integration_agent.py": {
+    "file": "payment_integration_agent.py",
+    "lines": 222,
+    "classes": 1,
+    "methods": 11,
+    "imports": 4,
+    "issues": [
+      "No error handling found",
+      "Using print() instead of logging"
+    ],
+    "recommendations": [
+      "Add try-catch blocks for robustness",
+      "Implement proper logging system",
+      "Consider using python-dotenv for environment variables"
+    ]
+  },
+  "content_optimizer_agent.py": {
+    "file": "content_optimizer_agent.py",
+    "lines": 65,
+    "classes": 1,
+    "methods": 3,
+    "imports": 4,
+    "issues": [
+      "Using print() instead of logging"
+    ],
+    "recommendations": [
+      "Implement proper logging system"
+    ]
+  },
+  "visual_affiliate_agent.py": {
+    "file": "visual_affiliate_agent.py",
+    "lines": 107,
+    "classes": 1,
+    "methods": 2,
+    "imports": 3,
+    "issues": [
+      "No error handling found",
+      "Using print() instead of logging"
+    ],
+    "recommendations": [
+      "Add try-catch blocks for robustness",
+      "Implement proper logging system"
+    ]
+  },
+  "ultimate_ceo_agent_broken.py": {
+    "file": "ultimate_ceo_agent_broken.py",
+    "lines": 423,
+    "classes": 2,
+    "methods": 16,
+    "imports": 11,
+    "issues": [
+      "Using print() instead of logging"
+    ],
+    "recommendations": [
+      "Implement proper logging system"
+    ]
+  }
+}

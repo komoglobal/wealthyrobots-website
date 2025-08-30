@@ -1,0 +1,109 @@
+from smart_affiliate_agent import enhance_with_smart_affiliates
+from twitter_posting_agent import TwitterPostingAgent
+import json
+import os
+
+class MultiPlatformAffiliate:
+    def __init__(self):
+        print("💰 Multi-Platform Affiliate System: Initializing...")
+        self.amazon_id = os.getenv("AMAZON_ASSOCIATE_ID", "wealthyrobot-20")
+        self.platforms = ['twitter', 'blog', 'email', 'linkedin']
+        
+    def create_affiliate_campaign(self, topic, platforms=['twitter']):
+        """Create coordinated affiliate campaign across platforms"""
+        print(f"🚀 Creating affiliate campaign: {topic}")
+        
+        # Generate base content
+        base_content = f"Creating valuable content about {topic} with genuine product recommendations"
+        
+        # Enhance with smart affiliates
+        enhanced = enhance_with_smart_affiliates(base_content)
+        
+        campaign_results = {}
+        
+        for platform in platforms:
+            if platform == 'twitter':
+                campaign_results['twitter'] = self.create_twitter_affiliate_thread(enhanced)
+            elif platform == 'blog':
+                campaign_results['blog'] = self.create_blog_affiliate_post(enhanced)
+            elif platform == 'email':
+                campaign_results['email'] = self.create_email_affiliate_sequence(enhanced)
+        
+        return campaign_results
+    
+    def create_twitter_affiliate_thread(self, enhanced_content):
+        """Create Twitter thread with affiliate integration"""
+        print("🐦 Creating Twitter affiliate thread...")
+        
+        if enhanced_content["status"] == "success":
+            affiliate_links = enhanced_content["affiliate_links"]
+            
+            thread = f"""
+1/ I've been testing AI business tools for 6 months. Here are the 3 that actually made me money 🧵
+
+2/ Tool #1: {affiliate_links[0]['product_name']}
+   {affiliate_links[0]['cta']}
+   ROI: Paid for itself in 2 weeks
+   
+3/ Tool #2: {affiliate_links[1]['product_name']}  
+   {affiliate_links[1]['cta']}
+   Result: 3x content output
+   
+4/ Tool #3: {affiliate_links[2]['product_name']}
+   {affiliate_links[2]['cta']}
+   Impact: Automated 80% of my workflow
+
+5/ Full transparency: These are affiliate links. I earn a small commission if you purchase, but the price stays the same for you.
+
+6/ Links to all tools (with my honest reviews):
+   👉 {affiliate_links[0]['amazon_link']}
+   👉 {affiliate_links[1]['amazon_link']}  
+   👉 {affiliate_links[2]['amazon_link']}
+
+7/ Questions about any of these tools? Drop them below! 👇
+
+#AffiliateMarketing #AITools #BusinessAutomation #Transparency
+"""
+            
+            return {
+                "status": "success",
+                "thread": thread,
+                "affiliate_count": len(affiliate_links),
+                "potential_commission": "High"
+            }
+        
+        return {"status": "error", "message": "Affiliate enhancement failed"}
+    
+    def post_affiliate_campaign_to_twitter(self):
+        """Execute complete affiliate campaign on Twitter"""
+        print("🚀 Executing affiliate campaign on Twitter...")
+        
+        # Create campaign
+        campaign = self.create_affiliate_campaign("AI Business Tools", ['twitter'])
+        
+        if campaign['twitter']['status'] == 'success':
+            # Post to Twitter
+            twitter_agent = TwitterPostingAgent()
+            
+            if twitter_agent.client:
+                thread_content = campaign['twitter']['thread']
+                result = twitter_agent.post_thread(thread_content)
+                
+                if result['status'] == 'success':
+                    print(f"✅ Affiliate campaign posted! {result['tweets_posted']} tweets")
+                    print("💰 Check @WealthyRobot for your affiliate campaign!")
+                    return result
+                else:
+                    print(f"❌ Twitter posting failed: {result}")
+                    return result
+            else:
+                print("❌ Twitter not connected")
+                return {"status": "twitter_error"}
+        else:
+            print("❌ Campaign creation failed")
+            return {"status": "campaign_error"}
+
+if __name__ == "__main__":
+    affiliate_system = MultiPlatformAffiliate()
+    result = affiliate_system.post_affiliate_campaign_to_twitter()
+    print(f"🎯 Campaign Result: {result.get('status', 'unknown')}")

@@ -1,0 +1,74 @@
+{
+  "known_assets_analysis": {
+    "total_assets": 7,
+    "asset_status": {
+      "31566704": "opted_in",
+      "312769": "opted_in",
+      "226701642": "opted_in",
+      "476053001": "not_opted_in",
+      "386192725": "opted_in",
+      "386195940": "opted_in",
+      "0": "native"
+    },
+    "working_combinations": []
+  },
+  "protocol_research": {
+    "protocol_name": "Folks Finance",
+    "protocol_type": "Lending & Borrowing",
+    "known_requirements": [
+      "User must be opted into the main app",
+      "User must have opted into supported assets",
+      "User must complete initial setup",
+      "User must have sufficient balance for operations"
+    ],
+    "research_sources": [
+      "Folks Finance official documentation",
+      "Algorand DeFi ecosystem research",
+      "Community discussions and forums",
+      "Protocol transaction analysis"
+    ]
+  },
+  "transaction_analysis": {
+    "successful_txns": [],
+    "common_patterns": [],
+    "asset_usage": {}
+  },
+  "asset_combination_tests": {
+    "stablecoins_only": {
+      "assets": [
+        31566704,
+        312769
+      ],
+      "description": "Only stablecoins",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction 6A4EPK6B3WHRZXFBG6LCAORDKZXQTMPDWGEZ5CNPQ7ZJ6JEXEJDQ: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+        "note": "Transaction creation failed"
+      }
+    },
+    "stablecoin_algo": {
+      "assets": [
+        31566704,
+        0
+      ],
+      "description": "Stablecoin + native ALGO",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction RKKSQRB7ZJXFZEQXP7NSJADWPLUKLOP4BQMCLEZBNGSYQG57HGXQ: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+        "note": "Transaction creation failed"
+      }
+    },
+    "wrapped_tokens": {
+      "assets": [
+        226701642,
+        386192725
+      ],
+      "description": "Wrapped tokens",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction CI7BQFCGZWDOVNP7OVAG2XCRX7AEXAEJAVL6A3OBVMBIRYMNQKAA: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+        "note": "Transaction creation failed"
+      }
+    }
+  }
+}

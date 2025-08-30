@@ -1,0 +1,13 @@
+{
+  "input_video": "sample.mp4",
+  "output_video": "edited_viral_hook_20250816_114706.mp4",
+  "editing_type": "viral_hook",
+  "duration": "15-60 seconds",
+  "elements_added": [
+    "attention-grabbing intro",
+    "text overlays",
+    "sound effects",
+    "brand watermark"
+  ],
+  "optimized_for": "TikTok algorithm"
+}

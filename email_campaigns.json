@@ -1,0 +1,20 @@
+{
+  "newsletter_20250826_193628": {
+    "id": "newsletter_20250826_193628",
+    "type": "newsletter",
+    "subject": "Weekly AI Insights",
+    "content_topic": "ai_automation_trends",
+    "target_segment": "high_engagement",
+    "created_date": "2025-08-26T19:36:28.875906",
+    "status": "draft",
+    "target_recipients": 0,
+    "performance": {
+      "sent": 0,
+      "delivered": 0,
+      "opened": 0,
+      "clicked": 0,
+      "unsubscribed": 0,
+      "complained": 0
+    }
+  }
+}

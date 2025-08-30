@@ -1,0 +1,64 @@
+org:
+  - role: CEO
+    responsibilities:
+      - strategy
+      - governance
+      - capital_allocation
+    status: active
+  - role: ResearchDiscovery
+    responsibilities:
+      - defillama_sweep
+      - onchain_discovery
+      - asa_expansion
+    status: active
+  - role: FundManager
+    responsibilities:
+      - plans
+      - sizing
+      - overrides
+    status: active
+  - role: RiskCompliance
+    responsibilities:
+      - limits
+      - reserves
+      - policy_gates
+    status: active
+  - role: ExecutionRouterMM
+    responsibilities:
+      - venue_selection
+      - arbitrage
+      - mm_controls
+    status: active
+  - role: YieldLending
+    responsibilities:
+      - lp_add_remove
+      - rewards_harvest
+      - lending_borrowing
+    status: active
+  - role: TreasuryRebalancer
+    responsibilities:
+      - reserves
+      - float_management
+      - rebalancing
+    status: active
+  - role: ReportingAccounting
+    responsibilities:
+      - pnl
+      - nav
+      - audit_trail
+    status: active
+  - role: SocialBrand
+    responsibilities:
+      - content
+      - brand_safety
+      - engagement
+    status: active
+  - role: Governance
+    responsibilities:
+      - proposals
+      - promotion_demotion
+      - parameter_changes
+    status: active
+metadata:
+  proposed_by: AGI_CEO
+  status: proposed

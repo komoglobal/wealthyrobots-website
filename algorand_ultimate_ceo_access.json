@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-08-19T20:48:36.897593",
+  "system": "algorand_trading",
+  "access_level": "full",
+  "capabilities": [
+    "Execute trades",
+    "Manage portfolio",
+    "Allocate funds",
+    "Risk management",
+    "Strategy execution"
+  ],
+  "wallet_integration": true,
+  "trading_authority": true,
+  "fund_allocation": true
+}

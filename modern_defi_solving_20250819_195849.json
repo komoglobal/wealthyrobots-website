@@ -1,0 +1,104 @@
+{
+  "folks_finance_status": {
+    "status": "active",
+    "protocol": {
+      "name": "Folks Finance",
+      "app_id": 465814065,
+      "status": "active",
+      "description": "Lending and borrowing protocol",
+      "operations": [
+        "supply",
+        "borrow",
+        "repay",
+        "withdraw"
+      ]
+    },
+    "app_info": {
+      "creator": "3EPGHSNBBN5M2LD6V7A63EHZQQLATVQHDBYJQIZ6BLCBTIXA5XR7ZOZEB4",
+      "global_state": 51,
+      "local_state_schema": {
+        "num-byte-slice": 0,
+        "num-uint": 3
+      },
+      "global_state_schema": {
+        "num-byte-slice": 12,
+        "num-uint": 52
+      }
+    }
+  },
+  "folks_finance_operations": {
+    "status": "error",
+    "protocol": {
+      "name": "Folks Finance",
+      "app_id": 465814065,
+      "status": "active",
+      "description": "Lending and borrowing protocol",
+      "operations": [
+        "supply",
+        "borrow",
+        "repay",
+        "withdraw"
+      ]
+    },
+    "error": "TransactionPool.Remember: transaction ZBGCTMZ55OWCRUZLJ3VRYUEUUAODQHZY352RCTWLQFYUX755PZ4A: logic eval error: err opcode executed. Details: app=465814065, pc=297, opcodes===; bnz label8; err; label8:",
+    "note": "Error creating Folks Finance transaction"
+  },
+  "pact_fi_status": {
+    "status": "error",
+    "protocol": {
+      "name": "Pact.fi",
+      "app_id": 148607000,
+      "status": "active",
+      "description": "DEX and liquidity protocol",
+      "operations": [
+        "swap",
+        "add_liquidity",
+        "remove_liquidity"
+      ]
+    },
+    "error": "application does not exist"
+  },
+  "tinyman_status": {
+    "status": "error",
+    "protocol": {
+      "name": "Tinyman",
+      "app_id": 148607000,
+      "status": "active",
+      "description": "DEX and AMM protocol",
+      "operations": [
+        "swap",
+        "pool_operations"
+      ]
+    },
+    "error": "application does not exist"
+  },
+  "gard_status": {
+    "status": "error",
+    "protocol": {
+      "name": "GARD",
+      "app_id": 2838930,
+      "status": "active",
+      "description": "Stablecoin and DeFi protocol",
+      "operations": [
+        "mint",
+        "redeem",
+        "stake"
+      ]
+    },
+    "error": "application does not exist"
+  },
+  "vestige_status": {
+    "status": "error",
+    "protocol": {
+      "name": "Vestige",
+      "app_id": 148607000,
+      "status": "active",
+      "description": "DEX aggregator",
+      "operations": [
+        "swap",
+        "route_trade"
+      ]
+    },
+    "error": "application does not exist"
+  }
+}

@@ -1,0 +1,26 @@
+filters:
+  min_tvl_usd: 100000
+  min_net_apy_pct: 6
+  allow_protocols:
+    - tinyman
+    - pact
+    - folks
+    - algofi
+    - humble
+    - algodex
+    - tinyman-v2
+
+sizing:
+  exploration_nav_pct: 12
+  per_trade_pct_of_pool: 2
+  max_seed_trade_micro: 5000000
+  min_algo_reserve_micro: 10000000
+
+safety:
+  throttle_seconds: 60
+  max_new_protocols_per_hour: 6
+  dry_run: false
+
+proposed_by_agi:
+  exploration_nav_pct: 12
+  production_per_trade_nav_pct: 3

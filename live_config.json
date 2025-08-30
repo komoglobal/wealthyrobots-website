@@ -1,0 +1,101 @@
+{
+  "ceo_settings": {
+    "daily_budget": 100,
+    "monthly_budget": 1000,
+    "approval_threshold": 250,
+    "auto_invest_percentage": 20,
+    "risk_tolerance": 8,
+    "aggression_level": 8
+  },
+  "automation_settings": {
+    "cycle_interval_minutes": 60,
+    "content_frequency": 4,
+    "social_frequency": 6,
+    "analytics_frequency": 8,
+    "enabled_agents": [
+      "content",
+      "social",
+      "analytics",
+      "ceo",
+      "video_content",
+      "influencer_outreach",
+      "seo_optimizer",
+      "conversion_tracker",
+      "customer_support",
+      "claude"
+    ],
+    "intelligent_content_selection": true,
+    "ceo_content_optimization": true,
+    "posting_enabled": true
+  },
+  "strategy_overrides": {
+    "pause_automation": false,
+    "emergency_stop": false,
+    "manual_mode": false,
+    "focus_areas": [
+      "affiliate_marketing",
+      "content_creation"
+    ]
+  },
+  "live_commands": {
+    "command": "aggressive_mode",
+    "timestamp": "2025-08-01T03:36:32.786569",
+    "executed": true
+  },
+  "content_strategy": "80_20_value_affiliate",
+  "claude_empire_management": {
+    "autonomous_agent_creation": true,
+    "total_agents_created": 5,
+    "success_rate": "100%",
+    "empire_size": 34,
+    "claude_contribution": "15%"
+  },
+  "affiliate": {
+    "enabled": true,
+    "tag": "wealthyrobot-20",
+    "product_url": "https://www.amazon.com/dp/B0C7GWQRFP?tag=wealthyrobot-20",
+    "product_name": "The AI Advantage",
+    "commission_rate": 0.08,
+    "frequency": 0.2,
+    "cta_templates": [
+      "\ud83d\udcda Master AI in business with '{product_name}': {product_url}",
+      "\ud83d\ude80 Ready to leverage AI? Start with '{product_name}': {product_url}",
+      "\ud83d\udca1 Want to implement these strategies? '{product_name}' shows you how: {product_url}",
+      "\ud83c\udfaf Turn AI knowledge into business results with '{product_name}': {product_url}"
+    ]
+  },
+  "posting": {
+    "enabled": true,
+    "interval_hours": 6,
+    "posts_per_day": 4,
+    "schedule_times": [
+      "00:00",
+      "06:00",
+      "12:00",
+      "18:00"
+    ],
+    "content_rotation": {
+      "affiliate_posts_per_day": 1,
+      "value_posts_per_day": 3,
+      "content_types": [
+        "educational",
+        "entertaining",
+        "community",
+        "affiliate"
+      ]
+    },
+    "safety": {
+      "max_posts_per_hour": 1,
+      "min_delay_between_posts": 21600,
+      "rate_limiting_enabled": true
+    }
+  },
+  "enabled_agents": [
+    "ceo",
+    "social",
+    "content",
+    "analytics"
+  ],
+  "posting_enabled": true,
+  "emergency_mode": false
+}

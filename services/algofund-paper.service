@@ -1,0 +1,19 @@
+[Unit]
+Description=Algorand Hedge Fund - Paper Orchestrator
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/wealthyrobot
+ExecStart=/usr/bin/python3 -m algofund.orchestrator
+Restart=always
+RestartSec=5
+StandardOutput=append:/home/ubuntu/wealthyrobot/logs/algofund-paper.out
+StandardError=append:/home/ubuntu/wealthyrobot/logs/algofund-paper.err
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+
+
+

@@ -1,0 +1,10 @@
+{
+  "test_name": "math_test",
+  "language": "python",
+  "success": true,
+  "stdout": "2^10 = 1024\n",
+  "stderr": "",
+  "returncode": 0,
+  "execution_time": 1754441996.2767808,
+  "test_directory": "claude_blackbox_tests/sandbox/test_math_test_1754441996"
+}

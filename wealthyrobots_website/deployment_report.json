@@ -1,0 +1,103 @@
+{
+  "build_date": "2025-08-06T21:49:57.015101",
+  "website_structure": {
+    "navigation": {
+      "home": {
+        "title": "Home",
+        "url": "/",
+        "description": "AI Automation Strategies That Actually Make Money"
+      },
+      "articles": {
+        "title": "Articles",
+        "url": "/articles/",
+        "description": "In-depth AI automation guides and strategies"
+      },
+      "strategies": {
+        "title": "Strategies",
+        "url": "/strategies/",
+        "description": "Proven AI automation strategies for revenue"
+      },
+      "tools": {
+        "title": "AI Tools",
+        "url": "/tools/",
+        "description": "Best AI tools for business automation"
+      },
+      "resources": {
+        "title": "Resources",
+        "url": "/resources/",
+        "description": "Free resources and guides"
+      },
+      "about": {
+        "title": "About",
+        "url": "/about/",
+        "description": "About WealthyRobot Empire"
+      },
+      "contact": {
+        "title": "Contact",
+        "url": "/contact/",
+        "description": "Get in touch with us"
+      }
+    }
+  },
+  "content_analysis": {
+    "total_files": 17,
+    "articles": 8,
+    "main_pages": 9,
+    "content_types": {
+      "main_pages": [
+        "index_enhanced_professional.html",
+        "index.html"
+      ],
+      "articles": [
+        "ai_revenue_article_20250804_225934.html",
+        "ai_automation_article_2.html",
+        "ai_revenue_article_20250804_230907.html",
+        "ai_automation_article_3.html",
+        "ai_automation_article_1.html",
+        "ai_revenue_article_20250804_225654.html",
+        "ai_automation_article_20250806_214429.html",
+        "ai_revenue_article_20250804_224508.html"
+      ],
+      "landing_pages": [],
+      "other": [
+        "ai_revenue_content_20250805_184928.html",
+        "wealthyrobots_website.html",
+        "ai_revenue_content_20250805_180741.html",
+        "ai_revenue_content_20250805_181926.html",
+        "ai_revenue_content_20250805_181809.html",
+        "ai_revenue_content_20250805_181726.html",
+        "ai_revenue_content_20250805_181828.html"
+      ]
+    }
+  },
+  "articles_migrated": 8,
+  "seo_keywords": [
+    "AI automation revenue generation",
+    "passive income with artificial intelligence",
+    "business automation strategies 2025",
+    "AI tools for entrepreneurs",
+    "automated revenue systems",
+    "AI marketing automation",
+    "artificial intelligence business opportunities",
+    "AI automation for small business",
+    "automated income streams",
+    "AI-powered business growth",
+    "artificial intelligence revenue optimization",
+    "automation tools for entrepreneurs",
+    "AI business automation strategies",
+    "passive income automation",
+    "artificial intelligence marketing tools",
+    "automated business processes",
+    "AI revenue generation techniques",
+    "business automation with AI",
+    "artificial intelligence for revenue growth",
+    "automated income generation strategies"
+  ],
+  "files_created": [
+    "index.html",
+    "assets/css/main.css",
+    "assets/js/main.js",
+    "sitemap.xml",
+    "robots.txt"
+  ]
+}

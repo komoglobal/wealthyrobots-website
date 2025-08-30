@@ -1,0 +1,10 @@
+{
+  "test_name": "success_test",
+  "language": "python",
+  "success": true,
+  "stdout": "Success: 10\n",
+  "stderr": "",
+  "returncode": 0,
+  "execution_time": 1754441956.2210984,
+  "test_directory": "claude_blackbox_tests/sandbox/test_success_test_1754441956"
+}

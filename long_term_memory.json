@@ -1,0 +1,3751 @@
+{
+  "entries": [
+    {
+      "timestamp": "2025-08-20T18:15:01.774845",
+      "content": {
+        "auto_heal": "visual_testing",
+        "report": {
+          "timestamp": "2025-08-20T18:15:01.756996",
+          "test_type": "enhanced_visual_functionality_testing",
+          "overall_score": 85.2,
+          "test_results": {
+            "/": {
+              "status_code": 200,
+              "content_length": 15128,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": false,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/": {
+              "status_code": 200,
+              "content_length": 12348,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/strategies/": {
+              "status_code": 200,
+              "content_length": 9742,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": false,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/tools/": {
+              "status_code": 200,
+              "content_length": 9658,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": false,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/resources/": {
+              "status_code": 200,
+              "content_length": 9483,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": false,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/about/": {
+              "status_code": 200,
+              "content_length": 10462,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": false,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/contact/": {
+              "status_code": 200,
+              "content_length": 12243,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": false,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_20250806_214957_1.html": {
+              "status_code": 200,
+              "content_length": 26675,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_20250806_215152.html": {
+              "status_code": 200,
+              "content_length": 22388,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [
+                "/articles/ai-automation-strategies",
+                "/articles/passive-income-automation",
+                "/articles/business-automation-tools"
+              ],
+              "broken_images": [],
+              "issues": [
+                "Broken links: 3"
+              ]
+            },
+            "/articles/article_automated_revenue_systems_for_small_business_20250806_225042.html": {
+              "status_code": 200,
+              "content_length": 19070,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_ai_automation_revenue_generation_strategies_20250806_223804.html": {
+              "status_code": 200,
+              "content_length": 19416,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_20250806_215158.html": {
+              "status_code": 200,
+              "content_length": 23879,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [
+                "/articles/ai-automation-strategies",
+                "/articles/passive-income-automation",
+                "/articles/business-automation-tools"
+              ],
+              "broken_images": [],
+              "issues": [
+                "Broken links: 3"
+              ]
+            },
+            "/articles/article_ai_automation_revenue_generation_strategies_20250806_223404.html": {
+              "status_code": 200,
+              "content_length": 20051,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_ai_tools_for_entrepreneurs_passive_income_20250806_223422.html": {
+              "status_code": 200,
+              "content_length": 18320,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_business_automation_strategies_2025_20250806_223417.html": {
+              "status_code": 200,
+              "content_length": 18997,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_20250806_214957_0.html": {
+              "status_code": 200,
+              "content_length": 41255,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_20250806_214957_6.html": {
+              "status_code": 200,
+              "content_length": 29180,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_ai_tools_for_entrepreneurs_passive_income_20250806_230137.html": {
+              "status_code": 200,
+              "content_length": 19057,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_passive_income_with_artificial_intelligence_tools_20250806_230124.html": {
+              "status_code": 200,
+              "content_length": 19395,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_passive_income_with_artificial_intelligence_tools_20250806_225558.html": {
+              "status_code": 200,
+              "content_length": 19024,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_ai_tools_for_entrepreneurs_passive_income_20250806_225611.html": {
+              "status_code": 200,
+              "content_length": 20500,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_ai_automation_revenue_generation_strategies_20250806_225017.html": {
+              "status_code": 200,
+              "content_length": 19001,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_business_automation_strategies_2025_20250806_224827.html": {
+              "status_code": 200,
+              "content_length": 19237,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_20250806_214957_5.html": {
+              "status_code": 200,
+              "content_length": 41267,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_20250806_214957_2.html": {
+              "status_code": 200,
+              "content_length": 41231,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [],
+              "broken_images": [],
+              "issues": []
+            },
+            "/articles/article_20250806_215217.html": {
+              "status_code": 200,
+              "content_length": 28007,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [
+                "/articles/ai-automation-strategies",
+                "/articles/passive-income-automation",
+                "/articles/business-automation-tools"
+              ],
+              "broken_images": [],
+              "issues": [
+                "Broken links: 3"
+              ]
+            },
+            "/articles/article_20250806_215227.html": {
+              "status_code": 200,
+              "content_length": 24522,
+              "has_css": true,
+              "has_navigation": true,
+              "has_footer": true,
+              "is_article": true,
+              "broken_links": [
+                "/articles/ai-automation-strategies",
+                "/articles/passive-income-automation",
+                "/articles/business-automation-tools"
+              ],
+              "broken_images": [],
+              "issues": [
+                "Broken links: 3"
+              ]
+            }
+          },
+          "issues_found": [],
+          "fixes_applied": [
+            "Broken links fixed"
+          ],
+          "recommendations": [
+            "\ud83d\udd17 Fix broken internal links"
+          ]
+        }
+      },
+      "tags": [
+        "auto_heal",
+        "testing"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T18:28:52.623201",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T18:29:13.008020",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T18:29:13.083441",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T18:29:13.861741",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T20:03:39.181998",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T20:03:49.569976",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T20:03:49.699226",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T20:03:49.852278",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T20:11:37.985908",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T20:11:38.237553",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T20:11:38.331199",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T20:11:38.480663",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:23:17.087980",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:23:17.505477",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:23:17.662667",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:23:17.849290",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:48:56.290864",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:48:56.660563",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:48:56.777242",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:48:56.977266",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:53:53.312019",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:53:53.508628",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:53:53.636789",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:53:53.828356",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:55:08.672563",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:55:08.970649",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:55:09.106408",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T21:55:09.322264",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:25:48.052087",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:25:48.513618",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:25:48.685224",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:25:48.906316",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:33:06.661009",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:33:07.043716",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:33:07.226343",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:33:07.422446",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:40:28.363206",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:40:28.767743",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:40:28.901212",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T22:40:29.102319",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T23:41:20.746895",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T23:41:21.173617",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T23:41:21.388214",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-20T23:41:21.541711",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T21:53:32.111262",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T21:53:32.591242",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T21:53:32.670843",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T21:53:32.852984",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T22:54:27.889124",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T22:54:28.431208",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T22:54:28.525215",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T22:54:28.688870",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T23:55:22.288831",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T23:55:22.751092",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T23:55:22.830622",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-21T23:55:23.012519",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T00:56:18.128216",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T00:56:18.671171",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T00:56:18.750658",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T00:56:18.927993",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T01:56:24.850301",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T02:56:27.957899",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T02:56:38.431110",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T02:56:38.510676",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T02:56:38.689873",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T03:57:27.814084",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T03:57:28.351226",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T03:57:28.430779",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-22T03:57:28.670703",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T16:31:15.004360",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T16:31:15.214135",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T16:31:15.285348",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T16:31:15.375401",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T16:42:34.511024",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T16:42:34.741309",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T16:42:34.806103",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T16:42:34.906457",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:17:00.536121",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:17:00.789889",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:17:00.851046",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:17:00.953833",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:18:38.253747",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:18:38.440027",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:18:38.476896",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:18:38.575587",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:29:19.355015",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:29:19.615113",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:29:19.697304",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:29:19.804266",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:42:36.138935",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:42:36.356994",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:42:36.417513",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:42:36.519891",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:48:51.327574",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:48:51.492059",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:48:51.525884",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T17:48:51.634249",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T18:00:57.937643",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T18:00:58.115969",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T18:00:58.157666",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T18:00:58.261396",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T18:43:31.701630",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T18:43:31.886399",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T18:43:31.922468",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T18:43:32.029313",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T19:10:18.442585",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T19:10:18.900441",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T19:10:18.979945",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T19:10:19.140417",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T19:43:34.284606",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T19:43:34.741579",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T19:43:34.901243",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T19:43:35.007686",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:11:18.917869",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:11:19.300201",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:11:19.380210",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:11:19.477344",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:31:45.164291",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:31:45.540797",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:31:45.620176",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:31:45.801793",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:33:55.486369",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:33:55.946790",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:33:56.021111",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:33:56.204206",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:45:26.358464",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:45:26.820469",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:45:26.900069",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T20:45:27.009389",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T21:05:26.686134",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T21:05:27.485575",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T21:05:27.635063",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T21:05:27.800681",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T21:45:51.638572",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T21:45:52.020482",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T21:45:52.112966",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T21:45:52.282347",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:06:02.124417",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:06:02.660488",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:06:02.740889",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:06:02.901709",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:46:51.718282",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:46:52.340566",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:46:52.422347",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:46:52.598236",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:37:59.678676",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:37:59.978342",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:38:00.022461",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:38:00.162946",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:40:41.440679",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:40:41.742056",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:40:41.825004",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:40:42.001117",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:49:27.274281",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:49:27.657173",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:49:27.737677",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:49:27.916559",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:53:09.440886",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:53:09.992954",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:53:10.066499",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:53:10.241424",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:56:39.681585",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:56:40.216989",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:56:40.304183",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:56:40.480755",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:59:06.394633",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:59:06.857342",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:59:06.936915",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T15:59:07.043974",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:01:04.400682",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:01:04.859995",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:01:04.938244",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:01:05.117991",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:08:42.238460",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:08:42.697025",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:08:42.777947",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:08:42.957977",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:19:19.921038",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:19:20.376950",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:19:20.457421",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:19:20.640928",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:36:35.834496",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:36:36.249988",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:36:36.377119",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:36:36.554064",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:41:26.000830",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:41:36.391581",
+      "content": {
+        "homepage_probe": {
+          "status": "error",
+          "error": "HTTPSConnectionPool(host='example.com', port=443): Read timed out. (read timeout=10)",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:41:36.698881",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:41:36.880108",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:47:29.035880",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:47:29.496965",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:47:29.576544",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:47:29.675713",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:49:47.599938",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:49:47.976960",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:49:48.056640",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:49:48.239528",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:51:16.400335",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:51:16.776729",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:51:16.877116",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:51:17.047902",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:55:08.002232",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:55:08.456909",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:55:08.536492",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T16:55:08.720646",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:08:30.954371",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:08:31.273398",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:08:31.361730",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:08:31.596504",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:15:57.273921",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:15:57.816770",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:15:57.896428",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:15:58.073679",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:20:25.596486",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:20:26.056806",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:20:26.137057",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:20:26.316206",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:28:33.196377",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:28:33.576685",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:28:33.656383",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:28:33.833969",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:33:26.960315",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:33:27.416859",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:33:27.503020",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:33:27.679912",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:34:57.118457",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:34:57.576697",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:34:57.658701",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:34:57.838722",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:38:57.198374",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:38:57.656686",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:38:57.736365",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:38:57.917974",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:44:15.034799",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:44:15.416861",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:44:15.496430",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:44:15.595170",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:51:07.596832",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:51:08.056976",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:51:08.137782",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:51:08.316713",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:54:28.877934",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:54:29.345259",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:54:29.445185",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T17:54:29.597928",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:05:58.323911",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:05:58.777494",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:05:58.856372",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:05:59.037926",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:27:11.766960",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:27:12.297408",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:27:12.379483",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:27:12.562014",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:32:36.155848",
+      "content": {
+        "probe": "agent_logging_best_practices",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "agents"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:32:36.616836",
+      "content": {
+        "homepage_probe": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "grounding"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:32:36.696345",
+      "content": {
+        "probe": "trading_ref_fetch",
+        "result": {
+          "status": "200",
+          "title": "Example Domain",
+          "snippet": "<!doctype html> <html> <head> <title>Example Domain</title> <meta charset=\"utf-8\" /> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <style type=\"text/css\"> body { background-color: #f0f0f2; margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; ",
+          "url": "https://example.com"
+        }
+      },
+      "tags": [
+        "web",
+        "trading"
+      ]
+    },
+    {
+      "timestamp": "2025-08-26T18:32:36.876231",
+      "content": {
+        "probe": "business_conversion_search",
+        "results": []
+      },
+      "tags": [
+        "web",
+        "business"
+      ]
+    }
+  ]
+}

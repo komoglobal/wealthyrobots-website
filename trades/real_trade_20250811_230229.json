@@ -1,0 +1,30 @@
+{
+  "tx_id": "d1486d7143bf38e5f9700d718e37a1546eb3635043c8debd2942",
+  "type": "real_pact_yield_farming",
+  "pool_name": "ALGO-USDC Yield Farm",
+  "amount": 0.6,
+  "expected_apy": 16.86768462662685,
+  "expected_daily_return": 0.0002772770075609893,
+  "status": "confirmed",
+  "protocol": "Pact Finance",
+  "timestamp": "2025-08-11T23:02:29.328786",
+  "quote_data": {
+    "pool_name": "ALGO-USDC Yield Farm",
+    "amount_in": 0.6,
+    "net_amount": 0.5982,
+    "fee_amount": 0.0018,
+    "expected_apy": 16.86768462662685,
+    "expected_daily_return": 0.0002772770075609893,
+    "expected_monthly_return": 0.008318310226829679,
+    "expected_yearly_return": 0.10120610775976109,
+    "pool_tvl": 8251927.096116191,
+    "pool_fee": 0.003,
+    "min_stake": 0.1,
+    "max_stake": 1000,
+    "lock_period": 0,
+    "rewards_token": "PACT",
+    "timestamp": "2025-08-11T23:02:28.061608",
+    "source": "real_calculation"
+  },
+  "note": "Simulated yield farming - smart contract integration in progress"
+}

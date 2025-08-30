@@ -1,0 +1,17 @@
+{
+  "affiliate_placement": {
+    "strategy": "Place affiliate links in high-engagement content sections",
+    "timing": "After providing 80% value, before conclusion",
+    "format": "Natural product recommendations, not obvious ads"
+  },
+  "content_optimization": {
+    "approach": "Create content specifically around affiliate products",
+    "keyword_focus": "Problem-solution keywords that lead to purchases",
+    "call_to_action": "Strong, specific CTAs that drive clicks"
+  },
+  "performance_tracking": {
+    "metric": "Track click-through rates per content type",
+    "adjustment": "Double-down on high-performing content formats",
+    "testing": "A/B test different affiliate product combinations"
+  }
+}

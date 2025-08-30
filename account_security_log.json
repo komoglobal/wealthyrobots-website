@@ -1,0 +1,182 @@
+[
+  {
+    "timestamp": "2025-08-30T11:05:48.539865",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110548_4a573d17",
+      "account_type": "storage",
+      "risk_level": "low"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:05:48.541183",
+    "event_type": "account_auto_approved",
+    "details": {
+      "request_id": "REQ_20250830110548_4a573d17",
+      "account_type": "storage",
+      "risk_level": "low"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:05:48.541568",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110548_8d1bb409",
+      "account_type": "financial",
+      "risk_level": "critical"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:05:48.542813",
+    "event_type": "account_queued_approval",
+    "details": {
+      "request_id": "REQ_20250830110548_8d1bb409",
+      "account_type": "financial",
+      "risk_level": "critical"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.657300",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110619_750e3dbf",
+      "account_type": "market_data",
+      "risk_level": "critical"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.657889",
+    "event_type": "account_queued_approval",
+    "details": {
+      "request_id": "REQ_20250830110619_750e3dbf",
+      "account_type": "market_data",
+      "risk_level": "critical"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.658790",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110619_bfe09fac",
+      "account_type": "financial",
+      "risk_level": "critical"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.659962",
+    "event_type": "account_queued_approval",
+    "details": {
+      "request_id": "REQ_20250830110619_bfe09fac",
+      "account_type": "financial",
+      "risk_level": "critical"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.660844",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110619_aaf28f1b",
+      "account_type": "api_service",
+      "risk_level": "high"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.662069",
+    "event_type": "account_queued_approval",
+    "details": {
+      "request_id": "REQ_20250830110619_aaf28f1b",
+      "account_type": "api_service",
+      "risk_level": "high"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.662921",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110619_915fa9bf",
+      "account_type": "data_source",
+      "risk_level": "high"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.664382",
+    "event_type": "account_queued_approval",
+    "details": {
+      "request_id": "REQ_20250830110619_915fa9bf",
+      "account_type": "data_source",
+      "risk_level": "high"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.665221",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110619_1f35f86a",
+      "account_type": "communication",
+      "risk_level": "high"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.666567",
+    "event_type": "account_queued_approval",
+    "details": {
+      "request_id": "REQ_20250830110619_1f35f86a",
+      "account_type": "communication",
+      "risk_level": "high"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.667464",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110619_b27b0af1",
+      "account_type": "storage",
+      "risk_level": "medium"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.668749",
+    "event_type": "account_auto_approved",
+    "details": {
+      "request_id": "REQ_20250830110619_b27b0af1",
+      "account_type": "storage",
+      "risk_level": "medium"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.669646",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110619_5d31ef17",
+      "account_type": "analytics",
+      "risk_level": "medium"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.670962",
+    "event_type": "account_auto_approved",
+    "details": {
+      "request_id": "REQ_20250830110619_5d31ef17",
+      "account_type": "analytics",
+      "risk_level": "medium"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.671877",
+    "event_type": "account_request_created",
+    "details": {
+      "request_id": "REQ_20250830110619_d8672745",
+      "account_type": "compute_resource",
+      "risk_level": "critical"
+    }
+  },
+  {
+    "timestamp": "2025-08-30T11:06:19.673380",
+    "event_type": "account_queued_approval",
+    "details": {
+      "request_id": "REQ_20250830110619_d8672745",
+      "account_type": "compute_resource",
+      "risk_level": "critical"
+    }
+  }
+]

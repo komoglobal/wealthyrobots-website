@@ -1,0 +1,21 @@
+{
+  "report_date": "2025-08-01T12:56:37.895506",
+  "budget_status": {
+    "monthly_budget": 0.0,
+    "daily_budget": 0.0,
+    "current_spend": 0.0,
+    "remaining_budget": 0.0
+  },
+  "performance_metrics": {
+    "revenue_generated": 330.94,
+    "roi_percentage": 240,
+    "profitable_investments": 4,
+    "cost_per_acquisition": 12.5
+  },
+  "recommendations": [
+    "Increase content promotion budget by 20%",
+    "Invest in premium visual content tools",
+    "Expand to Google Ads for keyword targeting",
+    "Set up retargeting campaigns for website visitors"
+  ]
+}

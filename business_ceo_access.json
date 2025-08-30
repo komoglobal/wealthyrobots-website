@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-08-19T20:24:32.154143",
+  "system": "business_creation",
+  "access_level": "full",
+  "capabilities": [
+    "Create new businesses",
+    "Register domains",
+    "Set up accounts",
+    "Allocate resources",
+    "Scale operations"
+  ],
+  "business_creation": true,
+  "resource_allocation": true,
+  "scaling_authority": true
+}

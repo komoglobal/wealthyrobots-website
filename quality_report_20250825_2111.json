@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-08-25T21:11:50.127200",
+  "overall_quality": 1.0,
+  "avg_latency": 238.06350747032977,
+  "total_data_points": 4550,
+  "valid_data_points": 4550,
+  "data_sources": 4,
+  "active_alerts": 94883,
+  "market_signals": 101
+}

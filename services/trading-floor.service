@@ -1,0 +1,18 @@
+[Unit]
+Description=Algofund Trading Floor Agent
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/wealthyrobot
+Environment=PYTHONPATH=/home/ubuntu/wealthyrobot
+ExecStart=/home/ubuntu/wealthyrobot/.venv/bin/python -m algofund.agents.trading_floor
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/ubuntu/wealthyrobot/logs/trading-floor.out
+StandardError=append:/home/ubuntu/wealthyrobot/logs/trading-floor.err
+
+[Install]
+WantedBy=multi-user.target

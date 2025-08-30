@@ -1,0 +1,100 @@
+{
+  "update_operations": {
+    "update_user": {
+      "app_args": [
+        "b'update_user'"
+      ],
+      "description": "Update user operation",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction 3UN2NIL4JFT5CQLN6YNKGU2N56UPJAVNZDHMX7IN56FQ5PSBQINQ: account OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM is not opted in to any app, and in particular 465814065",
+        "note": "Update operation creation failed"
+      }
+    },
+    "update_account": {
+      "app_args": [
+        "b'update_account'"
+      ],
+      "description": "Update account operation",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction 6T5ZIUI6WPNGLQ2ELF7LMHD3YYMDILCZD422BB2O77C7ZDWT4HLQ: account OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM is not opted in to any app, and in particular 465814065",
+        "note": "Update operation creation failed"
+      }
+    },
+    "update_state": {
+      "app_args": [
+        "b'update_state'"
+      ],
+      "description": "Update state operation",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction F2OGWNGYXBXFXWKRZNP2GSUS76WGOCA4CAFSZZPHCYI65KBTXGVQ: account OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM is not opted in to any app, and in particular 465814065",
+        "note": "Update operation creation failed"
+      }
+    },
+    "update_settings": {
+      "app_args": [
+        "b'update_settings'"
+      ],
+      "description": "Update settings operation",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction HRMCZKTZU36ZN3HCNHYSPAM6EVN273BZKHJIZFCTSKGYKQMAUM3A: account OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM is not opted in to any app, and in particular 465814065",
+        "note": "Update operation creation failed"
+      }
+    },
+    "update_profile": {
+      "app_args": [
+        "b'update_profile'"
+      ],
+      "description": "Update profile operation",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction SVICIW674VQKPC3OO7EVFMGK2J5VL5HRUIK4KVYTBFOTOEQEOJZQ: account OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM is not opted in to any app, and in particular 465814065",
+        "note": "Update operation creation failed"
+      }
+    },
+    "update_preferences": {
+      "app_args": [
+        "b'update_preferences'"
+      ],
+      "description": "Update preferences operation",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction A4MK5YOS7ALUQFQZNLUBTCQ3TMQHGJL5FVDWF2MB3GRHLEMV3U7A: account OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM is not opted in to any app, and in particular 465814065",
+        "note": "Update operation creation failed"
+      }
+    },
+    "update_config": {
+      "app_args": [
+        "b'update_config'"
+      ],
+      "description": "Update config operation",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction KGISW3KPR2KF33DGMSS5IJ6NPWH5NXJ3LMAK6XWMH2QAOU6HGVTQ: account OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM is not opted in to any app, and in particular 465814065",
+        "note": "Update operation creation failed"
+      }
+    },
+    "update_metadata": {
+      "app_args": [
+        "b'update_metadata'"
+      ],
+      "description": "Update metadata operation",
+      "result": {
+        "success": false,
+        "error": "TransactionPool.Remember: transaction JOIQ3VFRJSCDLLTT5T356CCF7HOSMT3E2SUDYGDO45V2SMOJR3VA: account OL4EMRL54OZFBMHGNJZIV5RLJ7O3VTIEWPQDMIIU26JLXZ3DDB6FC3YYIM is not opted in to any app, and in particular 465814065",
+        "note": "Update operation creation failed"
+      }
+    }
+  },
+  "update_with_assets": {
+    "success": false,
+    "note": "All asset combinations tested"
+  },
+  "update_with_accounts": {
+    "success": false,
+    "note": "All account combinations tested"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "20250826_181249",
+  "urgent_directive": "CRITICAL: System completely down - provide automated opt-in solution NOW",
+  "crisis_level": "RED - Complete trading halt, profit generation stopped",
+  "user_demand": "AUTOMATED solution only - no manual intervention",
+  "immediate_requirements": {
+    "analyze_bytecode": "Decode app 1002541853 opt-in logic immediately",
+    "working_transaction": "Provide exact opt-in transaction format",
+    "system_integration": "Code that system can implement automatically",
+    "timeline": "Working solution within 5 minutes"
+  },
+  "failure_consequences": [
+    "Complete system shutdown",
+    "No profit generation",
+    "User frustration at automated approach failure"
+  ],
+  "success_criteria": [
+    "Automated opt-in works without user intervention",
+    "System resumes real DeFi trading immediately",
+    "Future opt-in failures prevented automatically"
+  ],
+  "agi_priorities": [
+    "PRIORITY 1: Analyze app bytecode NOW",
+    "PRIORITY 2: Generate working opt-in transaction",
+    "PRIORITY 3: Implement auto-recovery system",
+    "PRIORITY 4: Test solution immediately"
+  ]
+}

@@ -1,0 +1,18 @@
+[Unit]
+Description=WealthyRobot Unified Trading System
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/wealthyrobot
+Environment=TRADING_ENV=production
+ExecStart=/home/ubuntu/wealthyrobot/venv/bin/python3 unified_trading_system.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

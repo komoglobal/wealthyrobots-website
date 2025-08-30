@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-08-30T10:33:36.831211",
+  "issues_found": 23,
+  "issues_fixed": 23,
+  "fix_success_rate": 100.0,
+  "issues_list": [
+    {
+      "type": "missing_import",
+      "module": "consciousness_simulation_engine",
+      "severity": "high"
+    },
+    {
+      "type": "missing_import",
+      "module": "multidimensional_reality_engine",
+      "severity": "high"
+    },
+    {
+      "type": "missing_import",
+      "module": "enhanced_market_data_agent",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "unified_agi_architecture",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "self_evolution_engine",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "global_optimization_framework",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "advanced_reasoning_engine",
+      "error": "name 'component_name' is not defined",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "security_monitoring_system",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "master_coordinator_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "resource_manager_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "security_monitor_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "data_analyst_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "research_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "trading_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "pattern_recognition_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "marketing_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "predictive_analytics_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "sentiment_analysis_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "healthcare_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "finance_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "gaming_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "instantiation_error",
+      "component": "social_media_agent",
+      "error": "Any cannot be instantiated",
+      "severity": "high"
+    },
+    {
+      "type": "api_dependency",
+      "component": "data_analytics_agent",
+      "error": "The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable",
+      "severity": "medium"
+    }
+  ],
+  "fixes_applied": [
+    "consciousness_simulation_engine",
+    "multidimensional_reality_engine",
+    "unified_agi_architecture_instantiation",
+    "self_evolution_engine_instantiation",
+    "global_optimization_framework_instantiation",
+    "advanced_reasoning_engine_instantiation",
+    "security_monitoring_system_instantiation",
+    "master_coordinator_agent_agent_fix",
+    "resource_manager_agent_agent_fix",
+    "security_monitor_agent_agent_fix",
+    "data_analyst_agent_agent_fix",
+    "research_agent_agent_fix",
+    "trading_agent_agent_fix",
+    "pattern_recognition_agent_agent_fix",
+    "marketing_agent_agent_fix",
+    "predictive_analytics_agent_agent_fix",
+    "sentiment_analysis_agent_agent_fix",
+    "healthcare_agent_agent_fix",
+    "finance_agent_agent_fix",
+    "gaming_agent_agent_fix",
+    "social_media_agent_agent_fix",
+    "data_analytics_api_fix",
+    "capability_detection_fix"
+  ],
+  "system_status": "improved"
+}

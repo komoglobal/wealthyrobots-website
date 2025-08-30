@@ -1,0 +1,167 @@
+{
+  "training_results": {
+    "session_1_easy": {
+      "config": {
+        "difficulty": "easy",
+        "category": "symmetry",
+        "description": "Basic symmetry patterns"
+      },
+      "results": {
+        "session_id": "training_20250828_143629",
+        "duration_seconds": 3.915879,
+        "total_patterns": 2,
+        "successful_patterns": 0,
+        "success_rate": 0.0,
+        "average_confidence": 0.7,
+        "pattern_results": [
+          {
+            "pattern_name": "vertical_mirror_basic",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:31.680973', 'cycle_duration': '0:00:02.176667', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406189', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          },
+          {
+            "pattern_name": "horizontal_mirror_basic",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:33.414029', 'cycle_duration': '0:00:01.725595', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406191', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          }
+        ],
+        "completed_at": "2025-08-28T14:36:33.420073"
+      }
+    },
+    "session_2_medium": {
+      "config": {
+        "difficulty": "medium",
+        "category": "sequences",
+        "description": "Arithmetic and geometric sequences"
+      },
+      "results": {
+        "session_id": "training_20250828_143633",
+        "duration_seconds": 3.418944,
+        "total_patterns": 2,
+        "successful_patterns": 0,
+        "success_rate": 0.0,
+        "average_confidence": 0.7,
+        "pattern_results": [
+          {
+            "pattern_name": "arithmetic_simple",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:35.114457', 'cycle_duration': '0:00:01.694048', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406193', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          },
+          {
+            "pattern_name": "geometric_doubling",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:36.832389', 'cycle_duration': '0:00:01.711371', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406195', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          }
+        ],
+        "completed_at": "2025-08-28T14:36:36.839273"
+      }
+    },
+    "session_3_hard": {
+      "config": {
+        "difficulty": "hard",
+        "category": "shapes",
+        "description": "Shape manipulation and transformation"
+      },
+      "results": {
+        "session_id": "training_20250828_143636",
+        "duration_seconds": 2e-06,
+        "total_patterns": 0,
+        "successful_patterns": 0,
+        "success_rate": 0,
+        "average_confidence": 0,
+        "pattern_results": [],
+        "completed_at": "2025-08-28T14:36:36.839472"
+      }
+    },
+    "session_4_expert": {
+      "config": {
+        "difficulty": "expert",
+        "category": "all",
+        "description": "Comprehensive pattern mastery"
+      },
+      "results": {
+        "session_id": "training_20250828_143636",
+        "duration_seconds": 12.05067,
+        "total_patterns": 7,
+        "successful_patterns": 0,
+        "success_rate": 0.0,
+        "average_confidence": 0.7,
+        "pattern_results": [
+          {
+            "pattern_name": "diagonal_symmetry_main",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:38.544686', 'cycle_duration': '0:00:01.704990', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406196', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          },
+          {
+            "pattern_name": "complex_shape_decomposition",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:40.301495', 'cycle_duration': '0:00:01.749829', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406198', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          },
+          {
+            "pattern_name": "diagonal_symmetry_anti",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:42.039081', 'cycle_duration': '0:00:01.730922', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406200', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          },
+          {
+            "pattern_name": "position_mapping",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:43.740210', 'cycle_duration': '0:00:01.694783', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406202', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          },
+          {
+            "pattern_name": "shape_rotation_completion",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:45.457764', 'cycle_duration': '0:00:01.711078', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406203', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          },
+          {
+            "pattern_name": "distance_from_center",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:47.147491', 'cycle_duration': '0:00:01.683245', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406205', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          },
+          {
+            "pattern_name": "modulo_3_pattern",
+            "success": false,
+            "confidence": 0.7,
+            "reasoning_quality": 1.0,
+            "agi_response": "{'timestamp': '2025-08-28T14:36:48.883410', 'cycle_duration': '0:00:01.728908', 'cycle_number': 1, 'why_questions_generated': 5, 'insights_gained': 5, 'knowledge_gaps_identified': 3, 'exploration_goals_created': 3, 'applied_knowledge_count': 5, 'expanded_goals': [{'id': 'goal_1756406207', 'name': 'Profit Optimization', 'description': 'Maximize profit generation through intelligent trading', 'priority': 'HIGH', 'target_value': 10000.0, 'current_value': 0.0, 'progress': '0%', 'type': 'financial', "
+          }
+        ],
+        "completed_at": "2025-08-28T14:36:48.890266"
+      }
+    }
+  },
+  "overall_stats": {
+    "total_patterns": 11,
+    "successful_patterns": 0,
+    "average_success_rate": 0.0,
+    "success_rates": [
+      0.0,
+      0.0,
+      0,
+      0.0
+    ],
+    "overall_performance": "LEARNING",
+    "sessions_completed": 4
+  },
+  "timestamp": "20250828_143648",
+  "sessions_completed": 4
+}

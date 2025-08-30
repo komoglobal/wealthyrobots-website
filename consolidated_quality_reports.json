@@ -1,0 +1,155 @@
+{
+  "consolidation_timestamp": "2025-08-30T11:00:05.191917",
+  "report_type": "quality",
+  "total_files": 6709,
+  "latest_reports": [
+    {
+      "file": "quality_report_20250830_0920.json",
+      "timestamp": "2025-08-30T09:20:26.588579",
+      "data": {
+        "timestamp": "2025-08-30T09:20:26.588579",
+        "overall_quality": 1.0,
+        "avg_latency": 167.2407004771082,
+        "total_data_points": 3320,
+        "valid_data_points": 3320,
+        "data_sources": 4,
+        "active_alerts": 2890591,
+        "market_signals": 100
+      }
+    },
+    {
+      "file": "quality_report_20250830_0919.json",
+      "timestamp": "2025-08-30T09:19:56.579435",
+      "data": {
+        "timestamp": "2025-08-30T09:19:56.579435",
+        "overall_quality": 1.0,
+        "avg_latency": 152.31965060993397,
+        "total_data_points": 3020,
+        "valid_data_points": 3020,
+        "data_sources": 4,
+        "active_alerts": 2890391,
+        "market_signals": 101
+      }
+    },
+    {
+      "file": "quality_report_20250830_0918.json",
+      "timestamp": "2025-08-30T09:18:56.564972",
+      "data": {
+        "timestamp": "2025-08-30T09:18:56.564972",
+        "overall_quality": 1.0,
+        "avg_latency": 271.87924897356766,
+        "total_data_points": 5410,
+        "valid_data_points": 5410,
+        "data_sources": 4,
+        "active_alerts": 2889893,
+        "market_signals": 101
+      }
+    },
+    {
+      "file": "quality_report_20250830_0917.json",
+      "timestamp": "2025-08-30T09:17:56.550291",
+      "data": {
+        "timestamp": "2025-08-30T09:17:56.550291",
+        "overall_quality": 1.0,
+        "avg_latency": 242.0496679255714,
+        "total_data_points": 4810,
+        "valid_data_points": 4810,
+        "data_sources": 4,
+        "active_alerts": 2889406,
+        "market_signals": 102
+      }
+    },
+    {
+      "file": "quality_report_20250830_0916.json",
+      "timestamp": "2025-08-30T09:16:56.531914",
+      "data": {
+        "timestamp": "2025-08-30T09:16:56.531914",
+        "overall_quality": 1.0,
+        "avg_latency": 212.2168985232776,
+        "total_data_points": 4210,
+        "valid_data_points": 4210,
+        "data_sources": 4,
+        "active_alerts": 2888964,
+        "market_signals": 101
+      }
+    },
+    {
+      "file": "quality_report_20250830_0915.json",
+      "timestamp": "2025-08-30T09:15:56.509438",
+      "data": {
+        "timestamp": "2025-08-30T09:15:56.509438",
+        "overall_quality": 1.0,
+        "avg_latency": 181.87379421436486,
+        "total_data_points": 3620,
+        "valid_data_points": 3620,
+        "data_sources": 4,
+        "active_alerts": 2888591,
+        "market_signals": 103
+      }
+    },
+    {
+      "file": "quality_report_20250830_0914.json",
+      "timestamp": "2025-08-30T09:14:56.493670",
+      "data": {
+        "timestamp": "2025-08-30T09:14:56.493670",
+        "overall_quality": 1.0,
+        "avg_latency": 152.0299276658939,
+        "total_data_points": 3020,
+        "valid_data_points": 3020,
+        "data_sources": 4,
+        "active_alerts": 2888116,
+        "market_signals": 101
+      }
+    },
+    {
+      "file": "quality_report_20250830_0913.json",
+      "timestamp": "2025-08-30T09:13:56.474525",
+      "data": {
+        "timestamp": "2025-08-30T09:13:56.474525",
+        "overall_quality": 1.0,
+        "avg_latency": 272.05646075629693,
+        "total_data_points": 5400,
+        "valid_data_points": 5400,
+        "data_sources": 4,
+        "active_alerts": 2887793,
+        "market_signals": 101
+      }
+    },
+    {
+      "file": "quality_report_20250830_0912.json",
+      "timestamp": "2025-08-30T09:12:56.459262",
+      "data": {
+        "timestamp": "2025-08-30T09:12:56.459262",
+        "overall_quality": 1.0,
+        "avg_latency": 241.71297889334627,
+        "total_data_points": 4810,
+        "valid_data_points": 4810,
+        "data_sources": 4,
+        "active_alerts": 2887339,
+        "market_signals": 104
+      }
+    },
+    {
+      "file": "quality_report_20250830_0911.json",
+      "timestamp": "2025-08-30T09:11:56.436465",
+      "data": {
+        "timestamp": "2025-08-30T09:11:56.436465",
+        "overall_quality": 1.0,
+        "avg_latency": 211.87085929928773,
+        "total_data_points": 4210,
+        "valid_data_points": 4210,
+        "data_sources": 4,
+        "active_alerts": 2886902,
+        "market_signals": 100
+      }
+    }
+  ],
+  "summary": {
+    "total_reports": 6709,
+    "date_range": {
+      "earliest": "2025-08-25T17:33:51.942885",
+      "latest": "2025-08-30T09:20:26.588579"
+    },
+    "key_metrics": {}
+  }
+}

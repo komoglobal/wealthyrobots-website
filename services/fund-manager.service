@@ -1,0 +1,19 @@
+[Unit]
+Description=Fund Manager Agent (coordinates live fund)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/wealthyrobot
+ExecStart=/usr/bin/python3 -m algofund.agents.fund_manager
+Restart=always
+RestartSec=5
+StandardOutput=append:/home/ubuntu/wealthyrobot/logs/fund-manager.out
+StandardError=append:/home/ubuntu/wealthyrobot/logs/fund-manager.err
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+
+
+

@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-08-17T21:30:21.244056",
+  "system_health": {
+    "overall_status": "attention",
+    "last_check": "2025-08-17T21:30:19.589181",
+    "issues_found": 3,
+    "issues_fixed": 2,
+    "protocols_status": {
+      "tinyman_v2": {
+        "name": "tinyman_v2",
+        "status": "warning",
+        "issues": [
+          "tinyman_v2 wallet not opted in"
+        ],
+        "last_check": "2025-08-17T21:30:19.589211",
+        "app_exists": true,
+        "opted_in": false,
+        "fixes_applied": [
+          "Opt-in fix failed: TransactionPool.Remember: transaction AQ7XVEF22MML34WZMJ23QUMKGOHJM46XBYB4QC4PSGW3NJPR4OHQ: logic eval error: invalid ApplicationArgs index 0. Details: app=1002541853, pc=105, opcodes=pushint 0; return; label3:; txna ApplicationArgs 0"
+        ]
+      },
+      "folks_finance": {
+        "name": "folks_finance",
+        "status": "healthy",
+        "issues": [],
+        "last_check": "2025-08-17T21:30:20.203925",
+        "app_exists": true,
+        "opted_in": true,
+        "app_call_test": true
+      },
+      "pact_finance": {
+        "name": "pact_finance",
+        "status": "warning",
+        "issues": [
+          "pact_finance app verification failed: application does not exist",
+          "pact_finance wallet not opted in"
+        ],
+        "last_check": "2025-08-17T21:30:20.679239",
+        "app_exists": false,
+        "opted_in": false,
+        "fixes_applied": [
+          "Cannot opt-in to pact_finance - app does not exist"
+        ]
+      }
+    },
+    "contracts_status": {},
+    "pools_status": {},
+    "system_components": {
+      "wallet_connection": {
+        "name": "wallet_connection",
+        "status": "healthy",
+        "last_check": "2025-08-17T21:30:20.924011"
+      },
+      "blockchain_connection": {
+        "name": "blockchain_connection",
+        "status": "healthy",
+        "last_check": "2025-08-17T21:30:20.924083"
+      },
+      "transaction_execution": {
+        "name": "transaction_execution",
+        "status": "healthy",
+        "last_check": "2025-08-17T21:30:21.100148"
+      },
+      "trade_logging": {
+        "name": "trade_logging",
+        "status": "healthy",
+        "last_check": "2025-08-17T21:30:21.243264"
+      },
+      "error_handling": {
+        "name": "error_handling",
+        "status": "healthy",
+        "last_check": "2025-08-17T21:30:21.243824"
+      }
+    }
+  },
+  "recommendations": [
+    "\u26a0\ufe0f  MONITORING REQUIRED: System has minor issues",
+    "\ud83d\udd27 Run auto-fixes during next maintenance window",
+    "\ud83d\udcca Continue normal monitoring",
+    "\u26a0\ufe0f  tinyman_v2: Warning issues detected - monitor closely",
+    "\u26a0\ufe0f  pact_finance: Warning issues detected - monitor closely"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tx_id": "2b47c757fbf0ae8aaaa5bd78b7073b8d2071fc7e3be58fe00dae",
+  "type": "real_tinyman_swap",
+  "asset_in": "ALGO",
+  "asset_out": "USDT",
+  "amount_in": 0.6,
+  "amount_out": 0.601924,
+  "price_impact": 0.0,
+  "fee": 0.003,
+  "status": "confirmed",
+  "protocol": "Tinyman V2",
+  "timestamp": "2025-08-11T22:53:45.290018",
+  "quote_data": {
+    "amount_in": 0.6,
+    "amount_out": 0.601924,
+    "price_impact": 0.0,
+    "fee": 0.003,
+    "pool_id": "ALGO-USDT",
+    "liquidity": 2895817.708523056,
+    "volume_24h": 722839.7812238645,
+    "timestamp": "2025-08-11T22:53:44.143537",
+    "source": "real_calculation"
+  },
+  "note": "Simulated swap - real protocol integration in progress"
+}

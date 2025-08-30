@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-16T12:55:58.029923",
+  "tracking_enabled": true,
+  "conversion_goals": [
+    {
+      "name": "affiliate_clicks",
+      "target": "wealthyrobot-20 clicks",
+      "success_criteria": "> 2% CTR"
+    },
+    {
+      "name": "website_visits",
+      "target": "wealthyrobots.com visits",
+      "success_criteria": "> 5% of impressions"
+    }
+  ],
+  "budget_allocated": 25,
+  "optimization_focus": [
+    "CTA placement testing",
+    "Affiliate link positioning",
+    "Content-to-conversion ratio"
+  ]
+}
