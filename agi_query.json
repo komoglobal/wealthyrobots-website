@@ -1,6 +1,0 @@
-{
-  "timestamp": "20250826_173724",
-  "query": "The system is failing to opt-in to Tinyman application 1002541853. The opt-in transactions are getting logic eval errors about invalid Accounts index. What is the correct opt-in format for Tinyman? How should I structure the opt-in transaction to work with the real Tinyman application on Algorand mainnet?",
-  "context": "DeFi Trading System - Opt-in Issues",
-  "system_status": "Real transactions failing at opt-in stage"
-}

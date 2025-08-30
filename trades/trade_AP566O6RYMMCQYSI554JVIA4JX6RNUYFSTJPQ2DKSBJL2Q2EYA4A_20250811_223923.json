@@ -1,8 +1,0 @@
-{
-  "tx_id": "AP566O6RYMMCQYSI554JVIA4JX6RNUYFSTJPQ2DKSBJL2Q2EYA4A",
-  "type": "dex_trade",
-  "amount": 85.0,
-  "protocol": "Tinyman V2",
-  "status": "confirmed",
-  "timestamp": "2025-08-11T22:39:23.305294"
-}

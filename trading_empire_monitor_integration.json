@@ -1,8 +1,0 @@
-{
-  "integration_type": "monitor_to_empire",
-  "monitoring_agent": "DEFI_SYSTEM_MONITOR_AGENT.py",
-  "trading_empire": "hybrid_algorand_trading_empire.py",
-  "multi_protocol": "multi_protocol_trading_system.py",
-  "integration_date": "2025-08-17T22:01:58.888512",
-  "status": "active"
-}

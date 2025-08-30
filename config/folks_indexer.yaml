@@ -1,8 +1,0 @@
-market_app_ids:
-  # Folks Finance Pools (per docs)
-  - 971368268  # ALGO pool app
-  - 971372237  # USDC pool app
-  - 971372700  # USDt pool app
-  - 971373361  # goBTC pool app
-  - 971373611  # goETH pool app
-

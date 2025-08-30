@@ -1,8 +1,0 @@
-aggressiveness: high
-arbitrage_threshold_bps: 25
-base_trade_micro: 5000
-enable_arbitrage: true
-enable_flash: true
-enable_momentum: true
-enable_yield: true
-momentum_threshold_bps: 50

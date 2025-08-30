@@ -1,7 +1,0 @@
-{
-  "test_name": "fib_test",
-  "success": true,
-  "result": "55",
-  "execution_time": 2.2172927856445312e-05,
-  "test_data_size": 1
-}
